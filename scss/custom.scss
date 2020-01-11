@@ -1,0 +1,73 @@
+//Custom foundation overrides for the landing page
+
+/* IMPORT TRUE CUSTOM FONTS */
+@font-face {
+font-family: 'True Bold';
+src: url('../fonts/TrueBold.eot');
+src: url("../fonts/TrueBold.woff") format("woff"),
+url('../fonts/TrueBold.svg#CrewniverseRegular') format('svg');
+}
+
+@font-face {
+font-family: 'True Bold Special';
+src: url('../fonts/TrueBoldSpecial.eot');
+src: url("../fonts/TrueBoldSpecial.woff") format("woff"),
+url('../fonts/TrueBoldSpecial#CrewniverseRegular') format('svg');
+}
+
+@font-face {
+font-family: 'True Medium';
+src: url('../fonts/TrueMedium.eot');
+src: url("../fonts/TrueMedium.woff") format("woff"),
+url('../fonts/TrueMedium#CrewniverseRegular') format('svg');
+}
+
+@font-face {
+font-family: 'True Light';
+src: url('../fonts/TrueLight.eot');
+src: url("../fonts/TrueLight.woff") format("woff"),
+url('../fonts/TrueLight.svg#CrewniverseRegular') format('svg');
+}
+
+/* HEADER */
+.site-logo {
+    padding: 10px 0px;
+    img {
+      width: 150px;
+      height: auto;
+    }   
+    
+}
+
+.language {
+    li {
+        margin-right: 8px;
+        width: 30px;
+        height: auto;
+    }
+}
+
+/* TITLE */
+.callout-title {
+    padding: 3rem 0rem;
+}
+
+/* BUTTONS */
+.truered {
+    border: 3px solid #FF1717;
+    border-radius: 20px;
+    color: #FF1717;
+    background-color: white;
+}
+
+/* SECTIONS */
+.red-section {
+    background-color: #C22D29;
+    padding: 3rem 0rem;
+    .bundle-desc {
+        padding-bottom: 2rem;
+    }
+    h2, p {
+        color: white;
+    }
+}
