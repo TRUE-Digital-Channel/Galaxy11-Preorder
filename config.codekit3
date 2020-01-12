@@ -167,6 +167,17 @@
 		"oAP": "/build/foundation.html",
 		"oF": 0
 		},
+	"/img/bank-logos.png": {
+		"ft": 32768,
+		"iS": 64127,
+		"oA": 0,
+		"oAP": "/build/img/bank-logos.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/img/banner-promotion.jpg": {
 		"ft": 16384,
 		"iS": 428662,

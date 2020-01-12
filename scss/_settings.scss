@@ -72,7 +72,7 @@ $foundation-palette: (
   primary: #1779ba,
   secondary: #767676,
   success: #3adb76,
-  warning: #ffae00,
+  warning: #FFCC33,
   alert: #cc4b37,
 );
 $light-gray: #e6e6e6;
@@ -239,8 +239,8 @@ $input-error-font-weight: $global-weight-bold;
 
 $accordion-background: $white;
 $accordion-plusminus: true;
-$accordion-plus-content: '\002B';
-$accordion-minus-content: '\2013';
+$accordion-plus-content: '\25B6';
+$accordion-minus-content: '\25BC';
 $accordion-title-font-size: rem-calc(12);
 $accordion-item-color: $primary-color;
 $accordion-item-background-hover: $light-gray;
