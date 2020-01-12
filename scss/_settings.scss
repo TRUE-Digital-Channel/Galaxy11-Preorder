@@ -91,6 +91,8 @@ $global-position: 1rem;
 $global-weight-normal: normal;
 $global-weight-bold: bold;
 $global-radius: 0;
+// custom card radius
+$card-radius: 5px;
 $global-menu-padding: 0.7rem 1rem;
 $global-menu-nested-margin: 1rem;
 $global-text-direction: ltr;
@@ -352,7 +354,7 @@ $card-font-color: $body-font-color;
 $card-divider-background: $light-gray;
 $card-border: 1px solid $light-gray;
 $card-shadow: none;
-$card-border-radius: $global-radius;
+$card-border-radius: $card-radius;
 $card-padding: $global-padding;
 $card-margin-bottom: $global-margin;
 

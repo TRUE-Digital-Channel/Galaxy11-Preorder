@@ -35,8 +35,10 @@ url('../fonts/TrueLight.svg#CrewniverseRegular') format('svg');
     img {
       width: 150px;
       height: auto;
-    }   
-    
+    }    
+}
+.menu a {
+    padding: 0;
 }
 
 .language {
@@ -55,9 +57,14 @@ url('../fonts/TrueLight.svg#CrewniverseRegular') format('svg');
 /* BUTTONS */
 .truered {
     border: 3px solid #FF1717;
-    border-radius: 20px;
-    color: #FF1717;
+    border-radius: 50px;
+    color: #000;
+    font-size: 1.7rem;
+    font-family: "True Bold";
     background-color: white;
+    &:hover {
+        background-color: #FF1717;
+    }
 }
 
 /* SECTIONS */
@@ -65,9 +72,53 @@ url('../fonts/TrueLight.svg#CrewniverseRegular') format('svg');
     background-color: #C22D29;
     padding: 3rem 0rem;
     .bundle-desc {
-        padding-bottom: 2rem;
+        padding-bottom: 0.5rem;
+        h2 {
+            line-height: 20px;
+            color: white;
+        }
+        p {
+            font-size: 1.7rem;
+            color: white;
+        }
     }
-    h2, p {
-        color: white;
+}
+
+/* CARDS */
+.bundle-black {
+    color: black;
+    display: block;
+}
+
+.bundle-red {
+    color: #EA2727;
+    display: block;
+}
+.card img {
+    height: 50px;
+    width: auto;
+}
+
+.white-section {
+    padding: 3rem 0rem;
+    .white-cta {
+        h2 {
+            color: #F50808;
+            line-height: 42px;
+        }
+        h3 {
+            line-height: 20px;
+        }
+        p {
+            font-size: 2rem;
+            font-family: "True Light";
+            line-height: 42px;
+        }
     }
+}
+
+
+/* FOOTER */
+footer {
+    background-color: #eee;
 }
