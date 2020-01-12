@@ -29,6 +29,22 @@ src: url("../fonts/TrueLight.woff") format("woff"),
 url('../fonts/TrueLight.svg#CrewniverseRegular') format('svg');
 }
 
+/* BODY */
+/*body {
+    font-size: 16px;
+}*/
+
+/* TYPHO */
+h3{
+    font-size: 0.95rem;
+    line-height: 48px;
+}
+
+.button {
+    padding: 0.55rem;
+}
+
+
 /* HEADER */
 .top-bar {
    .top-bar-left {
@@ -69,7 +85,7 @@ url('../fonts/TrueLight.svg#CrewniverseRegular') format('svg');
     color: #000;
     font-family: "True Bold";
     background-color: white;
-    &:hover {
+    &:hover, &:focus {
         background-color: #FF1717;
     }
 }
@@ -174,6 +190,22 @@ table {
     border-radius: 30px;
 }
 
+/* BLACKCAORD PROMOTION */
+    .blackcard-promo {
+        background: #000;
+        h3,p {
+            line-height: 32px;
+            color: #fff;
+        }
+        .accordion-title{
+            background: #f5bb2e;
+            border: 1px solid #f5bb5e;
+        }
+        :last-child:not(.is-active)>.accordion-title {
+            border-bottom: none;
+        }
+    }
+
 
 /* FOOTER */
 footer {
@@ -183,7 +215,7 @@ footer {
         line-height: 32px;
     }
     img {
-        height: 25px;
+        height: 40px;
         width: auto;
     }
     .button {
