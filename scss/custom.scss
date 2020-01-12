@@ -30,6 +30,14 @@ url('../fonts/TrueLight.svg#CrewniverseRegular') format('svg');
 }
 
 /* HEADER */
+.top-bar {
+   .top-bar-left {
+        flex: 0 0 auto;
+    }
+   .top-bar-right {
+       flex: 0 0 auto;
+} 
+}
 .site-logo {
     padding: 10px 0px;
     img {
@@ -67,7 +75,7 @@ url('../fonts/TrueLight.svg#CrewniverseRegular') format('svg');
 }
 
 .button-group {
-    margin-top: 2.5rem;
+    margin-top: 1.5rem;
 }
 
 .truered {
@@ -127,6 +135,13 @@ url('../fonts/TrueLight.svg#CrewniverseRegular') format('svg');
             line-height: 42px;
         }
     }
+}
+
+/* TABLES */
+table {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-top: 2rem;
 }
 
 /* ACCORDIONS */
