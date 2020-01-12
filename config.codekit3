@@ -167,6 +167,17 @@
 		"oAP": "/build/foundation.html",
 		"oF": 0
 		},
+	"/img/banner-promotion.jpg": {
+		"ft": 16384,
+		"iS": 428662,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/banner-promotion.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/img/banner.jpg": {
 		"ft": 16384,
 		"iS": 1610755,
