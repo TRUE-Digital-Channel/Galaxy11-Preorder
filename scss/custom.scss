@@ -30,6 +30,10 @@ url('../fonts/TrueLight.svg#CrewniverseRegular') format('svg');
 }
 
 /* TYPOGRAPHY */
+h1 {
+    font-size: 1.55rem;
+    line-height: 48px;
+}
 h2 {
     font-size: 1.45rem;
     line-height: 48px;
@@ -241,7 +245,7 @@ footer {
         line-height: 32px;
     }
     img {
-        height: 40px;
+        height: auto;
         width: auto;
     }
     .button {

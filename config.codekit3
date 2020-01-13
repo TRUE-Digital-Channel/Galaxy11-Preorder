@@ -170,14 +170,6 @@
 		"oAP": "/build/fonts/TrueMedium.woff2",
 		"oF": 0
 		},
-	"/foundation.html": {
-		"cB": 1,
-		"ft": 8192,
-		"hM": 1,
-		"oA": 0,
-		"oAP": "/build/foundation.html",
-		"oF": 0
-		},
 	"/icons/info-circle-solid.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -187,6 +179,17 @@
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
+		},
+	"/img/bank-logos-mb.png": {
+		"ft": 32768,
+		"iS": 58122,
+		"oA": 0,
+		"oAP": "/build/img/bank-logos-mb.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
 	"/img/bank-logos.png": {
 		"ft": 32768,
@@ -259,6 +262,17 @@
 		"iS": 23719,
 		"oA": 0,
 		"oAP": "/build/img/prepay-smart-value.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/privilage-prebook.png": {
+		"ft": 32768,
+		"iS": 79368,
+		"oA": 0,
+		"oAP": "/build/img/privilage-prebook.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -393,7 +407,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 600261931.06932497,
-	"displayValue": "fnd_landingpage",
+	"displayValue": "Samsung",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-pale",
 	"iconImageWasSetByUser": 0,
