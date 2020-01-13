@@ -29,11 +29,6 @@ src: url("../fonts/TrueLight.woff") format("woff"),
 url('../fonts/TrueLight.svg#CrewniverseRegular') format('svg');
 }
 
-/* BODY */
-/*body {
-    font-size: 16px;
-}*/
-
 /* TYPHO */
 h2 {
     font-size: 1.45rem;
@@ -151,6 +146,14 @@ background: linear-gradient(to right, #DC281E, #F00000); /* W3C, IE 10+/ Edge, F
     width: auto;
 }
 
+.card {
+    min-height: 320px;
+
+    .title-promo{
+        min-height: 100px;
+    }
+}
+
 .white-section {
     padding: 3rem 0rem;
     .white-cta {
@@ -252,14 +255,4 @@ footer {
     color: #EB3733;
     font-weight: bold;
 }
-
-/* CARD SECTION */
-.card {
-    min-height: 320px;
-
-    .title-promo{
-        min-height: 100px;
-    }
-}
-
 
