@@ -10,7 +10,7 @@
     
   <body>
       
-    <header class="grid-container">
+    <header class="grid-container full">
       <div class="grid-x grid-padding-x">
         <div class="large-12 cell">
           <div class="top-bar">
@@ -55,7 +55,7 @@
       </div>
     </section>
 
-    <section class="grid-container">
+    <section class="grid-container full">
       <div class="grid-x grid-padding-x">
         <div class="large-12 cell">
             <h1 class="callout-title text-center">สั่งซื้อล่วงหน้าลดสูงสุด xx,000 บาท</h1>
@@ -82,53 +82,53 @@
         
             <div class="grid-x grid-padding-x">
 
-              <div class="cell large-3 medium-6">
+              <div class="cell large-3 medium-6 small-6">
                 <div class="card">
                   <div class="card-section text-center">
                     <img src="img/best-deal.png">
-                    <h3>
-                        <span class="bundle-black">สำหรับลูกค้ารายเดือน</span> 
-                        <span class="bundle-red">ซื้อเครื่องพร้อมแพ็กเกจ</span>
+                    <h3 class="title-promo">
+                        <span class="bundle-black">สำหรับลูกค้าเปิดเบอร์ใหม่ ย้ายค่ายเบอร์เดิม เปลี่ยนจากเติมเงินเป็นรายเดือน</span> 
+                        <span class="bundle-red">ลดสูงสุด 9,700 บาท</span>
                     </h3>
-                    <button class="truered-inverse button medium" href="#">สั่งซื้อล่วงหน้า</button>
+                     <button class="truered-inverse button medium" href="#">สั่งซื้อล่วงหน้า</button>
                   </div>
                 </div>
               </div>
           
-              <div class="cell large-3 medium-6">
+              <div class="cell large-3 medium-6 small-6">
                 <div class="card">
                   <div class="card-section text-center">
                     <img src="img/best-deal.png">
-                    <h3>
-                        <span class="bundle-black">สำหรับลูกค้ารายเดือน</span> 
-                        <span class="bundle-red">ซื้อเครื่องพร้อมแพ็กเกจ</span>
+                    <h3 class="title-promo">
+                        <span class="bundle-black">ส่วนลดพิเศษสำหรับลูกค้าทรูมูฟ เอชแบบรายเดือน</span> 
+                        <span class="bundle-red">รับส่วนลดสูงสุด <br>7,700 บาท</br></span>
                     </h3>
                     <button class="truered-inverse button medium" href="#">สั่งซื้อล่วงหน้า</button>
                   </div>
                 </div>
             </div>
         
-            <div class="cell large-3 medium-6">
+            <div class="cell large-3 medium-6 small-6">
               <div class="card">
                 <div class="card-section text-center">
                     <img src="img/black-card.png">
-                    <h3>
-                        <span class="bundle-black">สำหรับลูกค้ารายเดือน</span> 
-                        <span class="bundle-red">ซื้อเครื่องพร้อมแพ็กเกจ</span>
+                    <h3 class="title-promo">
+                        <span class="bundle-black">สำหรับลูกค้าแบล็คการ์ด</span> 
+                        <span class="bundle-red">รับส่วนลดสูงสุด 10,700 บาท</span>
                     </h3>
                   <button class="truered-inverse button medium" href="#">สั่งซื้อล่วงหน้า</button>
                   </div>
                 </div>
             </div>
           
-            <div class="cell large-3 medium-6">
+            <div class="cell large-3 medium-6 small-6">
                 <div class="card">
                   <div class="card-section text-center">
                     <img src="img/prepay-smart-value.png">
-                    <h3>
-                        <span class="bundle-black">สำหรับลูกค้ารายเดือน</span> 
-                        <span class="bundle-red">ซื้อเครื่องพร้อมแพ็กเกจ</span>
-                    </h3>
+                    <h3 class="title-promo">
+                        <span class="bundle-black">เครื่องเปล่าราคาพิเศษ <br>พร้อมซิมเติมเงิน</br></span> 
+                        <span class="bundle-red">ไม่ติดสัญญา</span>
+                    </h3 class="title-promo"> 
                     <button class="truered-inverse button medium" href="#">สั่งซื้อล่วงหน้า</button>
                   </div>
                 </div>
@@ -146,12 +146,12 @@
               <p>ส่วนลดพิเศษสำหรับลูกค้าทรูมูฟ เอชแบบรายเดือน อายุการใช้งาน 12 เดือนขึ้นไป</p>
               <h3>รับส่วนลดสูงสุด 7,700 บาท</h3>
 <!--                Think that button group not suit this very well-->
-                <div class="small button-group align-center truered">
+                <div class="small button-group align-center expanded truered">
                   <button class="button" href="#">สั่งซื้อล่วงหน้าและจัดส่งถึงบ้าน</button>
                   <button class="button" href="#">สั่งจองและรับเครื่องที่ทรูช้อป</button>
                 </div>
             </div>
-              
+              <div class="table-promo">
             <div class="table-scroll">
                 <table class="text-center">
                   <thead>
@@ -229,6 +229,7 @@
                   </tbody>
                 </table>
             </div>
+            </div>
               
                 <ul class="accordion text-left" data-accordion data-multi-expand="true" data-allow-all-closed="true">
                   <li data-accordion-item>
@@ -237,8 +238,28 @@
 
                     <!-- Accordion tab content: it would start in the open state due to using the `is-active` state class. -->
                     <div class="accordion-content" data-tab-content>
-                      <p>Panel 1. Lorem ipsum dolor</p>
-                      <p>These are the FAQ information and terms and conditions</p>
+                      <p>ลูกค้าเปิดเบอร์ใหม่ ย้ายค่ายเบอร์เดิมแบบรายเดือน ลูกค้าปัจจุบันแบบรายเดือน และ ลูกค้าเปลี่ยนจากเติมเงินเป็นรายเดือน
+
+สำหรับลูกค้าเปิดเบอร์ใหม่ ลูกค้าย้ายค่ายเบอร์เดิมแบบรายเดือน สำเร็จตั้งแต่วันที่ 1 กันยายน 2562 เป็นต้นไป ลูกค้ารายเดือนปัจจุบันที่มีอายุการใช้งาน 90 วันขึ้นไป (ไม่มีสัญญาการใช้งาน หรือ มีสัญญาการใช้งานคงเหลือน้อยกว่า 90 วัน) และ ลูกค้าเปลี่ยนเติมเงินเป็นรายเดือน
+ชำระค่าบริการรายเดือนล่วงหน้า ตามที่บริษัทกำหนด โดยหักชำระค่าบริการรายเดือน เดือนละเท่าๆกัน นาน 10 เดือน (ราคายังไม่รวมภาษีมูลค่าเพิ่ม) หักคืนค่าบริการล่วงหน้าครั้งแรกในรอบบิลที่2 เป็นต้นไป
+สำหรับลูกค้าย้ายค่ายเบอร์เดิมแบบรายเดือน หรือ ลูกค้าปัจจุบันแบบรายเดือนที่มีอายุการใช้งาน 12 เดือนขึ้นไป รับส่วนลดค่าเครื่องเพิ่ม 2,000 บาท เมื่อสมัครแพ็กเกจ 1499 ขึ้นไป และ รับส่วนลดค่าเครื่องเพิ่ม 1,000 บาท เมื่อสมัครแพ็กเกจ 1099 ขึ้นไป
+รับทรูแบล็คการ์ดเมื่อสมัครแพ็กเกจ 1499 ขึ้นไป
+ระยะสัญญา 12 เดือน
+กรณีที่ผู้ใช้งานยกเลิกบริการก่อนระยะสัญญาบริษัทขอสงวนสิทธิ์เรียกคืนส่วนลดค่าเครื่องตามที่ลูกค้าได้รับ
+ราคาเครื่องอาจมีการเปลี่ยนแปลงโดยไม่ต้องแจ้งให้ทราบล่วงหน้า
+Best Deal Best Choice
+
+สำหรับทรูมูฟเอชแบบรายเดือนที่จดทะเบียนในนามบุคคลธรรมดาเท่านั้น
+สำหรับลูกค้ารายเดือนปัจจุบันที่มีอายุการใช้งาน 1ปีขึ้นไป (ไม่มีสัญญาการใช้งาน หรือ มีสัญญาการใช้งานคงเหลือน้อยกว่า 90 วัน)
+ใช้หรือสมัครแพ็กเกจทรูมูฟเอชแบบรายเดือนขั้นต่ำ ตามที่กำหนด ณ วันที่รับสิทธิ์
+สำหรับโปรโมชั่น Share Plan เลขหมายที่เป็นเบอร์หลัก สามารถรับสิทธิ์นี้ได้
+ไม่ต้องชำระค่าบริการรายเดือนล่วงหน้า
+รับส่วนลดตามรุ่นเครื่องและเงื่อนไขที่บริษัทกำหนด
+รายการส่งเสริมการขายนี้ มีระยะสัญญา 12 เดือน
+กรณีเลขหมายที่รับสิทธิ์ ติดสัญญาใช้บริการจากการซื้อเครื่องโทรศัพท์ราคาพิเศษใดๆอยู่ก่อน การซื้อโทรศัพท์เครื่องเปล่าราคาพิเศษนี้ จะมีผลให้นับระยะเวลาติดสัญญา ต่อเนื่องจากสัญญาเดิม
+รายการส่งเสริมการขายนี้ไม่สามารถโอน แลก คืน หรือเปลี่ยนเป็นเงินสด หรือ โอนสิทธิ์ในการใช้บริการ เพื่อรับสิทธิ์ตามสัญญานี้ให้กับบุคคลอื่นได้
+กรณีที่ผู้ใช้งานยกเลิกบริการก่อนระยะสัญญาบริษัทขอสงวนสิทธิ์เรียกคืนส่วนลดค่าเครื่องตามที่ลูกค้าได้รับ
+ราคาเครื่องอาจมีการเปลี่ยนแปลงโดยไม่ต้องแจ้งให้ทราบล่วงหน้า</p>
                     </div>
                   </li>
                   <!-- ... -->
@@ -265,7 +286,7 @@
               <p>ส่วนลดพิเศษสำหรับลูกค้าทรูมูฟ เอชแบบรายเดือน อายุการใช้งาน 12 เดือนขึ้นไป</p>
               <h3>รับส่วนลดสูงสุด 7,700 บาท</h3>
 <!--                Think that button group not suit this very well-->
-                <div class="small button-group align-center truered">
+                <div class="small button-group align-center expanded truered">
                   <button class="button" href="#">สั่งซื้อล่วงหน้าและจัดส่งถึงบ้าน</button>
                   <button class="button" href="#">สั่งจองและรับเครื่องที่ทรูช้อป</button>
                 </div>
@@ -356,7 +377,28 @@
 
                     <!-- Accordion tab content: it would start in the open state due to using the `is-active` state class. -->
                     <div class="accordion-content" data-tab-content>
-                      <p>Panel 1. Lorem ipsum dolor</p>
+                     <p>ลูกค้าเปิดเบอร์ใหม่ ย้ายค่ายเบอร์เดิมแบบรายเดือน ลูกค้าปัจจุบันแบบรายเดือน และ ลูกค้าเปลี่ยนจากเติมเงินเป็นรายเดือน
+
+สำหรับลูกค้าเปิดเบอร์ใหม่ ลูกค้าย้ายค่ายเบอร์เดิมแบบรายเดือน สำเร็จตั้งแต่วันที่ 1 กันยายน 2562 เป็นต้นไป ลูกค้ารายเดือนปัจจุบันที่มีอายุการใช้งาน 90 วันขึ้นไป (ไม่มีสัญญาการใช้งาน หรือ มีสัญญาการใช้งานคงเหลือน้อยกว่า 90 วัน) และ ลูกค้าเปลี่ยนเติมเงินเป็นรายเดือน
+ชำระค่าบริการรายเดือนล่วงหน้า ตามที่บริษัทกำหนด โดยหักชำระค่าบริการรายเดือน เดือนละเท่าๆกัน นาน 10 เดือน (ราคายังไม่รวมภาษีมูลค่าเพิ่ม) หักคืนค่าบริการล่วงหน้าครั้งแรกในรอบบิลที่2 เป็นต้นไป
+สำหรับลูกค้าย้ายค่ายเบอร์เดิมแบบรายเดือน หรือ ลูกค้าปัจจุบันแบบรายเดือนที่มีอายุการใช้งาน 12 เดือนขึ้นไป รับส่วนลดค่าเครื่องเพิ่ม 2,000 บาท เมื่อสมัครแพ็กเกจ 1499 ขึ้นไป และ รับส่วนลดค่าเครื่องเพิ่ม 1,000 บาท เมื่อสมัครแพ็กเกจ 1099 ขึ้นไป
+รับทรูแบล็คการ์ดเมื่อสมัครแพ็กเกจ 1499 ขึ้นไป
+ระยะสัญญา 12 เดือน
+กรณีที่ผู้ใช้งานยกเลิกบริการก่อนระยะสัญญาบริษัทขอสงวนสิทธิ์เรียกคืนส่วนลดค่าเครื่องตามที่ลูกค้าได้รับ
+ราคาเครื่องอาจมีการเปลี่ยนแปลงโดยไม่ต้องแจ้งให้ทราบล่วงหน้า
+Best Deal Best Choice
+
+สำหรับทรูมูฟเอชแบบรายเดือนที่จดทะเบียนในนามบุคคลธรรมดาเท่านั้น
+สำหรับลูกค้ารายเดือนปัจจุบันที่มีอายุการใช้งาน 1ปีขึ้นไป (ไม่มีสัญญาการใช้งาน หรือ มีสัญญาการใช้งานคงเหลือน้อยกว่า 90 วัน)
+ใช้หรือสมัครแพ็กเกจทรูมูฟเอชแบบรายเดือนขั้นต่ำ ตามที่กำหนด ณ วันที่รับสิทธิ์
+สำหรับโปรโมชั่น Share Plan เลขหมายที่เป็นเบอร์หลัก สามารถรับสิทธิ์นี้ได้
+ไม่ต้องชำระค่าบริการรายเดือนล่วงหน้า
+รับส่วนลดตามรุ่นเครื่องและเงื่อนไขที่บริษัทกำหนด
+รายการส่งเสริมการขายนี้ มีระยะสัญญา 12 เดือน
+กรณีเลขหมายที่รับสิทธิ์ ติดสัญญาใช้บริการจากการซื้อเครื่องโทรศัพท์ราคาพิเศษใดๆอยู่ก่อน การซื้อโทรศัพท์เครื่องเปล่าราคาพิเศษนี้ จะมีผลให้นับระยะเวลาติดสัญญา ต่อเนื่องจากสัญญาเดิม
+รายการส่งเสริมการขายนี้ไม่สามารถโอน แลก คืน หรือเปลี่ยนเป็นเงินสด หรือ โอนสิทธิ์ในการใช้บริการ เพื่อรับสิทธิ์ตามสัญญานี้ให้กับบุคคลอื่นได้
+กรณีที่ผู้ใช้งานยกเลิกบริการก่อนระยะสัญญาบริษัทขอสงวนสิทธิ์เรียกคืนส่วนลดค่าเครื่องตามที่ลูกค้าได้รับ
+ราคาเครื่องอาจมีการเปลี่ยนแปลงโดยไม่ต้องแจ้งให้ทราบล่วงหน้า</p>
                       <p>These are the FAQ information and terms and conditions</p>
                     </div>
                   </li>
@@ -507,10 +549,9 @@
             <p><img src="img/bank-logos.png"></p>
             <button class="button warning tiny" data-open="footer-faq" href="#">(i) กดเพื่อดูรายละเอียด</button>
         </div>
-            <div class="large reveal" id="footer-faq" data-reveal>
-              <h1>Awesome. I Have It.</h1>
-              <p class="lead">Your couch. It is mine.</p>
-              <p>I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
+            <div class="large reveal text-center" id="footer-faq" data-reveal>
+              <h1>โปรโมชั่นบัตรเครดิต</h1>
+               <p><img src="img/promo_bank.jpg"></p>
               <button class="close-button" data-close aria-label="Close modal" type="button">
                 <span aria-hidden="true">&times;</span>
               </button>

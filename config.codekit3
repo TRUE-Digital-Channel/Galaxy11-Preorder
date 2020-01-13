@@ -28,6 +28,22 @@
 		"oAP": "/build/.gitignore",
 		"oF": 1
 		},
+	"/.id_rsa.pub.swp": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/.id_rsa.pub.swp",
+		"oF": 0
+		},
+	"/.id_rsa.swp": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/.id_rsa.swp",
+		"oF": 0
+		},
 	"/build": {
 		"ft": 65536,
 		"oA": 1,
@@ -245,6 +261,17 @@
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
+		"q": 100
+		},
+	"/img/promo_bank.jpg": {
+		"ft": 16384,
+		"iS": 1778729,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/promo_bank.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/img/th-icon.jpg": {
