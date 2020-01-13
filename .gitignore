@@ -1,4 +1,7 @@
 foundation.html
 .DS_Store
+.id_rsa*
+index.sublime-workspace
+.git/
 node_modules/
 build/
