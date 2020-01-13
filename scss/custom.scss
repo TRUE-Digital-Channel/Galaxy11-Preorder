@@ -241,7 +241,7 @@ footer {
         line-height: 32px;
     }
     img {
-        height: 40px;
+        height: 40px; // we need to fix this so they are individual images and collapse on mobile view (not squash)
         width: auto;
     }
     .button {
