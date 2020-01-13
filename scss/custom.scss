@@ -29,7 +29,7 @@ src: url("../fonts/TrueLight.woff") format("woff"),
 url('../fonts/TrueLight.svg#CrewniverseRegular') format('svg');
 }
 
-/* TYPHO */
+/* TYPOGRAPHY */
 h2 {
     font-size: 1.45rem;
     line-height: 48px;
@@ -216,7 +216,7 @@ table {
     border-radius: 30px;
 }
 
-/* BLACKCAORD PROMOTION */
+/* BLACKCARD PROMOTION */
     .blackcard-promo {
         background: #000;
         h3,p {
@@ -254,5 +254,8 @@ footer {
 .red-emphasis {
     color: #EB3733;
     font-weight: bold;
+}
+.info img {
+    height: 20px;
 }
 
