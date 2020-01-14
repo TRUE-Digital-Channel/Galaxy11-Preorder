@@ -110,6 +110,7 @@ p {
 
 .button {
     padding: 0.45rem;
+    max-width: 280px;
 }
 
 /* SECTIONS */
@@ -145,7 +146,7 @@ p {
     display: block;
     line-height: 30px;
     font-size: 0.95rem;
-    font-family: 'TrueBoldSpecial';
+    font-family: 'True Bold Special';
 }
 .card img {
     height: 50px;
@@ -271,9 +272,7 @@ table {
 
     line-height: 28px;
     vertical-align: middle;
-        tbody th, tbody td {
-        padding: .45 .3125rem .3125rem
-    }
+    
     th{
         font-weight: 400;
         color: #fff;
