@@ -42,10 +42,10 @@ h3{
     font-size: 1.25rem;
     line-height: 38px;
 }
-p {
-    line-height: 28px;
+em {
+    color: #fff;
+    font-size: 0.9rem
 }
-
 
 /* HEADER */
 .top-bar {
@@ -109,16 +109,31 @@ p {
             color: white;
         }
     }
-    .menu li {
+    .menu  {
         padding: 0rem 0.5rem;
         background: white;
         border-radius: 10px;
-        margin-bottom: 5px;
-        font-size: 0.8rem;
+        font-size: 0.68rem;
+        height: 70px;
+        margin-bottom: 10px;
+
         img {
-            height: 30px;
+            height: 35px;
             width: auto;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin: auto;
         }
+    }
+
+    p.title-jumpmenu {
+        position: relative;
+        line-height: 18px;
+        top: 50%;
+        transform: translate(100%,-50%);
+
+        
     }
 }
 
