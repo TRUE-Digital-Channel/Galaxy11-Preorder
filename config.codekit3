@@ -229,7 +229,7 @@
 		"oAP": "/build/img/banner-s10.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/img/banner-s11.jpg": {
@@ -240,7 +240,7 @@
 		"oAP": "/build/img/banner-s11.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/img/best-deal.png": {
@@ -273,7 +273,7 @@
 		"oAP": "/build/img/bundle-deals-promo.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/img/en-icon.jpg": {
@@ -419,7 +419,7 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/scss/_settings.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -468,7 +468,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-pale",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 600870175.520877
+	"lastBuiltDate": 600870474.55258799
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
