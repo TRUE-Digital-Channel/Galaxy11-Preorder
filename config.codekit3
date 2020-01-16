@@ -861,15 +861,26 @@
 		"opt": 1,
 		"q": 100
 		},
-	"/img/banner.jpg": {
+	"/img/banner-s10.jpg": {
 		"ft": 16384,
 		"iS": 1610755,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/build/img/banner.jpg",
+		"oAP": "/build/img/banner-s10.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"/img/banner-s11.jpg": {
+		"ft": 16384,
+		"iS": 102013,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/banner-s11.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/img/best-deal.png": {
@@ -892,6 +903,17 @@
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
+		"q": 100
+		},
+	"/img/bundle-deals-promo.jpg": {
+		"ft": 16384,
+		"iS": 56618,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/bundle-deals-promo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/img/en-icon.jpg": {
@@ -978,6 +1000,14 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
+		},
+	"/mobile.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/mobile.html",
+		"oF": 0
 		},
 	"/node_modules": {
 		"ft": 65536,
