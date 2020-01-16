@@ -49,12 +49,28 @@ p {
 
 /* HEADER */
 .top-bar {
+    padding: 0;
    .top-bar-left {
         flex: 0 0 auto;
     }
    .top-bar-right {
        flex: 0 0 auto;
-} 
+       a {
+           font-size: 0.6rem;
+           color: #4d4d4d;
+           cursor: pointer;
+           img {
+               height: 10px;
+               width: auto;
+           }
+       }
+       .dropdown-pane {
+           padding: 0.2rem;
+           width: auto;
+           line-height: 23px;
+           border-radius: 5px;
+       }
+    }
 }
 .site-logo {
     padding: 10px 0px;
@@ -167,14 +183,9 @@ p {
 
 /* SECTIONS */
 .red-section {
-   background: rgba(255,0,0,1);
-background: -moz-linear-gradient(-45deg, rgba(255,0,0,1) 0%, rgba(239,1,124,1) 100%);
-background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(255,0,0,1)), color-stop(100%, rgba(239,1,124,1)));
-background: -webkit-linear-gradient(-45deg, rgba(255,0,0,1) 0%, rgba(239,1,124,1) 100%);
-background: -o-linear-gradient(-45deg, rgba(255,0,0,1) 0%, rgba(239,1,124,1) 100%);
-background: -ms-linear-gradient(-45deg, rgba(255,0,0,1) 0%, rgba(239,1,124,1) 100%);
-background: linear-gradient(135deg, rgba(255,0,0,1) 0%, rgba(239,1,124,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0000', endColorstr='#ef017c', GradientType=1 );
+    background: #F00000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #DC281E, #F00000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #DC281E, #F00000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 3rem 0rem;
     .bundle-desc {
         padding-bottom: 0.5rem;

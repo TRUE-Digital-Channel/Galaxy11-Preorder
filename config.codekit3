@@ -22,15 +22,657 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/.gitignore",
-		"oF": 0
+		"oF": 1
 		},
 	"/build": {
 		"ft": 65536,
 		"oA": 1,
 		"oAP": "/build/build",
 		"oF": 0
+		},
+	"/checkout/checkout2.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/checkout/checkout2.html",
+		"oF": 1
+		},
+	"/checkout/comfirm_mail.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/checkout/comfirm_mail.html",
+		"oF": 1
+		},
+	"/checkout/css/bootstrap.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/build/checkout/css/bootstrap.min-min.css",
+		"oF": 1,
+		"oS": 3
+		},
+	"/checkout/css/select-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/build/checkout/css/select-min-min.css",
+		"oF": 1,
+		"oS": 3
+		},
+	"/checkout/css/select.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/build/checkout/css/select-min.css",
+		"oF": 1,
+		"oS": 3
+		},
+	"/checkout/css/style copy-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/build/checkout/css/style copy-min-min.css",
+		"oF": 1,
+		"oS": 3
+		},
+	"/checkout/css/style-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/build/checkout/css/style-min-min.css",
+		"oF": 1,
+		"oS": 3
+		},
+	"/checkout/css/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/build/checkout/css/style-min.css",
+		"oF": 1,
+		"oS": 3
+		},
+	"/checkout/delivery.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/checkout/delivery.html",
+		"oF": 1
+		},
+	"/checkout/fonts/tboldspecial-webfont.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/checkout/fonts/tboldspecial-webfont.eot",
+		"oF": 1
+		},
+	"/checkout/fonts/tboldspecial-webfont.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "/build/checkout/fonts/tboldspecial-webfont.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/checkout/fonts/tboldspecial-webfont.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/checkout/fonts/tboldspecial-webfont.woff",
+		"oF": 1
+		},
+	"/checkout/fonts/tboldspecial-webfont.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/checkout/fonts/tboldspecial-webfont.woff2",
+		"oF": 1
+		},
+	"/checkout/fonts/tmedium-webfont.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/checkout/fonts/tmedium-webfont.eot",
+		"oF": 1
+		},
+	"/checkout/fonts/tmedium-webfont.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "/build/checkout/fonts/tmedium-webfont.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/checkout/fonts/tmedium-webfont.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/checkout/fonts/tmedium-webfont.woff",
+		"oF": 1
+		},
+	"/checkout/fonts/tmedium-webfont.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/checkout/fonts/tmedium-webfont.woff2",
+		"oF": 1
+		},
+	"/checkout/images/barcode.png": {
+		"ft": 32768,
+		"iS": 41802,
+		"oA": 1,
+		"oAP": "/build/checkout/images/barcode.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/checkout/images/bg-red-btn.png": {
+		"ft": 32768,
+		"iS": 17014,
+		"oA": 1,
+		"oAP": "/build/checkout/images/bg-red-btn.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/checkout/images/black-dot.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "/build/checkout/images/black-dot.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/checkout/images/blackcard.png": {
+		"ft": 32768,
+		"iS": 49692,
+		"oA": 1,
+		"oAP": "/build/checkout/images/blackcard.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/checkout/images/check-box.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "/build/checkout/images/check-box.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/checkout/images/check-radio.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "/build/checkout/images/check-radio.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/checkout/images/device.png": {
+		"ft": 32768,
+		"iS": 39367,
+		"oA": 1,
+		"oAP": "/build/checkout/images/device.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/checkout/images/device1.png": {
+		"ft": 32768,
+		"iS": 42029,
+		"oA": 1,
+		"oAP": "/build/checkout/images/device1.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/checkout/images/device2.png": {
+		"ft": 32768,
+		"iS": 41287,
+		"oA": 1,
+		"oAP": "/build/checkout/images/device2.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/checkout/images/iconbank.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "/build/checkout/images/iconbank.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/checkout/images/info.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "/build/checkout/images/info.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/checkout/images/logo.png": {
+		"ft": 32768,
+		"iS": 5682,
+		"oA": 1,
+		"oAP": "/build/checkout/images/logo.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/checkout/images/logo@2x.png": {
+		"ft": 32768,
+		"iS": 12343,
+		"oA": 1,
+		"oAP": "/build/checkout/images/logo@2x.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/checkout/images/logo@3x.png": {
+		"ft": 32768,
+		"iS": 19789,
+		"oA": 1,
+		"oAP": "/build/checkout/images/logo@3x.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/checkout/images/logo_bank-02.png": {
+		"ft": 32768,
+		"iS": 7620,
+		"oA": 1,
+		"oAP": "/build/checkout/images/logo_bank-02.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/checkout/images/logo_bank-03.png": {
+		"ft": 32768,
+		"iS": 16178,
+		"oA": 1,
+		"oAP": "/build/checkout/images/logo_bank-03.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/checkout/images/logo_bank-04.png": {
+		"ft": 32768,
+		"iS": 16008,
+		"oA": 1,
+		"oAP": "/build/checkout/images/logo_bank-04.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/checkout/images/logo_bank-05.png": {
+		"ft": 32768,
+		"iS": 15090,
+		"oA": 1,
+		"oAP": "/build/checkout/images/logo_bank-05.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/checkout/images/logo_bank-06.png": {
+		"ft": 32768,
+		"iS": 15772,
+		"oA": 1,
+		"oAP": "/build/checkout/images/logo_bank-06.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/checkout/images/logo_bank-07.png": {
+		"ft": 32768,
+		"iS": 35512,
+		"oA": 1,
+		"oAP": "/build/checkout/images/logo_bank-07.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/checkout/images/logo_bank-08.png": {
+		"ft": 32768,
+		"iS": 27369,
+		"oA": 1,
+		"oAP": "/build/checkout/images/logo_bank-08.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/checkout/images/logo_bank-09.png": {
+		"ft": 32768,
+		"iS": 8920,
+		"oA": 1,
+		"oAP": "/build/checkout/images/logo_bank-09.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/checkout/images/logo_bank-10.png": {
+		"ft": 32768,
+		"iS": 35373,
+		"oA": 1,
+		"oAP": "/build/checkout/images/logo_bank-10.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/checkout/images/logo_bank-11.png": {
+		"ft": 32768,
+		"iS": 3075,
+		"oA": 1,
+		"oAP": "/build/checkout/images/logo_bank-11.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/checkout/images/logo_bank-12.png": {
+		"ft": 32768,
+		"iS": 4291,
+		"oA": 1,
+		"oAP": "/build/checkout/images/logo_bank-12.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/checkout/images/pin-copy-2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "/build/checkout/images/pin-copy-2.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/checkout/images/qrcode.jpg": {
+		"ft": 16384,
+		"iS": 21855,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/build/checkout/images/qrcode.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/checkout/images/step-1-active.png": {
+		"ft": 32768,
+		"iS": 829,
+		"oA": 1,
+		"oAP": "/build/checkout/images/step-1-active.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/checkout/images/step-1-active@2x.png": {
+		"ft": 32768,
+		"iS": 1733,
+		"oA": 1,
+		"oAP": "/build/checkout/images/step-1-active@2x.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/checkout/images/step-1-active@3x.png": {
+		"ft": 32768,
+		"iS": 2781,
+		"oA": 1,
+		"oAP": "/build/checkout/images/step-1-active@3x.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/checkout/images/step-2-active.png": {
+		"ft": 32768,
+		"iS": 1337,
+		"oA": 1,
+		"oAP": "/build/checkout/images/step-2-active.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/checkout/images/step-2-active@2x.png": {
+		"ft": 32768,
+		"iS": 2779,
+		"oA": 1,
+		"oAP": "/build/checkout/images/step-2-active@2x.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/checkout/images/step-2-active@3x.png": {
+		"ft": 32768,
+		"iS": 4224,
+		"oA": 1,
+		"oAP": "/build/checkout/images/step-2-active@3x.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/checkout/images/step-2.png": {
+		"ft": 32768,
+		"iS": 768,
+		"oA": 1,
+		"oAP": "/build/checkout/images/step-2.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/checkout/images/step-2@2x.png": {
+		"ft": 32768,
+		"iS": 1608,
+		"oA": 1,
+		"oAP": "/build/checkout/images/step-2@2x.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/checkout/images/step-2@3x.png": {
+		"ft": 32768,
+		"iS": 2559,
+		"oA": 1,
+		"oAP": "/build/checkout/images/step-2@3x.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/checkout/images/step-check-icon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "/build/checkout/images/step-check-icon.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/checkout/js/all-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/build/checkout/js/all-min-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/checkout/js/all.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/build/checkout/js/all-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/checkout/js/bootstrap.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/build/checkout/js/bootstrap.min-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/checkout/js/jquery.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/build/checkout/js/jquery.min-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/checkout/js/jquery.selectric.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/build/checkout/js/jquery.selectric-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/checkout/js/popper.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/build/checkout/js/popper.min-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/checkout/order.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/checkout/order.html",
+		"oF": 1
+		},
+	"/checkout/paymenterror.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/checkout/paymenterror.html",
+		"oF": 1
+		},
+	"/checkout/thankyou.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/checkout/thankyou.html",
+		"oF": 1
 		},
 	"/fonts/TrueBold.eot": {
 		"cB": 0,
@@ -168,6 +810,14 @@
 		"oAP": "/build/fonts/TrueMedium.woff2",
 		"oF": 0
 		},
+	"/foundation.html": {
+		"cB": 1,
+		"ft": 8192,
+		"hM": 1,
+		"oA": 0,
+		"oAP": "/build/foundation.html",
+		"oF": 0
+		},
 	"/icons/chevron-down-solid.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -229,7 +879,7 @@
 		"oAP": "/build/img/banner-s10.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/img/banner-s11.jpg": {
@@ -464,11 +1114,11 @@
 	},
 "projectAttributes": {
 	"creationDate": 600261931.06932497,
-	"displayValue": "Samsung",
+	"displayValue": "fnd_landingpage",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-pale",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 600870175.520877
+	"lastBuiltDate": 600768629.49860501
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
