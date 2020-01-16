@@ -138,6 +138,27 @@ p {
     }
 }
 
+.mass-promo {
+    padding: 1.5rem 0rem;
+    .white-cta {
+        h2 {
+            color: #F50808;
+            line-height: 42px;
+        }
+        h3 {
+            line-height: 20px;
+        }
+        p {
+            font-family: "True Light";
+            line-height: 28px;
+        }
+        p:nth-child(3) {
+            color: #fe0007;
+            font-family: "True Medium";
+        }
+    }
+}
+
 .title h3 {
     font-size: 1rem;
     font-family: "True Medium",Helvetica,Arial,sans-serif;
@@ -226,24 +247,6 @@ p {
 
     .title-promo{
         min-height: 100px;
-    }
-}
-
-.white-section {
-    padding: 3rem 0rem;
-    .white-cta {
-        h2 {
-            color: #F50808;
-            line-height: 42px;
-        }
-        h3 {
-            line-height: 20px;
-        }
-        p {
-//          font-size: 2rem;
-            font-family: "True Light";
-            line-height: 28px;
-        }
     }
 }
 
