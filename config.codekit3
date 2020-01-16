@@ -168,14 +168,6 @@
 		"oAP": "/build/fonts/TrueMedium.woff2",
 		"oF": 0
 		},
-	"/foundation.html": {
-		"cB": 1,
-		"ft": 8192,
-		"hM": 1,
-		"oA": 0,
-		"oAP": "/build/foundation.html",
-		"oF": 0
-		},
 	"/icons/info-circle-solid.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -413,11 +405,11 @@
 	},
 "projectAttributes": {
 	"creationDate": 600261931.06932497,
-	"displayValue": "fnd_landingpage",
+	"displayValue": "Samsung",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-pale",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 600534819.44993901
+	"lastBuiltDate": 600870175.520877
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
