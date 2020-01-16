@@ -15,7 +15,7 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Samsung Galaxy S11 Pre Order</title>
+    <title>Samsung Galaxy S11 Pre Order - Mobile View</title>
     <link rel="stylesheet" href="css/app.css">
   </head>
     
@@ -37,10 +37,26 @@
                   <img src="img/tmh-logo.png" alt="True Move H">
               </div>
               <div class="top-bar-right">
-                <ul class="menu language">
-                  <li><a href="#"><img src="img/th-icon.jpg"></a></li>
-                    <li><a href="#"><img src="img/en-icon.jpg"></a></li>
+                <ul class="dropdown menu" data-dropdown-menu>
+                  <li>
+                    <a href="#">Item 1</a>
+                    <ul class="menu">
+                      <li><a href="#">Item 1A</a></li>
+                      <!-- ... -->
+                    </ul>
+                  </li>
+                  <li><a href="#">Item 2</a></li>
+                  <li><a href="#">Item 3</a></li>
+                  <li><a href="#">Item 4</a></li>
                 </ul>
+<!--
+                <ul class="menu language">
+                  <li><a href="#" data-toggle="example-dropdown"><img src="img/th-icon.jpg"> ภาษาไทย</a></li>
+                </ul>
+                  <div class="dropdown-pane" id="example-dropdown" data-dropdown data-auto-focus="true">
+                      <p><a href="#"><img src="img/en-icon.jpg"></a>English</p>
+                  </div>
+-->
               </div>
           </div>
         </div>
@@ -68,26 +84,42 @@
         
     <section class="hero-header-container">
       <div class="hero-header">
-       <img src="https://via.placeholder.com/1440x620?text=Samsung Pre-Oder S11 www.truemoveh.com/GalaxyS11/preorder
-/">
+       <img src="img/banner-s11.jpg">
       </div>
     </section>
 
-    <section class="grid-container full">
+    <section class="grid-container title">
       <div class="grid-x grid-padding-x">
         <div class="large-12 cell">
-            <h2 class="callout-title text-center">สั่งซื้อล่วงหน้าลดสูงสุด xx,000 บาท</h2>
+            <div class="callout-title text-center">
+                <h1><span class="red-text">สั่งซื้อล่วงหน้ากับ ทรูมูฟ เอช รับสิทธิพิเศษเหนือใคร</span></h1>
+                  <h2>รับส่วนลดสูงสุด xxx บาท</h2>
+              <h3 class="text-center">ผ่อน <strong>0%</strong> นานสูงสุด <strong>48</strong> เดือน เริ่มเพียง xxx.- / เดือน</h3>
+              <div class="banner">
+                <img src="img/bundle-deals-promo.jpg">
+              </div>
+            </div>
         </div>
       </div>    
     </section>
-
-    <!-- ฺBANNER SUMMARY -->
-      <section>
-        <div class="banner">
-          <img src="https://via.placeholder.com/1440x881?text=Samsung Pre-Oder S11 www.truemoveh.com/GalaxyS11/preorder
-/">
+      
+<!--      Fix the jump menu for this section Ken. Refer to XD document.-->
+    <section class="grid-container full jumpmenu"> 
+      <div class="grid-x grid-padding-x">
+        <div class="large-12 cell">
+            <div class="callout-title text-center">
+              <h2>ข้อเสนอสุดพิเศษสำหรับสั่งซื้อล่วงหน้า</h2>
+              <p>ส่วนลดพิเศษสำหรับลูกค้าทรูมูฟ เอชแบบรายเดือน อายุการใช้งาน 12 เดือนขึ้นไป</p>
+            </div>
+            <ul class="vertical menu">
+                <li>Mass table</li>
+                <li><img src="img/best-deal.png">BDBC table</li>
+                <li><img src="img/black-card.png">Black card table</li>
+                <li><img src="img/prepay-smart-value.png">สPrepaid table</li>
+            </ul>
         </div>
-      </section>
+      </div>    
+    </section>
       
     <section class="grid-container red-section full">
         
@@ -585,6 +617,7 @@ Best Deal Best Choice
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="node_modules/what-input/dist/what-input.js"></script>
     <script src="node_modules/foundation-sites/dist/js/foundation.js"></script>
+    <script src="node_modules/foundation-sites/dist/js/plugins/foundation.dropdownMenu.js"></script>
     <script src="js/app.js"></script>
      
       <script>

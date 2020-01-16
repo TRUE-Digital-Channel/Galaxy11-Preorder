@@ -22,9 +22,9 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/build/.gitignore",
-		"oF": 1
+		"oF": 0
 		},
 	"/build": {
 		"ft": 65536,
@@ -168,6 +168,16 @@
 		"oAP": "/build/fonts/TrueMedium.woff2",
 		"oF": 0
 		},
+	"/icons/chevron-down-solid.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/build/icons/chevron-down-solid.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/icons/info-circle-solid.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -211,15 +221,26 @@
 		"opt": 1,
 		"q": 100
 		},
-	"/img/banner.jpg": {
+	"/img/banner-s10.jpg": {
 		"ft": 16384,
 		"iS": 1610755,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/build/img/banner.jpg",
+		"oAP": "/build/img/banner-s10.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/banner-s11.jpg": {
+		"ft": 16384,
+		"iS": 102013,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/banner-s11.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/img/best-deal.png": {
@@ -242,6 +263,17 @@
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
+		"q": 100
+		},
+	"/img/bundle-deals-promo.jpg": {
+		"ft": 16384,
+		"iS": 56618,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/bundle-deals-promo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/img/en-icon.jpg": {
@@ -329,6 +361,14 @@
 		"sC": 3,
 		"tS": 1
 		},
+	"/mobile.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/mobile.html",
+		"oF": 0
+		},
 	"/node_modules": {
 		"ft": 65536,
 		"oA": 2,
@@ -350,6 +390,25 @@
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
+		},
+	"/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
 		},
 	"/scss/_settings.scss": {
 		"aP": 0,

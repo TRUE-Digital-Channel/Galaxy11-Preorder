@@ -76,6 +76,58 @@ p {
 }
 
 /* TITLE */
+.title {
+    h1 {
+        font-size: 1.3rem;
+        line-height: 40px;
+    }
+    h2 {
+        font-size: 1.2rem;
+        line-height: 20px;
+    }
+    h3 {
+        font-size: 1rem;
+        font-family: "True Medium",H elvetica,Arial,sans-serif;
+        color: #666;
+        line-height: 24px;
+    }
+    .banner {
+        padding-top: 20px;
+    }
+}
+
+.jumpmenu {
+    padding: 1.5rem 0rem;
+    background: #3d1f3c; /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  #3d1f3c 0%, #9e1d55 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  #3d1f3c 0%,#9e1d55 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  #3d1f3c 0%,#9e1d55 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3d1f3c', endColorstr='#9e1d55',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    .callout-title {
+        padding: 0.5rem 0rem;
+        h2, p {
+            color: white;
+        }
+    }
+    .menu li {
+        padding: 0rem 0.5rem;
+        background: white;
+        border-radius: 10px;
+        margin-bottom: 5px;
+        font-size: 0.8rem;
+        img {
+            height: 30px;
+            width: auto;
+        }
+    }
+}
+
+.title h3 {
+    font-size: 1rem;
+    font-family: "True Medium",Helvetica,Arial,sans-serif;
+    color: #666;
+}
+
 .callout-title {
     padding: 1.5rem 0rem;
 }
@@ -295,6 +347,9 @@ footer {
 }
 
 /* PARTIALS */
+.red-text {
+    color: #EB3733;
+}
 .red-emphasis {
     color: #EB3733;
     font-weight: bold;
