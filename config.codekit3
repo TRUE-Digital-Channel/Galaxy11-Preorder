@@ -8,7 +8,7 @@
 			],
 		"name": "New \"Process Certain Files\" Step",
 		"stepType": 0,
-		"uuidString": "03508E1F-2CB2-4D23-8B7C-9F838C55CC24"
+		"uuidString": "9022C4EA-32E8-4899-8071-BB96CCB5F07A"
 		},
 	{
 		"name": "Process All Remaining Files and Folders",
@@ -22,9 +22,9 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/build/.gitignore",
-		"oF": 1
+		"oF": 0
 		},
 	"/build": {
 		"ft": 65536,
@@ -890,7 +890,7 @@
 		"oAP": "/build/img/banner-s11.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/img/best-deal.png": {
@@ -923,7 +923,7 @@
 		"oAP": "/build/img/bundle-deals-promo.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/img/en-icon.jpg": {
@@ -935,6 +935,61 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"/img/Logo Icon-01.png": {
+		"ft": 32768,
+		"iS": 706681,
+		"oA": 0,
+		"oAP": "/build/img/Logo Icon-01.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/Logo Icon-02.png": {
+		"ft": 32768,
+		"iS": 144259,
+		"oA": 0,
+		"oAP": "/build/img/Logo Icon-02.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/Logo Icon-03.png": {
+		"ft": 32768,
+		"iS": 652417,
+		"oA": 0,
+		"oAP": "/build/img/Logo Icon-03.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/Logo Icon-04.png": {
+		"ft": 32768,
+		"iS": 251584,
+		"oA": 0,
+		"oAP": "/build/img/Logo Icon-04.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/Logo Icon-05.png": {
+		"ft": 32768,
+		"iS": 81416,
+		"oA": 0,
+		"oAP": "/build/img/Logo Icon-05.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"/img/prepay-smart-value.png": {
@@ -1006,8 +1061,8 @@
 		"ma": 1,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "build/js/app.js",
-		"oF": 0,
+		"oAP": "/build/js/app-min.js",
+		"oF": 1,
 		"sC": 3,
 		"tS": 1
 		},
@@ -1017,7 +1072,7 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/build/mobile.html",
-		"oF": 0
+		"oF": 1
 		},
 	"/node_modules": {
 		"ft": 65536,
@@ -1067,9 +1122,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/build/scss/_settings.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1081,8 +1136,8 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "build/css/app.css",
-		"oF": 1,
+		"oAP": "/build/css/app.css",
+		"oF": 3,
 		"oS": 3,
 		"uL": 1
 		},
@@ -1093,9 +1148,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/build/scss/custom.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1118,7 +1173,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-pale",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 600768629.49860501
+	"lastBuiltDate": 600940574.97195101
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -2599,7 +2654,7 @@
 	"externalServerAddress": "http://localhost:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
-	"jsCheckerReservedNamesString": "$",
+	"jsCheckerReservedNamesString": "",
 	"jsHintFlags2": {
 		"asi": {
 			"active": 0,
