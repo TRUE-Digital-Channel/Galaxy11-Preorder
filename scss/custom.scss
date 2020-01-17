@@ -200,6 +200,11 @@ p {
         }
         .price-row {
             margin-top: 0.5rem;
+            hr {
+                width: 100%;
+                border: 1px solid #eee;
+                margin: 0.5rem;
+            }
             p {
                 margin-bottom: 0.5rem;
             }
