@@ -70,28 +70,7 @@
       </div>    
     </section>
       
-<!--      Fix the jump menu for this section Ken. Refer to XD document.-->
-<!--     <section class="grid-container full jumpmenu"> 
-      <div class="grid-x grid-padding-x">
-        <div class="large-12 cell">
-            <div class="callout-title text-center">
-              <h2>สั่งซื้อล่วงหน้าลดสูงสุด 16,000.- พร้อมรับสิทธิพิเศษเหนือใคร</h2>
-              <em>ระหว่างวันที่ 12-28 ก.พ. เท่านั้น</em>
-            </div>
-            <ul class="vertical menu">
-                <li><img src="img/best-deal.png">สำหรับลูกค้าเปิดเบอร์ใหม่ <br>ย้ายค่ายเบอร์เดิม <br>เปลี่ยนจากเติมเงินเป็นรายเดือน
-<br>ลูกค้าปัจจุบันแบบรายเดือน</li>
-                <li><img src="img/best-deal.png">สำหรับลูกค้าทรูมูฟ เอชแบบรายเดือน</li>
-                <li><img src="img/black-card.png">สำหรับลูกค้าแบล็คการ์ด</li>
-                <li><img src="img/prepay-smart-value.png">เครื่องเปล่าราคาพิเศษ พร้อมซิมเติมเงิน
-ไม่ติดสัญญา</li>
-            </ul>
-        </div>
-      </div>    
-    </section> -->
-
-
-        <section class="grid-container full jumpmenu"> 
+        <section class="grid-container full jumpmenu" id="jumpmenu"> 
             <div class="grid-x grid-padding-x">
                 <div class="large-12 cell">
                  <div class="callout-title text-center">
@@ -118,8 +97,9 @@
           </div>
         </section>
       
-      <section class="mass-promo" id="mass-table">
-        <div class="grid-container">
+    <section class="mass-promo">
+        
+      <div class="grid-container">
         <div class="grid-x grid-padding-x">
           <div class="large-12 cell">
             <div class="white-cta text-center">
@@ -127,128 +107,221 @@
               <p>ส่วนลดพิเศษสำหรับลูกค้าทรูมูฟ เอชแบบรายเดือน อายุการใช้งาน 12 เดือนขึ้นไป</p>
               <p>รับส่วนลดสูงสุด xx,x00.-</p>
             </div>
-              <div class="table-promo">
-            <div class="table-scroll">
-                <table class="text-center">
-                  <thead>
-                    <tr>
-                      <th class="text-center">รุ่น</th>
-                      <th class="text-center">แพ็คเก็จ</th>
-                      <th class="text-center">ส่วนลด</th>
-                      <th class="text-center">ค่าบริการ<br>ล่วงหน้า</th>
-                      <th class="text-center">ราคาหลังหัก<br>ส่วนลด</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td rowspan="5">Samsung  S11 XX 256 GB <br> RRP 10 000</td>
-                      <td>699</td>
-                      <td>1,000</td>
-                      <td>1,500</td>
-                      <td>9,000</td>
-                    </tr>
-                    <tr>
-                      <td>899</td>
-                      <td>2,000</td>
-                      <td>2,000</td>
-                      <td>2,000</td>
-                    </tr>
-                    <tr>
-                      <td>1099</td>
-                      <td>3,000</td>
-                      <td>2,500</td>
-                      <td>3,000</td>
-                    </tr>
-                    <tr>
-                      <td>1299</td>
-                      <td>4,000</td>
-                      <td>3,000</td>
-                      <td>4,000</td>
-                    </tr>
-                    <tr>
-                      <td>1499</td>
-                      <td>5,000</td>
-                      <td>3,500</td>
-                      <td>5,000</td>
-                    </tr>
-                    <tr>
-                      <td rowspan="5">Samsung  S11 XX 512 GB <br> RRP 20 000</td>
-                      <td>699</td>
-                      <td>1,000</td>
-                      <td>1,500</td>
-                      <td>19,000</td>
-                    </tr>
-                    <tr>
-                      <td>899</td>
-                      <td>2,000</td>
-                      <td>2,000</td>
-                      <td>2,000</td>
-                    </tr>
-                    <tr>
-                      <td>1099</td>
-                      <td>3,000</td>
-                      <td>2,500</td>
-                      <td>3,000</td>
-                    </tr>
-                    <tr>
-                      <td>1299</td>
-                      <td>4,000</td>
-                      <td>3,000</td>
-                      <td>4,000</td>
-                    </tr>
-                    <tr>
-                      <td>1499</td>
-                      <td>5,000</td>
-                      <td>3,500</td>
-                      <td>5,000</td>
-                    </tr>
-                  </tbody>
-                </table>
-            </div>
-            </div>
-              
-                <ul class="accordion text-left" data-accordion data-multi-expand="true" data-allow-all-closed="true">
-                  <li data-accordion-item>
-                    <!-- Accordion tab title -->
-                    <a href="#" class="accordion-title"> เงื่อนไขการจองและรายละเอียดแพ็คเกจ</a>
-
-                    <!-- Accordion tab content: it would start in the open state due to using the `is-active` state class. -->
-                    <div class="accordion-content" data-tab-content>
-                      <p>ลูกค้าเปิดเบอร์ใหม่ ย้ายค่ายเบอร์เดิมแบบรายเดือน ลูกค้าปัจจุบันแบบรายเดือน และ ลูกค้าเปลี่ยนจากเติมเงินเป็นรายเดือน
-
-                        สำหรับลูกค้าเปิดเบอร์ใหม่ ลูกค้าย้ายค่ายเบอร์เดิมแบบรายเดือน สำเร็จตั้งแต่วันที่ 1 กันยายน 2562 เป็นต้นไป ลูกค้ารายเดือนปัจจุบันที่มีอายุการใช้งาน 90 วันขึ้นไป (ไม่มีสัญญาการใช้งาน หรือ มีสัญญาการใช้งานคงเหลือน้อยกว่า 90 วัน) และ ลูกค้าเปลี่ยนเติมเงินเป็นรายเดือน
-                        ชำระค่าบริการรายเดือนล่วงหน้า ตามที่บริษัทกำหนด โดยหักชำระค่าบริการรายเดือน เดือนละเท่าๆกัน นาน 10 เดือน (ราคายังไม่รวมภาษีมูลค่าเพิ่ม) หักคืนค่าบริการล่วงหน้าครั้งแรกในรอบบิลที่2 เป็นต้นไป
-                        สำหรับลูกค้าย้ายค่ายเบอร์เดิมแบบรายเดือน หรือ ลูกค้าปัจจุบันแบบรายเดือนที่มีอายุการใช้งาน 12 เดือนขึ้นไป รับส่วนลดค่าเครื่องเพิ่ม 2,000 บาท เมื่อสมัครแพ็กเกจ 1499 ขึ้นไป และ รับส่วนลดค่าเครื่องเพิ่ม 1,000 บาท เมื่อสมัครแพ็กเกจ 1099 ขึ้นไป
-                        รับทรูแบล็คการ์ดเมื่อสมัครแพ็กเกจ 1499 ขึ้นไป
-                        ระยะสัญญา 12 เดือน
-                        กรณีที่ผู้ใช้งานยกเลิกบริการก่อนระยะสัญญาบริษัทขอสงวนสิทธิ์เรียกคืนส่วนลดค่าเครื่องตามที่ลูกค้าได้รับ
-                        ราคาเครื่องอาจมีการเปลี่ยนแปลงโดยไม่ต้องแจ้งให้ทราบล่วงหน้า
-                        Best Deal Best Choice
-
-                        สำหรับทรูมูฟเอชแบบรายเดือนที่จดทะเบียนในนามบุคคลธรรมดาเท่านั้น
-                        สำหรับลูกค้ารายเดือนปัจจุบันที่มีอายุการใช้งาน 1ปีขึ้นไป (ไม่มีสัญญาการใช้งาน หรือ มีสัญญาการใช้งานคงเหลือน้อยกว่า 90 วัน)
-                        ใช้หรือสมัครแพ็กเกจทรูมูฟเอชแบบรายเดือนขั้นต่ำ ตามที่กำหนด ณ วันที่รับสิทธิ์
-                        สำหรับโปรโมชั่น Share Plan เลขหมายที่เป็นเบอร์หลัก สามารถรับสิทธิ์นี้ได้
-                        ไม่ต้องชำระค่าบริการรายเดือนล่วงหน้า
-                        รับส่วนลดตามรุ่นเครื่องและเงื่อนไขที่บริษัทกำหนด
-                        รายการส่งเสริมการขายนี้ มีระยะสัญญา 12 เดือน
-                        กรณีเลขหมายที่รับสิทธิ์ ติดสัญญาใช้บริการจากการซื้อเครื่องโทรศัพท์ราคาพิเศษใดๆอยู่ก่อน การซื้อโทรศัพท์เครื่องเปล่าราคาพิเศษนี้ จะมีผลให้นับระยะเวลาติดสัญญา ต่อเนื่องจากสัญญาเดิม
-                        รายการส่งเสริมการขายนี้ไม่สามารถโอน แลก คืน หรือเปลี่ยนเป็นเงินสด หรือ โอนสิทธิ์ในการใช้บริการ เพื่อรับสิทธิ์ตามสัญญานี้ให้กับบุคคลอื่นได้
-                        กรณีที่ผู้ใช้งานยกเลิกบริการก่อนระยะสัญญาบริษัทขอสงวนสิทธิ์เรียกคืนส่วนลดค่าเครื่องตามที่ลูกค้าได้รับ
-                        ราคาเครื่องอาจมีการเปลี่ยนแปลงโดยไม่ต้องแจ้งให้ทราบล่วงหน้า</p>
-                    </div>
-                  </li>
-                  <!-- ... -->
-                </ul>
-              
-                    <div class="small button-group align-center expanded truered">
-                      <button class="button data-smooth-scroll" href="#">สั่งซื้อล่วงหน้าและจัดส่งถึงบ้าน</button>
-                      <button class="button" href="#">สั่งจองและรับเครื่องที่ทรูช้อป</button>
-                    </div>
-              
           </div>
         </div>
-      </div>
+    </div>
+        
+    <div class="grid-container mass-pricing">
+        <div class="grid-x grid-padding-x">
+            
+            <div class="small-6 cell">
+                <h3 class="ph-model">Samsung <br>Galaxy S11e <span>ราคาเครื่องเปล่า</span></h3>
+            </div>
+            <div class="small-3 cell">
+                <span class="ph-storage">256GB</span><span class="rrp">10,000.-</span>
+            </div>
+            <div class="small-3 cell">
+                <span class="ph-storage">512GB</span><span class="rrp">20,000.-</span>
+            </div>
+<!--            Need to have better way to make this!!!!-->
+            <div class="th-hr"></div>
+            
+        </div>
+        <div class="grid-x grid-padding-x price-row">
+            
+            <div class="small-6 cell">
+                <p class="discount"><span>ลด 5,000.-</span> ฟรี <img src="img/black-card.png"></p>
+            </div>
+            <div class="small-3 cell">
+                <p class="discounted-price">5,000.-</p>
+            </div>
+            <div class="small-3 cell">
+                <p class="discounted-price">15,000.-</p>
+            </div>
+            
+            <div class="small-6 cell package">
+                สำหรับลูกค้าปัจจุบัน ที่ใช้แพ็กเกจ <strong>1499</strong> ขึ้นไป
+            </div>
+            <div class="small-6 cell adv-pay">
+                <p>จ่ายล่วงหน้า 3,500</p>
+            </div>
+            
+            <hr>
+            
+            <div class="small-6 cell">
+                <p class="discount"><span>ลด 4,000.-</span> ฟรี <img src="img/black-card.png"></p>
+            </div>
+            <div class="small-3 cell">
+                <p class="discounted-price">6,000.-</p>
+            </div>
+            <div class="small-3 cell">
+                <p class="discounted-price">16,000.-</p>
+            </div>
+            
+            <div class="small-6 cell package">
+                สำหรับลูกค้าปัจจุบัน ที่ใช้แพ็กเกจ <strong>1299</strong> ขึ้นไป <span>จ่ายล่วงหน้า 2000</span>
+            </div>
+            <div class="small-6 cell adv-pay">
+                <p>Adv payment 3,000</p>
+            </div>
+            
+            <hr>
+            
+            <div class="small-6 cell">
+                <p class="discount"><span>ลด 3,000.-</span> ฟรี <img src="img/black-card.png"></p>
+            </div>
+            <div class="small-3 cell">
+                <p class="discounted-price">7,000.-</p>
+            </div>
+            <div class="small-3 cell">
+                <p class="discounted-price">17,000.-</p>
+            </div>
+            
+            <div class="small-6 cell package">
+                สำหรับลูกค้าปัจจุบัน ที่ใช้แพ็กเกจ <strong>1099</strong> ขึ้นไป <span>จ่ายล่วงหน้า 2000</span>
+            </div>
+            <div class="small-6 cell adv-pay">
+                <p>Adv payment 2,500</p>
+            </div>
+            
+            <br><br>
+            
+        </div>
+    </div>
+              
+        <ul class="accordion text-left" data-accordion data-multi-expand="true" data-allow-all-closed="true">
+          <li data-accordion-item>
+            <!-- Accordion tab title -->
+            <a href="#" class="accordion-title"> เงื่อนไขการจองและรายละเอียดแพ็คเกจ</a>
+
+            <!-- Accordion tab content: it would start in the open state due to using the `is-active` state class. -->
+            <div class="accordion-content" data-tab-content>
+              <p>ลูกค้าเปิดเบอร์ใหม่ ย้ายค่ายเบอร์เดิมแบบรายเดือน ลูกค้าปัจจุบันแบบรายเดือน และ ลูกค้าเปลี่ยนจากเติมเงินเป็นรายเดือน
+
+                สำหรับลูกค้าเปิดเบอร์ใหม่ ลูกค้าย้ายค่ายเบอร์เดิมแบบรายเดือน สำเร็จตั้งแต่วันที่ 1 กันยายน 2562 เป็นต้นไป ลูกค้ารายเดือนปัจจุบันที่มีอายุการใช้งาน 90 วันขึ้นไป (ไม่มีสัญญาการใช้งาน หรือ มีสัญญาการใช้งานคงเหลือน้อยกว่า 90 วัน) และ ลูกค้าเปลี่ยนเติมเงินเป็นรายเดือน
+                ชำระค่าบริการรายเดือนล่วงหน้า ตามที่บริษัทกำหนด โดยหักชำระค่าบริการรายเดือน เดือนละเท่าๆกัน นาน 10 เดือน (ราคายังไม่รวมภาษีมูลค่าเพิ่ม) หักคืนค่าบริการล่วงหน้าครั้งแรกในรอบบิลที่2 เป็นต้นไป
+                สำหรับลูกค้าย้ายค่ายเบอร์เดิมแบบรายเดือน หรือ ลูกค้าปัจจุบันแบบรายเดือนที่มีอายุการใช้งาน 12 เดือนขึ้นไป รับส่วนลดค่าเครื่องเพิ่ม 2,000 บาท เมื่อสมัครแพ็กเกจ 1499 ขึ้นไป และ รับส่วนลดค่าเครื่องเพิ่ม 1,000 บาท เมื่อสมัครแพ็กเกจ 1099 ขึ้นไป
+                รับทรูแบล็คการ์ดเมื่อสมัครแพ็กเกจ 1499 ขึ้นไป
+                ระยะสัญญา 12 เดือน
+                กรณีที่ผู้ใช้งานยกเลิกบริการก่อนระยะสัญญาบริษัทขอสงวนสิทธิ์เรียกคืนส่วนลดค่าเครื่องตามที่ลูกค้าได้รับ
+                ราคาเครื่องอาจมีการเปลี่ยนแปลงโดยไม่ต้องแจ้งให้ทราบล่วงหน้า
+                Best Deal Best Choice
+
+                สำหรับทรูมูฟเอชแบบรายเดือนที่จดทะเบียนในนามบุคคลธรรมดาเท่านั้น
+                สำหรับลูกค้ารายเดือนปัจจุบันที่มีอายุการใช้งาน 1ปีขึ้นไป (ไม่มีสัญญาการใช้งาน หรือ มีสัญญาการใช้งานคงเหลือน้อยกว่า 90 วัน)
+                ใช้หรือสมัครแพ็กเกจทรูมูฟเอชแบบรายเดือนขั้นต่ำ ตามที่กำหนด ณ วันที่รับสิทธิ์
+                สำหรับโปรโมชั่น Share Plan เลขหมายที่เป็นเบอร์หลัก สามารถรับสิทธิ์นี้ได้
+                ไม่ต้องชำระค่าบริการรายเดือนล่วงหน้า
+                รับส่วนลดตามรุ่นเครื่องและเงื่อนไขที่บริษัทกำหนด
+                รายการส่งเสริมการขายนี้ มีระยะสัญญา 12 เดือน
+                กรณีเลขหมายที่รับสิทธิ์ ติดสัญญาใช้บริการจากการซื้อเครื่องโทรศัพท์ราคาพิเศษใดๆอยู่ก่อน การซื้อโทรศัพท์เครื่องเปล่าราคาพิเศษนี้ จะมีผลให้นับระยะเวลาติดสัญญา ต่อเนื่องจากสัญญาเดิม
+                รายการส่งเสริมการขายนี้ไม่สามารถโอน แลก คืน หรือเปลี่ยนเป็นเงินสด หรือ โอนสิทธิ์ในการใช้บริการ เพื่อรับสิทธิ์ตามสัญญานี้ให้กับบุคคลอื่นได้
+                กรณีที่ผู้ใช้งานยกเลิกบริการก่อนระยะสัญญาบริษัทขอสงวนสิทธิ์เรียกคืนส่วนลดค่าเครื่องตามที่ลูกค้าได้รับ
+                ราคาเครื่องอาจมีการเปลี่ยนแปลงโดยไม่ต้องแจ้งให้ทราบล่วงหน้า</p>
+            </div>
+          </li>
+          <!-- ... -->
+        </ul>
+              
+        <div class="small button-group align-center expanded truered">
+          <button class="button expanded data-smooth-scroll" href="#">สั่งซื้อล่วงหน้าและจัดส่งถึงบ้าน</button>
+          <button class="button expanded" href="#">สั่งจองและรับเครื่องที่ทรูช้อป</button>
+        </div>
+              
+      </section>
+      
+      <section>
+        <div class="grid-container">
+            <div class="grid-x grid-padding-x price-row">
+                <div class="large-12 cell">
+                    <div class="orbit" role="region" aria-label="Favorite Text Ever" data-orbit data-options="autoPlay:false; timerDelay:1000; bullets:false">
+                      <ul class="orbit-container">
+                        <button class="orbit-previous" aria-label="previous"><span class="show-for-sr">Previous Slide</span>&#9664;</button>
+                        <button class="orbit-next" aria-label="next"><span class="show-for-sr">Next Slide</span>&#9654;</button>
+                        <li class="is-active orbit-slide">
+                            <div class="small-6 cell">
+                                <p class="discount"><span>ลด 5,000.-</span> ฟรี <img src="img/black-card.png"></p>
+                            </div>
+                            <div class="small-3 cell">
+                                <p class="discounted-price">5,000.-</p>
+                            </div>
+                            <div class="small-3 cell">
+                                <p class="discounted-price">15,000.-</p>
+                            </div>
+
+                            <div class="small-6 cell package">
+                                สำหรับลูกค้าปัจจุบัน ที่ใช้แพ็กเกจ <strong>1499</strong> ขึ้นไป
+                            </div>
+                            <div class="small-6 cell adv-pay">
+                                <p>จ่ายล่วงหน้า 3,500</p>
+                            </div>
+
+                            <hr>
+
+                            <div class="small-6 cell">
+                                <p class="discount"><span>ลด 4,000.-</span> ฟรี <img src="img/black-card.png"></p>
+                            </div>
+                            <div class="small-3 cell">
+                                <p class="discounted-price">6,000.-</p>
+                            </div>
+                            <div class="small-3 cell">
+                                <p class="discounted-price">16,000.-</p>
+                            </div>
+
+                            <div class="small-6 cell package">
+                                สำหรับลูกค้าปัจจุบัน ที่ใช้แพ็กเกจ <strong>1299</strong> ขึ้นไป <span>จ่ายล่วงหน้า 2000</span>
+                            </div>
+                            <div class="small-6 cell adv-pay">
+                                <p>Adv payment 3,000</p>
+                            </div>
+
+                            <hr>
+
+                            <div class="small-6 cell">
+                                <p class="discount"><span>ลด 3,000.-</span> ฟรี <img src="img/black-card.png"></p>
+                            </div>
+                            <div class="small-3 cell">
+                                <p class="discounted-price">7,000.-</p>
+                            </div>
+                            <div class="small-3 cell">
+                                <p class="discounted-price">17,000.-</p>
+                            </div>
+
+                            <div class="small-6 cell package">
+                                สำหรับลูกค้าปัจจุบัน ที่ใช้แพ็กเกจ <strong>1099</strong> ขึ้นไป <span>จ่ายล่วงหน้า 2000</span>
+                            </div>
+                            <div class="small-6 cell adv-pay">
+                                <p>Adv payment 2,500</p>
+                            </div>
+
+                            <br><br>
+                        </li>
+                        <li class="orbit-slide">
+                          <div class="docs-example-orbit-slide" style="background: blue">
+                            <p><strong>This is rebeccapurple.</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                          </div>
+                        </li>
+                        <li class="orbit-slide">
+                          <div class="docs-example-orbit-slide" style="background: green">
+                            <p><strong>This is darkgoldenrod.</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                          </div>
+                        </li>
+                        <li class="orbit-slide">
+                          <div class="docs-example-orbit-slide" style="background: purple">
+                            <p><strong>This is lightseagreen.</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                          </div>
+                        </li>
+                      </ul>
+                      <nav class="orbit-bullets">
+                        <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
+                        <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+                        <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
+                        <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
+                      </nav>
+                    </div>
+                </div>
+            </div>  
+        </div>
       </section>
 
 <!-- ฺBANNER -->
@@ -409,7 +482,7 @@ Best Deal Best Choice
       </div>
     </footer>
       
-    <a title="Scroll back to top" rel="nofollow" href="#" class="back-to-top" style="display:none">
+    <a title="Scroll back to top" rel="nofollow" href="#jumpmenu" data-smooth-scroll class="back-to-top" style="display:none">
         <span class="screen-reader-text"></span>
     </a>
 
@@ -427,10 +500,6 @@ Best Deal Best Choice
                 } else { 
                     $('.back-to-top').fadeOut(); 
                 } 
-            }); 
-            $('.back-to-top').click(function(){ 
-                $("html, body").animate({ scrollTop: 0 }, 600);
-                return false; 
             }); 
         });
       </script>
