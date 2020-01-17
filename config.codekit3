@@ -8,7 +8,7 @@
 			],
 		"name": "New \"Process Certain Files\" Step",
 		"stepType": 0,
-		"uuidString": "03508E1F-2CB2-4D23-8B7C-9F838C55CC24"
+		"uuidString": "9022C4EA-32E8-4899-8071-BB96CCB5F07A"
 		},
 	{
 		"name": "Process All Remaining Files and Folders",
@@ -23,392 +23,13 @@
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/.gitignore",
-		"oF": 0
-		},
-	"/build/.gitignore": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
 		"oAP": "/build/.gitignore",
 		"oF": 0
 		},
-	"/build/css/app.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/build/css/app-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/build/fonts/TrueBold.eot": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/build/fonts/TrueBold.eot",
-		"oF": 0
-		},
-	"/build/fonts/TrueBold.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/build/fonts/TrueBold.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/build/fonts/TrueBold.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/build/fonts/TrueBold.woff",
-		"oF": 0
-		},
-	"/build/fonts/TrueBold.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/build/fonts/TrueBold.woff2",
-		"oF": 0
-		},
-	"/build/fonts/TrueBoldSpecial.eot": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/build/fonts/TrueBoldSpecial.eot",
-		"oF": 0
-		},
-	"/build/fonts/TrueBoldSpecial.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/build/fonts/TrueBoldSpecial.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/build/fonts/TrueBoldSpecial.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/build/fonts/TrueBoldSpecial.woff",
-		"oF": 0
-		},
-	"/build/fonts/TrueBoldSpecial.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/build/fonts/TrueBoldSpecial.woff2",
-		"oF": 0
-		},
-	"/build/fonts/TrueLight.eot": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/build/fonts/TrueLight.eot",
-		"oF": 0
-		},
-	"/build/fonts/TrueLight.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/build/fonts/TrueLight.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/build/fonts/TrueLight.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/build/fonts/TrueLight.woff",
-		"oF": 0
-		},
-	"/build/fonts/TrueLight.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/build/fonts/TrueLight.woff2",
-		"oF": 0
-		},
-	"/build/fonts/TrueMedium.eot": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/build/fonts/TrueMedium.eot",
-		"oF": 0
-		},
-	"/build/fonts/TrueMedium.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/build/fonts/TrueMedium.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/build/fonts/TrueMedium.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/build/fonts/TrueMedium.woff",
-		"oF": 0
-		},
-	"/build/fonts/TrueMedium.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/build/fonts/TrueMedium.woff2",
-		"oF": 0
-		},
-	"/build/icons/chevron-down-solid.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/build/icons/chevron-down-solid.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/build/icons/info-circle-solid.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/build/icons/info-circle-solid.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/build/img/bank-logos-mb.png": {
-		"ft": 32768,
-		"iS": 16645,
-		"oA": 0,
-		"oAP": "/build/img/bank-logos-mb.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/build/img/bank-logos.png": {
-		"ft": 32768,
-		"iS": 16805,
-		"oA": 0,
-		"oAP": "/build/img/bank-logos.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/build/img/banner-promotion.jpg": {
-		"ft": 16384,
-		"iS": 406125,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/build/img/banner-promotion.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/build/img/banner-s10.jpg": {
-		"ft": 16384,
-		"iS": 1533112,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/build/img/banner-s10.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/build/img/banner-s11.jpg": {
-		"ft": 16384,
-		"iS": 96372,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/build/img/banner-s11.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/build/img/best-deal.png": {
-		"ft": 32768,
-		"iS": 10817,
-		"oA": 0,
-		"oAP": "/build/img/best-deal.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/build/img/black-card.png": {
-		"ft": 32768,
-		"iS": 5890,
-		"oA": 0,
-		"oAP": "/build/img/black-card.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/build/img/bundle-deals-promo.jpg": {
-		"ft": 16384,
-		"iS": 48210,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/build/img/bundle-deals-promo.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/build/img/en-icon.jpg": {
-		"ft": 16384,
-		"iS": 4532,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/build/img/en-icon.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/build/img/prepay-smart-value.png": {
-		"ft": 32768,
-		"iS": 7726,
-		"oA": 0,
-		"oAP": "/build/img/prepay-smart-value.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/build/img/privilage-prebook.png": {
-		"ft": 32768,
-		"iS": 25413,
-		"oA": 0,
-		"oAP": "/build/img/privilage-prebook.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/build/img/promo_bank.jpg": {
-		"ft": 16384,
-		"iS": 1778729,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/build/img/promo_bank.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/build/img/th-icon.jpg": {
-		"ft": 16384,
-		"iS": 1876,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/build/img/th-icon.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/build/img/tmh-logo.png": {
-		"ft": 32768,
-		"iS": 4382,
-		"oA": 0,
-		"oAP": "/build/img/tmh-logo.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/build/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/build/index.html",
-		"oF": 0
-		},
-	"/build/js/app.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/build/js/app-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/build/js/app.js.map": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/build/js/app.js.map",
-		"oF": 0
-		},
-	"/build/mobile.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/build/mobile.html",
-		"oF": 0
-		},
-	"/build/node_modules": {
+	"/build": {
 		"ft": 65536,
-		"oA": 2,
-		"oAP": "/build/build/node_modules",
-		"oF": 0
-		},
-	"/build/README.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/build/README.html",
-		"oF": 0
-		},
-	"/build/yarn.lock": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/build/yarn.lock",
+		"oA": 1,
+		"oAP": "/build/build",
 		"oF": 0
 		},
 	"/fonts/TrueBold.eot": {
@@ -416,14 +37,14 @@
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/fonts/TrueBold.eot",
+		"oAP": "/build/fonts/TrueBold.eot",
 		"oF": 0
 		},
 	"/fonts/TrueBold.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/fonts/TrueBold.svg",
+		"oAP": "/build/fonts/TrueBold.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
@@ -434,7 +55,7 @@
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/fonts/TrueBold.woff",
+		"oAP": "/build/fonts/TrueBold.woff",
 		"oF": 0
 		},
 	"/fonts/TrueBold.woff2": {
@@ -442,7 +63,7 @@
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/fonts/TrueBold.woff2",
+		"oAP": "/build/fonts/TrueBold.woff2",
 		"oF": 0
 		},
 	"/fonts/TrueBoldSpecial.eot": {
@@ -450,14 +71,14 @@
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/fonts/TrueBoldSpecial.eot",
+		"oAP": "/build/fonts/TrueBoldSpecial.eot",
 		"oF": 0
 		},
 	"/fonts/TrueBoldSpecial.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/fonts/TrueBoldSpecial.svg",
+		"oAP": "/build/fonts/TrueBoldSpecial.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
@@ -468,7 +89,7 @@
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/fonts/TrueBoldSpecial.woff",
+		"oAP": "/build/fonts/TrueBoldSpecial.woff",
 		"oF": 0
 		},
 	"/fonts/TrueBoldSpecial.woff2": {
@@ -476,7 +97,7 @@
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/fonts/TrueBoldSpecial.woff2",
+		"oAP": "/build/fonts/TrueBoldSpecial.woff2",
 		"oF": 0
 		},
 	"/fonts/TrueLight.eot": {
@@ -484,14 +105,14 @@
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/fonts/TrueLight.eot",
+		"oAP": "/build/fonts/TrueLight.eot",
 		"oF": 0
 		},
 	"/fonts/TrueLight.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/fonts/TrueLight.svg",
+		"oAP": "/build/fonts/TrueLight.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
@@ -502,7 +123,7 @@
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/fonts/TrueLight.woff",
+		"oAP": "/build/fonts/TrueLight.woff",
 		"oF": 0
 		},
 	"/fonts/TrueLight.woff2": {
@@ -510,7 +131,7 @@
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/fonts/TrueLight.woff2",
+		"oAP": "/build/fonts/TrueLight.woff2",
 		"oF": 0
 		},
 	"/fonts/TrueMedium.eot": {
@@ -518,14 +139,14 @@
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/fonts/TrueMedium.eot",
+		"oAP": "/build/fonts/TrueMedium.eot",
 		"oF": 0
 		},
 	"/fonts/TrueMedium.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/fonts/TrueMedium.svg",
+		"oAP": "/build/fonts/TrueMedium.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
@@ -536,7 +157,7 @@
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/fonts/TrueMedium.woff",
+		"oAP": "/build/fonts/TrueMedium.woff",
 		"oF": 0
 		},
 	"/fonts/TrueMedium.woff2": {
@@ -544,14 +165,14 @@
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/fonts/TrueMedium.woff2",
+		"oAP": "/build/fonts/TrueMedium.woff2",
 		"oF": 0
 		},
 	"/icons/chevron-down-solid.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/icons/chevron-down-solid.svg",
+		"oAP": "/build/icons/chevron-down-solid.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
@@ -561,7 +182,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/icons/info-circle-solid.svg",
+		"oAP": "/build/icons/info-circle-solid.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
@@ -571,7 +192,7 @@
 		"ft": 32768,
 		"iS": 58122,
 		"oA": 0,
-		"oAP": "/img/bank-logos-mb.png",
+		"oAP": "/build/img/bank-logos-mb.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -582,7 +203,7 @@
 		"ft": 32768,
 		"iS": 64127,
 		"oA": 0,
-		"oAP": "/img/bank-logos.png",
+		"oAP": "/build/img/bank-logos.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -594,7 +215,7 @@
 		"iS": 428662,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/img/banner-promotion.jpg",
+		"oAP": "/build/img/banner-promotion.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -605,7 +226,7 @@
 		"iS": 1610755,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/img/banner-s10.jpg",
+		"oAP": "/build/img/banner-s10.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -616,7 +237,7 @@
 		"iS": 102013,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/img/banner-s11.jpg",
+		"oAP": "/build/img/banner-s11.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -626,7 +247,7 @@
 		"ft": 32768,
 		"iS": 28276,
 		"oA": 0,
-		"oAP": "/img/best-deal.png",
+		"oAP": "/build/img/best-deal.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -637,7 +258,7 @@
 		"ft": 32768,
 		"iS": 15677,
 		"oA": 0,
-		"oAP": "/img/black-card.png",
+		"oAP": "/build/img/black-card.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -649,7 +270,7 @@
 		"iS": 56618,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/img/bundle-deals-promo.jpg",
+		"oAP": "/build/img/bundle-deals-promo.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -660,17 +281,72 @@
 		"iS": 5514,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/img/en-icon.jpg",
+		"oAP": "/build/img/en-icon.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"/img/Logo Icon-01.png": {
+		"ft": 32768,
+		"iS": 706681,
+		"oA": 0,
+		"oAP": "/build/img/Logo Icon-01.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/Logo Icon-02.png": {
+		"ft": 32768,
+		"iS": 144259,
+		"oA": 0,
+		"oAP": "/build/img/Logo Icon-02.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/Logo Icon-03.png": {
+		"ft": 32768,
+		"iS": 652417,
+		"oA": 0,
+		"oAP": "/build/img/Logo Icon-03.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/Logo Icon-04.png": {
+		"ft": 32768,
+		"iS": 251584,
+		"oA": 0,
+		"oAP": "/build/img/Logo Icon-04.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/Logo Icon-05.png": {
+		"ft": 32768,
+		"iS": 81416,
+		"oA": 0,
+		"oAP": "/build/img/Logo Icon-05.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"/img/prepay-smart-value.png": {
 		"ft": 32768,
 		"iS": 23719,
 		"oA": 0,
-		"oAP": "/img/prepay-smart-value.png",
+		"oAP": "/build/img/prepay-smart-value.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -681,7 +357,7 @@
 		"ft": 32768,
 		"iS": 79368,
 		"oA": 0,
-		"oAP": "/img/privilage-prebook.png",
+		"oAP": "/build/img/privilage-prebook.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -693,7 +369,7 @@
 		"iS": 1778729,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/img/promo_bank.jpg",
+		"oAP": "/build/img/promo_bank.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -704,7 +380,7 @@
 		"iS": 2620,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/img/th-icon.jpg",
+		"oAP": "/build/img/th-icon.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -714,7 +390,7 @@
 		"ft": 32768,
 		"iS": 9485,
 		"oA": 0,
-		"oAP": "/img/tmh-logo.png",
+		"oAP": "/build/img/tmh-logo.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -726,7 +402,7 @@
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/index.html",
+		"oAP": "/build/index.html",
 		"oF": 0
 		},
 	"/js/app.js": {
@@ -735,8 +411,8 @@
 		"ma": 1,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/js/app-min.js",
-		"oF": 0,
+		"oAP": "/build/js/app-min.js",
+		"oF": 1,
 		"sC": 3,
 		"tS": 1
 		},
@@ -745,19 +421,19 @@
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/mobile.html",
-		"oF": 0
+		"oAP": "/build/mobile.html",
+		"oF": 1
 		},
 	"/node_modules": {
 		"ft": 65536,
 		"oA": 2,
 		"oAP": "/build/node_modules",
-		"oF": 0
+		"oF": 1
 		},
 	"/package-lock.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "/package-lock-min.json",
+		"oAP": "/build/package-lock-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -765,7 +441,7 @@
 	"/package.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "/package-min.json",
+		"oAP": "/build/package-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -780,7 +456,7 @@
 		"ft": 4096,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/README.html",
+		"oAP": "/build/README.html",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
@@ -796,8 +472,8 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
-		"oAP": "/scss/_settings.css",
+		"oA": 0,
+		"oAP": "/build/scss/_settings.css",
 		"oF": 1,
 		"oS": 0,
 		"uL": 1
@@ -810,8 +486,8 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/scss/app.css",
-		"oF": 1,
+		"oAP": "/build/css/app.css",
+		"oF": 3,
 		"oS": 3,
 		"uL": 1
 		},
@@ -822,9 +498,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
-		"oAP": "/scss/custom.css",
-		"oF": 0,
+		"oA": 0,
+		"oAP": "/build/scss/custom.css",
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -833,7 +509,7 @@
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/yarn.lock",
+		"oAP": "/build/yarn.lock",
 		"oF": 0
 		}
 	},
@@ -847,7 +523,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-pale",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 600870474.55258799
+	"lastBuiltDate": 600940574.97195101
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -1141,7 +817,7 @@
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
 	"browserslistString": ">0.2%, last 2 versions, Firefox ESR, not dead",
-	"buildFolderActive": 0,
+	"buildFolderActive": 1,
 	"buildFolderName": "build",
 	"cleanBuild": 1,
 	"coffeeLintFlags2": {
@@ -3227,7 +2903,7 @@
 		},
 	"uglifyMangleNames": 1,
 	"uglifyReservedNamesString": "$,exports,require",
-	"websiteRelativeRoot": ""
+	"websiteRelativeRoot": "/build"
 	},
 "settingsFileVersion": "3"
 }
