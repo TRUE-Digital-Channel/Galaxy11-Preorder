@@ -166,6 +166,94 @@ em {
     }
 }
 
+// DEFAULT PRICING TABLE
+
+.pricing-table {
+    .ph-model {
+        font-size: 1rem;
+        font-family: "True Bold Special", "helvetica", sans-serif;
+        line-height: 0.81;
+        span {
+            display: block;
+            font-family: "True Medium",Helvetica,Arial,sans-serif;
+            font-size: 0.75rem;
+        }
+    }
+    .ph-storage {
+        display: block;
+        border: solid 1px #837a7a;
+        border-radius: 10px;
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    .rrp {
+        display: block;
+        font-family: "True Bold Special", "helvetica", sans-serif;
+        font-size: 0.85rem;
+    }
+    .th-hr {
+//            Need to have better way to make this!!!!
+        background: #707070;
+        height: 2px;
+        width: 100%;
+        margin-right: .3125rem;
+        margin-left: .3125rem;
+    }
+    .price-row {
+        margin-top: 0.5rem;
+        hr {
+            width: 100%;
+            border: 1px solid #eee;
+            margin: 0.5rem;
+        }
+        p {
+            margin-bottom: 0.5rem;
+        }
+        .discount {
+            font-size: 0.7rem;
+            span {
+                color: white;
+                background-color: #fe0007;
+                padding: 5px 10px;
+                border-radius: 100px;
+                font-size: 0.7rem;
+                font-family: "True Bold Special", "helvetica", sans-serif;
+            }
+            img {
+                height: 20px;
+                width: auto;
+            }
+        }
+        .package {
+            font-size: 0.7rem;
+            line-height: 20px;
+            strong {
+                color: #ff0000;
+            }
+            span {
+                color: #939393;
+            }
+        }
+        .adv-pay {
+            font-size: 0.7rem;
+            font-style: italic;
+            color: #939393;
+        }
+    }
+    .discounted-price {
+        color: #ff0000;
+        font-family: "True Bold Special", "helvetica", sans-serif;
+        font-size: 0.85rem;
+    }
+}
+
+// DEFAULT BUTTON GROUP
+.button-group {
+    margin-top: 0.8rem;
+    margin-bottom: 0;
+    padding: 0.40rem;
+}
+
 // ORBIT SLIDER
 .orbit-bullets {
     margin-top: 0;
@@ -195,93 +283,56 @@ em {
             font-family: "True Medium";
         }
     }
-    .mass-pricing {
-        .ph-model {
-            font-size: 1rem;
-            font-family: "True Bold Special", "helvetica", sans-serif;
-            line-height: 0.81;
-            span {
-                display: block;
-                font-family: "True Medium",Helvetica,Arial,sans-serif;
-                font-size: 0.75rem;
-            }
-        }
-        .ph-storage {
-            display: block;
-            border: solid 1px #837a7a;
-            border-radius: 10px;
-            font-size: 0.8rem;
-            text-align: center;
-        }
-        .rrp {
-            display: block;
-            font-family: "True Bold Special", "helvetica", sans-serif;
-            font-size: 0.85rem;
-        }
-        .th-hr {
-//            Need to have better way to make this!!!!
-            background: #707070;
-            height: 2px;
-            width: 100%;
-            margin-right: .3125rem;
-            margin-left: .3125rem;
-        }
-        .price-row {
-            margin-top: 0.5rem;
-            hr {
-                width: 100%;
-                border: 1px solid #eee;
-                margin: 0.5rem;
-            }
-            p {
-                margin-bottom: 0.5rem;
-            }
-            .discount {
-                font-size: 0.7rem;
-                span {
-                    color: white;
-                    background-color: #fe0007;
-                    padding: 5px 10px;
-                    border-radius: 100px;
-                    font-size: 0.7rem;
-                    font-family: "True Bold Special", "helvetica", sans-serif;
-                }
-                img {
-                    height: 20px;
-                    width: auto;
-                }
-            }
-            .package {
-                font-size: 0.7rem;
-                line-height: 20px;
-                strong {
-                    color: #ff0000;
-                }
-                span {
-                    color: #939393;
-                }
-            }
-            .adv-pay {
-                font-size: 0.7rem;
-                font-style: italic;
-                color: #939393;
-            }
-        }
-        .discounted-price {
-            color: #ff0000;
-            font-family: "True Bold Special", "helvetica", sans-serif;
-            font-size: 0.85rem;
-        }
+}
+
+/* BLACKCARD PROMOTION */
+.blackcard {
+    background-color: black;
+    h3,p {
+        line-height: 32px;
+        color: #fff;
     }
-        .button-group {
-            margin-top: 0.8rem;
-            padding: 0.40rem;
+    .accordion-title{
+        background: #f5bb2e;
+        border: 1px solid #f5bb5e;
+    }
+    :last-child:not(.is-active)>.accordion-title {
+        border-bottom: none;
+    }
+}
+
+.best-deal {
+    padding: 1.5rem 0rem;
+    .title-wrapper {
+        margin-bottom: 1.5rem;
+        img {
+            height: 58px;
+            width: auto;
+            margin-bottom: 0.5rem;
+        }
+        h2 {
+            color: #ff0000;
+            line-height: 42px;
+        }
+        p {
+            font-family: "True Light";
+            line-height: 28px;
+            font-size: 0.8rem;
+            margin-bottom: 0.5rem;
+        }
+        .emphasis {
+            font-size: 1rem;
+            font-family: "True Bold";
+            color: #4d4d4d;
+            line-height: 18px;
         }
 }
+}
+
 
 .title h3 {
     font-size: 1rem;
-    font-family: "True Medium",Helvetica,Arial,sans-serif;
+    font-family: "True Medium", Helvetica,Arial, sans-serif;
     color: #666;
 }
 
@@ -408,22 +459,6 @@ table {
 :last-child:not(.is-active)>.accordion-title {
     border-radius: 30px;
 }
-
-/* BLACKCARD PROMOTION */
-    .blackcard-promo {
-        background: #000;
-        h3,p {
-            line-height: 32px;
-            color: #fff;
-        }
-        .accordion-title{
-            background: #f5bb2e;
-            border: 1px solid #f5bb5e;
-        }
-        :last-child:not(.is-active)>.accordion-title {
-            border-bottom: none;
-        }
-    }
 
 
 /* FOOTER */

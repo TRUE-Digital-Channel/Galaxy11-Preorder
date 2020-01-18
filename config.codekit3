@@ -265,6 +265,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/img/black-card-section.png": {
+		"ft": 32768,
+		"iS": 39697,
+		"oA": 0,
+		"oAP": "/build/img/black-card-section.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/img/black-card.png": {
 		"ft": 32768,
 		"iS": 15677,
@@ -433,7 +444,7 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/build/mobile.html",
-		"oF": 1
+		"oF": 0
 		},
 	"/node_modules": {
 		"ft": 65536,
@@ -499,7 +510,7 @@
 		"oA": 0,
 		"oAP": "/build/css/app.css",
 		"oF": 3,
-		"oS": 3,
+		"oS": 1,
 		"uL": 1
 		},
 	"/scss/custom.scss": {
@@ -542,7 +553,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-pale",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 600942481.69383097
+	"lastBuiltDate": 601014807.07722497
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
