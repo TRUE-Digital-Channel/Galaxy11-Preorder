@@ -26,6 +26,12 @@
 		"oAP": "/build/.gitignore",
 		"oF": 0
 		},
+	"/.idea": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "/build/.idea",
+		"oF": 0
+		},
 	"/build": {
 		"ft": 65536,
 		"oA": 1,
@@ -1194,7 +1200,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-pale",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 601050279.11329305
+	"lastBuiltDate": 601050642.35425997
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
