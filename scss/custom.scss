@@ -103,7 +103,7 @@ em {
     }
     h3 {
         font-size: 1rem;
-        font-family: "True Medium",H elvetica,Arial,sans-serif;
+        font-family: "True Medium",Helvetica,Arial,sans-serif;
         color: #666;
         line-height: 24px;
     }
@@ -112,6 +112,7 @@ em {
     }
 }
 
+/* JUMPMENU */
 .jumpmenu {
     padding: 1.5rem 0rem;
     background: #3d1f3c; /* Old browsers */
@@ -121,7 +122,8 @@ em {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3d1f3c', endColorstr='#9e1d55',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
     .callout-title {
         padding: 0.5rem 0rem;
-        h2, p {
+        text-decoration: none;
+        h2, p{
             color: white;
         }
     }
@@ -133,13 +135,22 @@ em {
         height: 70px;
         margin-bottom: 10px;
 
-        img {
-            height: 35px;
+        img.icon-deal {
+            height: 70px;
             width: auto;
             position: absolute;
             top: 0;
             bottom: 0;
             margin: auto;
+        }
+        img.arrow {
+            height: 40px;
+            width: auto;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            right: 20px;
         }
     }
 
@@ -147,9 +158,10 @@ em {
         position: relative;
         line-height: 18px;
         top: 50%;
-        transform: translate(100%,-50%);
+        transform: translate(140%,-50%);
         margin-bottom: 0px;
-
+        color: #000;
+        
         
     }
 }
