@@ -91,6 +91,18 @@ em {
     }
 }
 
+
+.hero-header-container {
+    .hero-header{
+        img {
+             background-size: 100%;
+             object-fit: cover;
+             width: 100%;
+             max-height: 350px;
+        }
+    }
+}
+
 /* TITLE */
 .title {
     h1 {
@@ -244,6 +256,67 @@ em {
         color: #ff0000;
         font-family: "True Bold Special", "helvetica", sans-serif;
         font-size: 0.85rem;
+    }
+}
+
+// BLACKARD TABLE 
+
+.blackcard-promo {
+    background: #000;
+    color: #fff;
+    .callout-color {
+        color: #fff;
+        padding: 5px;
+        border-radius: 20px;
+        width: 100%;
+        margin: 0;
+        background-color: rgba(255,0,7,1);
+        background: rgba(255,0,7,1);
+        background: -moz-linear-gradient(-45deg, rgba(255,0,7,1) 0%, rgba(255,0,100,1) 100%);
+        background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(255,0,7,1)), color-stop(100%, rgba(255,0,100,1)));
+        background: -webkit-linear-gradient(-45deg, rgba(255,0,7,1) 0%, rgba(255,0,100,1) 100%);
+        background: -o-linear-gradient(-45deg, rgba(255,0,7,1) 0%, rgba(255,0,100,1) 100%);
+        background: -ms-linear-gradient(-45deg, rgba(255,0,7,1) 0%, rgba(255,0,100,1) 100%);
+        background: linear-gradient(135deg, rgba(255,0,7,1) 0%, rgba(255,0,100,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0007', endColorstr='#ff0064', GradientType=1 );
+    }
+    .pricing-table .price-row .adv-pay {
+        color: #fff;
+    }
+    em {
+        font-size: 0.66rem;
+        display: block;
+    }
+    p {
+        line-height: 0.77rem;
+        font-size: 0.7rem;
+    }
+
+    .verify {
+        margin: 0 auto;
+        background: #F00000;
+        background: -webkit-gradient(linear, left top, right top, from(#DC281E), to(#F00000));
+        background: linear-gradient(to right, #DC281E, #F00000);
+        font-family: "True Bold";
+        border-radius: 10px;
+        margin-bottom: 30px;
+    }
+
+    .blackcard-icon_left {
+        margin-bottom: 20px;
+        img {
+        max-width: 180px;
+             }
+
+    }
+    .title-bc {
+        margin: 15px 0 10px -20px;
+    }
+
+    .backcard-term {
+        background-color: #FFCC33;
+        border: none;
+        border-bottom: none;
     }
 }
 
@@ -520,28 +593,6 @@ footer {
 }
 .info img {
     height: 20px;
-}
-
-/* TABLE */
-
-table {
-
-    line-height: 28px;
-    vertical-align: middle;
-    
-    th{
-        font-weight: 400;
-        color: #fff;
-        background: #F00000;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #DC281E, #F00000);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #DC281E, #F00000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    }
-    th:first-child{
-        border-top-left-radius: 10px;
-    }
-    th:last-child {
-        border-top-right-radius: 10px;
-    }
 }
 
 
