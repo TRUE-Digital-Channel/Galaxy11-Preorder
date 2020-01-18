@@ -17,6 +17,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Samsung Galaxy S11 Pre Order - Mobile View</title>
     <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="node_modules/flickity/dist/flickity.min.css">
   </head>
     
   <body>
@@ -113,6 +114,12 @@
         
     <div class="grid-container pricing-table">
         <div class="grid-x grid-padding-x">
+            
+        <div class="table-carousel">
+          <div class="s11e">this is first slide</div>
+          <div class="s11_plus">This is the second slide</div>
+          <div class="s11">This is the third slide</div>
+        </div>
             
             <div class="small-6 cell">
                 <h3 class="ph-model">Samsung <br>Galaxy S11e <span>ราคาเครื่องเปล่า</span></h3>
@@ -492,12 +499,14 @@
     </a>
 
     <script src="node_modules/jquery/dist/jquery.js"></script>
+      <script src="node_modules/flickity/dist/flickity.pkgd.min.js"></script>
     <script src="node_modules/what-input/dist/what-input.js"></script>
     <script src="node_modules/foundation-sites/dist/js/foundation.js"></script>
       <script src="js/app.js"></script>
     
      
       <script>
+//        Initialize back to top smooth scroll
         $(document).ready(function(){ 
             $(window).scroll(function(){ 
                 if ($(this).scrollTop() > 100) { 
@@ -506,6 +515,14 @@
                     $('.back-to-top').fadeOut(); 
                 } 
             }); 
+        });
+          
+//        Initialize flickity carousel
+        $('.table-carousel').flickity({
+          // options
+          cellAlign: 'left',
+          contain: true,
+          wrapAround: true
         });
       </script>
       

@@ -154,8 +154,27 @@ em {
     }
 }
 
-// DEFAULT PRICING TABLE
+// CAROUSEL SLIDER
+.table-carousel {
+    width: 100%;
+    .s11e {
+        height: 200px;
+        width: 100%;
+        background: orange;
+    }
+    .s11_plus {
+        height: 200px;
+        width: 100%;
+        background: green;
+    }
+    .s11 {
+        height: 200px;
+        width: 100%;
+        background: purple;
+    }
+}
 
+// DEFAULT PRICING TABLE
 .pricing-table {
     .ph-model {
         font-size: 1rem;
