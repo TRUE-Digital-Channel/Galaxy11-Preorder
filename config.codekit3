@@ -818,6 +818,16 @@
 		"oAP": "/build/foundation.html",
 		"oF": 0
 		},
+	"/icons/chevron-circle-right-solid.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/build/icons/chevron-circle-right-solid.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/icons/chevron-down-solid.svg": {
 		"ft": 2097152,
 		"miP": 0,
