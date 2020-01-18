@@ -904,6 +904,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/img/black-card-section.png": {
+		"ft": 32768,
+		"iS": 39697,
+		"oA": 0,
+		"oAP": "/build/img/black-card-section.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/img/black-card.png": {
 		"ft": 32768,
 		"iS": 15677,

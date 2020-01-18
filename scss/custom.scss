@@ -267,9 +267,26 @@ em {
         }
 }
 
+/* BLACKCARD PROMOTION */
+.blackcard {
+    background-color: black;
+    h3,p {
+        line-height: 32px;
+        color: #fff;
+    }
+    .accordion-title{
+        background: #f5bb2e;
+        border: 1px solid #f5bb5e;
+    }
+    :last-child:not(.is-active)>.accordion-title {
+        border-bottom: none;
+    }
+}
+
+
 .title h3 {
     font-size: 1rem;
-    font-family: "True Medium",Helvetica,Arial,sans-serif;
+    font-family: "True Medium", Helvetica,Arial, sans-serif;
     color: #666;
 }
 
@@ -396,22 +413,6 @@ table {
 :last-child:not(.is-active)>.accordion-title {
     border-radius: 30px;
 }
-
-/* BLACKCARD PROMOTION */
-    .blackcard-promo {
-        background: #000;
-        h3,p {
-            line-height: 32px;
-            color: #fff;
-        }
-        .accordion-title{
-            background: #f5bb2e;
-            border: 1px solid #f5bb5e;
-        }
-        :last-child:not(.is-active)>.accordion-title {
-            border-bottom: none;
-        }
-    }
 
 
 /* FOOTER */
