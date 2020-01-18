@@ -169,20 +169,27 @@ em {
 // CAROUSEL SLIDER
 .table-carousel {
     width: 100%;
-    .s11e {
-        width: 100%;
-//        background: orange;
-    }
-    .s11_plus {
-        height: 200px;
-        width: 100%;
-        background: green;
-    }
-    .s11 {
-        height: 200px;
-        width: 100%;
-        background: purple;
-    }
+    .s11,.s11e,.s11_plus { width: 100%; }
+}
+
+.flickity-prev-next-button {
+//    top: 0%!important;
+//    width: 30px!important;
+//    height: 30px!important;
+}
+.flickity-button {
+    background: rgba(255, 234, 0, 0.75) !important;
+    border: 1px solid #eee!important;
+    animation: pulse 1.5s ease-in-out alternate infinite running;
+}
+
+@keyframes pulse {
+  0% {
+    top: -8%;
+  }
+  100% {
+    top: -5%;
+  }
 }
 
 // DEFAULT PRICING TABLE
