@@ -188,17 +188,6 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/img/arrow.png": {
-		"ft": 32768,
-		"iS": 976,
-		"oA": 0,
-		"oAP": "/build/img/arrow.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
 	"/img/bank-logos-mb.png": {
 		"ft": 32768,
 		"iS": 58122,
@@ -309,55 +298,55 @@
 		"opt": 1,
 		"q": 100
 		},
-	"/img/Logo Icon-01.png": {
+	"/img/Icon-01.png": {
 		"ft": 32768,
 		"iS": 706681,
 		"oA": 0,
-		"oAP": "/build/img/Logo Icon-01.png",
+		"oAP": "/build/img/Icon-01.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"/img/Logo Icon-02.png": {
+	"/img/Icon-02.png": {
 		"ft": 32768,
 		"iS": 144259,
 		"oA": 0,
-		"oAP": "/build/img/Logo Icon-02.png",
+		"oAP": "/build/img/Icon-02.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"/img/Logo Icon-03.png": {
+	"/img/Icon-03.png": {
 		"ft": 32768,
 		"iS": 652417,
 		"oA": 0,
-		"oAP": "/build/img/Logo Icon-03.png",
+		"oAP": "/build/img/Icon-03.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"/img/Logo Icon-04.png": {
+	"/img/Icon-04.png": {
 		"ft": 32768,
 		"iS": 251584,
 		"oA": 0,
-		"oAP": "/build/img/Logo Icon-04.png",
+		"oAP": "/build/img/Icon-04.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"/img/Logo Icon-05.png": {
+	"/img/Icon-05.png": {
 		"ft": 32768,
 		"iS": 81416,
 		"oA": 0,
-		"oAP": "/build/img/Logo Icon-05.png",
+		"oAP": "/build/img/Icon-05.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -526,14 +515,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/TRUE_5GWorld_Logo_MASTER_DEC2719.ai": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/build/TRUE_5GWorld_Logo_MASTER_DEC2719.ai",
-		"oF": 0
-		},
 	"/yarn.lock": {
 		"cB": 0,
 		"ft": 8192,
@@ -553,7 +534,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-pale",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 601014807.07722497
+	"lastBuiltDate": 601020418.04059196
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
