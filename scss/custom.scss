@@ -67,6 +67,7 @@ em {
        .dropdown-pane {
            padding: 0.2rem;
            width: auto;
+           top: 9%!important;
            line-height: 23px;
            border-radius: 5px;
        }
@@ -164,6 +165,15 @@ em {
             margin: auto;
             right: 20px;
         }
+        img.arrow {
+            height: 40px;
+            width: auto;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            right: 20px;
+        }
     }
 
     p.title-jumpmenu {
@@ -180,6 +190,33 @@ em {
 
 // DEFAULT PRICING TABLE
 
+// CAROUSEL SLIDER
+.table-carousel {
+    width: 100%;
+    .s11,.s11e,.s11_plus { width: 100%; }
+}
+
+.flickity-prev-next-button {
+//    top: 0%!important;
+//    width: 30px!important;
+//    height: 30px!important;
+}
+.flickity-button {
+    background: rgba(255, 234, 0, 0.75) !important;
+    border: 1px solid #eee!important;
+    animation: pulse 1.5s ease-in-out alternate infinite running;
+}
+
+@keyframes pulse {
+  0% {
+    top: -8%;
+  }
+  100% {
+    top: -5%;
+  }
+}
+
+// DEFAULT PRICING TABLE
 .pricing-table {
     .ph-model {
         font-size: 1rem;
@@ -260,7 +297,6 @@ em {
 }
 
 // BLACKARD TABLE 
-
 .blackcard-promo {
     background: #000;
     color: #fff;
@@ -516,7 +552,8 @@ table {
             &:before {
                 position: relative;
                 right: 0;
-                font-size: 70%;
+                font-size: 1rem;
+                font-weight: bold;
             }
         }
     }
@@ -616,6 +653,67 @@ table {
         border-top-right-radius: 10px;
     }
 }
+
+
+/*VERIFY*/
+
+.verify-modal {
+    label {
+        font-size: 0.88rem;
+    }
+    input.button.expanded.verify{
+         margin: 0 auto;
+        background: #F00000;
+        background: -webkit-gradient(linear, left top, right top, from(#DC281E), to(#F00000));
+        background: linear-gradient(to right, #DC281E, #F00000);
+        font-family: "True Bold";
+        border-radius: 10px;
+        margin-bottom: 30px;
+        margin-top: 20px;
+     }
+
+input.input-group-field {
+    border: 1px solid #e8e8e8;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 0.65rem;
+    width: auto;
+    min-width: 280px;
+        }
+}
+
+/*MODAL*/
+
+.reveal {
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

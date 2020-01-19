@@ -17,6 +17,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Samsung Galaxy S11 Pre Order - Mobile View</title>
     <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="node_modules/flickity/dist/flickity.min.css">
   </head>
     
   <body>
@@ -95,6 +96,7 @@
                   </div>
                  </a>
                  <a href="#blackcard-table" data-smooth-scroll>
+                 <a href="#" data-smooth-scroll>
                   <div class="row menu">
                          <div class="columns small-2"><img class="icon-deal" src="img/Icon-05.png"></div>
                         <div class="columns small-8"><p class="title-jumpmenu">สำหรับลูกค้าทรูมูฟ <br>เอชแบบรายเดือน</p></div>
@@ -113,7 +115,8 @@
         </section>
 
 
-  <section class="mass-promo" id="mass-table">
+      
+    <section class="mass-promo" id="mass-table">
     <div class="grid-container">
         <div class="grid-x grid-padding-x">
           <div class="large-12 cell">
@@ -481,42 +484,56 @@
           </li>
           <!-- ... -->
         </ul>
-              
+
         <div class="small button-group align-center expanded truered">
           <button class="button expanded" href="#">สั่งซื้อล่วงหน้าและจัดส่งถึงบ้าน</button>
           <button class="button expanded" href="#">สั่งจองและรับเครื่องที่ทรูช้อป</button>
         </div>   
       </section>
+
+
+
+      <!-- BLACKCARD TABLE -->
       
-          <section class="blackcard-promo callout-title" id="blackcard-table">
-            <div class="grid-container">
-              <div class="grid-x grid-padding-x">
-                <!-- <div class="grid-x"> -->
-                  <div class="small-12 cell">
-                    <div class="text-center">
-                      <h2>พิเศษลูกค้าทรู แบล็ค การ์ด</h2>
-                    </div>
-                  </div>
-                    <!-- <div class="grid-x"> -->
-                      <div class="small-6 cell blackcard-icon_left text-center">
-                          <img src="img/Icon-05.png" alt="">
-                      </div>
-                      <div class="auto cell title-bc text-center">
-                          <h4 class="callout-color">เริ่มต้นเพียง xx,x00.-</h4>
-                          <em>ไม่ต้องมีค่าบริการล่วงหน้า</em>
-                      </div>
-                      <div class="small-12 cell">
-                    <div class="text-center">
-                      <p><strong>ลูกค้าเปิดเบอร์ใหม่ ย้ายค่ายเบอร์เดิม เปลี่ยนจากเติมเงินเป็นรายเดือน</strong>
-ลูกค้าปัจจุบันในระบบรายเดือนที่ไม่มีสัญญาการใช้งาน<br>หรือสัญญาคงเหลือน้อยกว่า <strong>90</strong> วัน</p>
-        <div class="small align-center expanded">
-          <button class="button expanded verify" href="#">ตรวจสอบสิทธิ์</button>
-        </div>
-                    </div>
-                  </div>
-                    <!-- </div> -->
-              <!-- </div> -->
+<section class="blackcard-promo callout-title" id="blackcard-table">
+<div class="grid-container">
+    <div class="grid-x grid-padding-x">
+          <div class="small-12 cell">
+              <div class="text-center">
+                 <h2>พิเศษลูกค้าทรู แบล็ค การ์ด</h2>
+              </div>
+          </div>
+          <div class="small-6 cell blackcard-icon_left text-center">
+              <img src="img/Icon-05.png" alt="">
+          </div>
+            <div class="auto cell title-bc text-center">
+                <h4 class="callout-color">เริ่มต้นเพียง xx,x00.-</h4>
+                <em>ไม่ต้องมีค่าบริการล่วงหน้า</em>
             </div>
+            <div class="small-12 cell">
+                <div class="text-center">
+                    <p><strong>ลูกค้าเปิดเบอร์ใหม่ ย้ายค่ายเบอร์เดิม เปลี่ยนจากเติมเงินเป็นรายเดือน</strong>
+                ลูกค้าปัจจุบันในระบบรายเดือนที่ไม่มีสัญญาการใช้งาน<br>หรือสัญญาคงเหลือน้อยกว่า <strong>90</strong> วัน</p>
+                    <div class="small align-center expanded">
+                        <button class="button expanded verify" href="#" data-open="footer-test">ตรวจสอบสิทธิ์</button>
+                      <div class="medium reveal text-center verify-modal" id="footer-test" data-reveal>
+                        <h3>เฉพาะลูกค้า Black Card</h3>
+                            <div class="input-group">
+                                <label for="right-label" class="text-right">กรุณากรอกเลขบัตรประชาชน</label>
+                                <input class="input-group-field" type="text" maxlength="13" placeholder="กรุณากรอกเลขบัตรประชาชน 13 หลัก">
+                                <div class="input-group-button">
+                                  <input type="submit" class="button expanded verify" value="ตกลง">
+                                </div>
+                              </div>
+                            <button class="close-button" data-close aria-label="Close modal" type="button">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+
+                    </div>
+                </div>
+            </div>
+    </div>
         
     <div class="grid-container pricing-table">
         <div class="grid-x grid-padding-x">
@@ -616,18 +633,332 @@
             </div>
             <div class="small-3 cell">
                 <p class="discounted-price">19,000.-</p>
-            </div>
-            <div class="small-6 cell package">
-                สำหรับลูกค้าปัจจุบัน ที่ใช้แพ็กเกจ <strong>699</strong> ขึ้นไป
-            </div>
-            <div class="small-6 cell adv-pay">
-                <p>จ่ายล่วงหน้า 1,500</p>
+
+    <div class="row">
+        <div class="table-carousel">  
+            <div class="s11e">
+                <div class="grid-contaner full pricing-table">
+                    <div class="grid-x grid-padding-x">
+
+                        <div class="small-6 cell">
+                            <h3 class="ph-model">Samsung <br>Galaxy S11e <span>ราคาเครื่องเปล่า</span></h3>
+                        </div>
+                        <div class="small-3 cell">
+                            <span class="ph-storage">256GB</span><span class="rrp">10,000.-</span>
+                        </div>
+                        <div class="small-3 cell">
+                            <span class="ph-storage">512GB</span><span class="rrp">20,000.-</span>
+                        </div>
+                        <div class="th-hr"></div>
+                    </div>
+                    <div class="grid-x grid-padding-x price-row">
+                        <div class="small-6 cell">
+                            <p class="discount"><span>ลด 5,000.-</span> ฟรี <img src="img/black-card.png"></p>
+                        </div>
+                        <div class="small-3 cell">
+                            <p class="discounted-price">5,000.-</p>
+                        </div>
+                        <div class="small-3 cell">
+                            <p class="discounted-price">15,000.-</p>
+                        </div>
+                        <div class="small-6 cell package">
+                            สำหรับลูกค้าปัจจุบัน ที่ใช้แพ็กเกจ <strong>1499</strong> ขึ้นไป
+                        </div>
+                        <div class="small-6 cell adv-pay">
+                            <p>จ่ายล่วงหน้า 3,500</p>
+                        </div>
+                        
+                        <hr>
+                        
+                        <div class="small-6 cell">
+                            <p class="discount"><span>ลด 4,000.-</span> ฟรี <img src="img/black-card.png"></p>
+                        </div>
+                        <div class="small-3 cell">
+                            <p class="discounted-price">6,000.-</p>
+                        </div>
+                        <div class="small-3 cell">
+                            <p class="discounted-price">16,000.-</p>
+                        </div>
+                        <div class="small-6 cell package">
+                            สำหรับลูกค้าปัจจุบัน ที่ใช้แพ็กเกจ <strong>1299</strong> ขึ้นไป
+                        </div>
+                        <div class="small-6 cell adv-pay">
+                            <p>จ่ายล่วงหน้า 3,000</p>
+                        </div>
+                        
+                        <hr>
+                        
+                        <div class="small-6 cell">
+                            <p class="discount"><span>ลด 3,000.-</span> ฟรี <img src="img/black-card.png"></p>
+                        </div>
+                        <div class="small-3 cell">
+                            <p class="discounted-price">7,000.-</p>
+                        </div>
+                        <div class="small-3 cell">
+                            <p class="discounted-price">17,000.-</p>
+                        </div>
+                        <div class="small-6 cell package">
+                            สำหรับลูกค้าปัจจุบัน ที่ใช้แพ็กเกจ <strong>1099</strong> ขึ้นไป
+                        </div>
+                        <div class="small-6 cell adv-pay">
+                            <p>จ่ายล่วงหน้า 2,500</p>
+                        </div>
+                        
+                        <hr>
+                        
+                        <div class="small-6 cell">
+                            <p class="discount"><span>ลด 2,000.-</span> ฟรี <img src="img/black-card.png"></p>
+                        </div>
+                        <div class="small-3 cell">
+                            <p class="discounted-price">8,000.-</p>
+                        </div>
+                        <div class="small-3 cell">
+                            <p class="discounted-price">18,000.-</p>
+                        </div>
+                        <div class="small-6 cell package">
+                            สำหรับลูกค้าปัจจุบัน ที่ใช้แพ็กเกจ <strong>899</strong> ขึ้นไป
+                        </div>
+                        <div class="small-6 cell adv-pay">
+                            <p>จ่ายล่วงหน้า 2,000</p>
+                        </div>
+                        
+                        <hr>
+                        
+                        <div class="small-6 cell">
+                            <p class="discount"><span>ลด 1,500.-</span> ฟรี <img src="img/black-card.png"></p>
+                        </div>
+                        <div class="small-3 cell">
+                            <p class="discounted-price">9,000.-</p>
+                        </div>
+                        <div class="small-3 cell">
+                            <p class="discounted-price">19,000.-</p>
+                        </div>
+                        <div class="small-6 cell package">
+                            สำหรับลูกค้าปัจจุบัน ที่ใช้แพ็กเกจ <strong>699</strong> ขึ้นไป
+                        </div>
+                        <div class="small-6 cell adv-pay">
+                            <p>จ่ายล่วงหน้า 1,500</p>
+                        </div>
+                    </div>            
+                </div>
             </div>
             
-            <br><br>
-            
+            <div class="s11_plus">
+                <div class="grid-contaner full pricing-table">
+                    <div class="grid-x grid-padding-x">
+
+                        <div class="small-6 cell">
+                            <h3 class="ph-model">Samsung <br>Galaxy S11+ <span>ราคาเครื่องเปล่า</span></h3>
+                        </div>
+                        <div class="small-3 cell">
+                            <span class="ph-storage">256GB</span><span class="rrp">30,000.-</span>
+                        </div>
+                        <div class="small-3 cell">
+                            <span class="ph-storage">512GB</span><span class="rrp">40,000.-</span>
+                        </div>
+                        <div class="th-hr"></div>
+                    </div>
+                    <div class="grid-x grid-padding-x price-row">
+                        <div class="small-6 cell">
+                            <p class="discount"><span>ลด 5,000.-</span> ฟรี <img src="img/black-card.png"></p>
+                        </div>
+                        <div class="small-3 cell">
+                            <p class="discounted-price">25,000.-</p>
+                        </div>
+                        <div class="small-3 cell">
+                            <p class="discounted-price">45,000.-</p>
+                        </div>
+                        <div class="small-6 cell package">
+                            สำหรับลูกค้าปัจจุบัน ที่ใช้แพ็กเกจ <strong>1499</strong> ขึ้นไป
+                        </div>
+                        <div class="small-6 cell adv-pay">
+                            <p>จ่ายล่วงหน้า 3,500</p>
+                        </div>
+                        
+                        <hr>
+                        
+                        <div class="small-6 cell">
+                            <p class="discount"><span>ลด 4,000.-</span> ฟรี <img src="img/black-card.png"></p>
+                        </div>
+                        <div class="small-3 cell">
+                            <p class="discounted-price">26,000.-</p>
+                        </div>
+                        <div class="small-3 cell">
+                            <p class="discounted-price">46,000.-</p>
+                        </div>
+                        <div class="small-6 cell package">
+                            สำหรับลูกค้าปัจจุบัน ที่ใช้แพ็กเกจ <strong>1299</strong> ขึ้นไป
+                        </div>
+                        <div class="small-6 cell adv-pay">
+                            <p>จ่ายล่วงหน้า 3,000</p>
+                        </div>
+                        
+                        <hr>
+                        
+                        <div class="small-6 cell">
+                            <p class="discount"><span>ลด 3,000.-</span> ฟรี <img src="img/black-card.png"></p>
+                        </div>
+                        <div class="small-3 cell">
+                            <p class="discounted-price">27,000.-</p>
+                        </div>
+                        <div class="small-3 cell">
+                            <p class="discounted-price">47,000.-</p>
+                        </div>
+                        <div class="small-6 cell package">
+                            สำหรับลูกค้าปัจจุบัน ที่ใช้แพ็กเกจ <strong>1099</strong> ขึ้นไป
+                        </div>
+                        <div class="small-6 cell adv-pay">
+                            <p>จ่ายล่วงหน้า 2,500</p>
+                        </div>
+                        
+                        <hr>
+                        
+                        <div class="small-6 cell">
+                            <p class="discount"><span>ลด 2,000.-</span> ฟรี <img src="img/black-card.png"></p>
+                        </div>
+                        <div class="small-3 cell">
+                            <p class="discounted-price">38,000.-</p>
+                        </div>
+                        <div class="small-3 cell">
+                            <p class="discounted-price">48,000.-</p>
+                        </div>
+                        <div class="small-6 cell package">
+                            สำหรับลูกค้าปัจจุบัน ที่ใช้แพ็กเกจ <strong>899</strong> ขึ้นไป
+                        </div>
+                        <div class="small-6 cell adv-pay">
+                            <p>จ่ายล่วงหน้า 2,000</p>
+                        </div>
+                        
+                        <hr>
+                        
+                        <div class="small-6 cell">
+                            <p class="discount"><span>ลด 1,500.-</span> ฟรี <img src="img/black-card.png"></p>
+                        </div>
+                        <div class="small-3 cell">
+                            <p class="discounted-price">39,000.-</p>
+                        </div>
+                        <div class="small-3 cell">
+                            <p class="discounted-price">49,000.-</p>
+                        </div>
+                        <div class="small-6 cell package">
+                            สำหรับลูกค้าปัจจุบัน ที่ใช้แพ็กเกจ <strong>699</strong> ขึ้นไป
+                        </div>
+                        <div class="small-6 cell adv-pay">
+                            <p>จ่ายล่วงหน้า 1,500</p>
+                        </div>
+                    </div>            
+                </div>
+            </div>
+            <div class="s11 text">
+                <div class="grid-contaner full pricing-table">
+                    <div class="grid-x grid-padding-x">
+
+                        <div class="small-6 cell">
+                            <h3 class="ph-model">Samsung <br>Galaxy S11 <span>ราคาเครื่องเปล่า</span></h3>
+                        </div>
+                        <div class="small-3 cell">
+                            <span class="ph-storage">256GB</span><span class="rrp">50,000.-</span>
+                        </div>
+                        <div class="small-3 cell">
+                            <span class="ph-storage">512GB</span><span class="rrp">60,000.-</span>
+                        </div>
+                        <div class="th-hr"></div>
+                    </div>
+                    <div class="grid-x grid-padding-x price-row">
+                        <div class="small-6 cell">
+                            <p class="discount"><span>ลด 5,000.-</span> ฟรี <img src="img/black-card.png"></p>
+                        </div>
+                        <div class="small-3 cell">
+                            <p class="discounted-price">45,000.-</p>
+                        </div>
+                        <div class="small-3 cell">
+                            <p class="discounted-price">55,000.-</p>
+                        </div>
+                        <div class="small-6 cell package">
+                            สำหรับลูกค้าปัจจุบัน ที่ใช้แพ็กเกจ <strong>1499</strong> ขึ้นไป
+                        </div>
+                        <div class="small-6 cell adv-pay">
+                            <p>จ่ายล่วงหน้า 3,500</p>
+                        </div>
+                        
+                        <hr>
+                        
+                        <div class="small-6 cell">
+                            <p class="discount"><span>ลด 4,000.-</span> ฟรี <img src="img/black-card.png"></p>
+                        </div>
+                        <div class="small-3 cell">
+                            <p class="discounted-price">46,000.-</p>
+                        </div>
+                        <div class="small-3 cell">
+                            <p class="discounted-price">56,000.-</p>
+                        </div>
+                        <div class="small-6 cell package">
+                            สำหรับลูกค้าปัจจุบัน ที่ใช้แพ็กเกจ <strong>1299</strong> ขึ้นไป
+                        </div>
+                        <div class="small-6 cell adv-pay">
+                            <p>จ่ายล่วงหน้า 3,000</p>
+                        </div>
+                        
+                        <hr>
+                        
+                        <div class="small-6 cell">
+                            <p class="discount"><span>ลด 3,000.-</span> ฟรี <img src="img/black-card.png"></p>
+                        </div>
+                        <div class="small-3 cell">
+                            <p class="discounted-price">47,000.-</p>
+                        </div>
+                        <div class="small-3 cell">
+                            <p class="discounted-price">57,000.-</p>
+                        </div>
+                        <div class="small-6 cell package">
+                            สำหรับลูกค้าปัจจุบัน ที่ใช้แพ็กเกจ <strong>1099</strong> ขึ้นไป
+                        </div>
+                        <div class="small-6 cell adv-pay">
+                            <p>จ่ายล่วงหน้า 2,500</p>
+                        </div>
+                        
+                        <hr>
+                        
+                        <div class="small-6 cell">
+                            <p class="discount"><span>ลด 2,000.-</span> ฟรี <img src="img/black-card.png"></p>
+                        </div>
+                        <div class="small-3 cell">
+                            <p class="discounted-price">48,000.-</p>
+                        </div>
+                        <div class="small-3 cell">
+                            <p class="discounted-price">58,000.-</p>
+                        </div>
+                        <div class="small-6 cell package">
+                            สำหรับลูกค้าปัจจุบัน ที่ใช้แพ็กเกจ <strong>899</strong> ขึ้นไป
+                        </div>
+                        <div class="small-6 cell adv-pay">
+                            <p>จ่ายล่วงหน้า 2,000</p>
+                        </div>
+                        
+                        <hr>
+                        
+                        <div class="small-6 cell">
+                            <p class="discount"><span>ลด 1,500.-</span> ฟรี <img src="img/black-card.png"></p>
+                        </div>
+                        <div class="small-3 cell">
+                            <p class="discounted-price">49,000.-</p>
+                        </div>
+                        <div class="small-3 cell">
+                            <p class="discounted-price">59,000.-</p>
+                        </div>
+                        <div class="small-6 cell package">
+                            สำหรับลูกค้าปัจจุบัน ที่ใช้แพ็กเกจ <strong>699</strong> ขึ้นไป
+                        </div>
+                        <div class="small-6 cell adv-pay">
+                            <p>จ่ายล่วงหน้า 1,500</p>
+                        </div>
+                    </div>            
+                </div>
+            </div>
         </div>
     </div>
+            
+        <br>
               
         <ul class="accordion text-left" data-accordion data-multi-expand="true" data-allow-all-closed="true">
           <li data-accordion-item>
@@ -663,6 +994,8 @@
           <!-- ... -->
         </ul>
         </div>  
+
+              
       </section>
 
 <!--
@@ -826,7 +1159,8 @@
                 <br><br>
                   
               </div>
-                              <ul class="accordion text-left" data-accordion data-multi-expand="true" data-allow-all-closed="true">
+
+                <ul class="accordion text-left" data-accordion data-multi-expand="true" data-allow-all-closed="true">
                   <li data-accordion-item>
                     <!-- Accordion tab title -->
                     <a href="#" class="accordion-title"> เงื่อนไขการจองและรายละเอียดแพ็คเกจ</a>
@@ -858,13 +1192,13 @@
                     </div>
                   </li>
                   <!-- ... -->
-                </ul>
-
+                </ul>         
                 <div class="small button-group align-center expanded truered">
                   <button class="button expanded" href="#">สั่งซื้อล่วงหน้าและจัดส่งถึงบ้าน</button>
                   <button class="button expanded" href="#">สั่งจองและรับเครื่องที่ทรูช้อป</button>
                 </div>
-            </div>       
+            </div> 
+            </div>      
       </section>
       
     <footer class="grid-container full">
@@ -890,12 +1224,14 @@
     </a>
 
     <script src="node_modules/jquery/dist/jquery.js"></script>
+      <script src="node_modules/flickity/dist/flickity.pkgd.min.js"></script>
     <script src="node_modules/what-input/dist/what-input.js"></script>
     <script src="node_modules/foundation-sites/dist/js/foundation.js"></script>
       <script src="js/app.js"></script>
     
      
       <script>
+//        Initialize back to top smooth scroll
         $(document).ready(function(){ 
             $(window).scroll(function(){ 
                 if ($(this).scrollTop() > 100) { 
@@ -904,6 +1240,14 @@
                     $('.back-to-top').fadeOut(); 
                 } 
             }); 
+        });
+          
+//        Initialize flickity carousel
+        $('.table-carousel').flickity({
+          // options
+          cellAlign: 'left',
+          contain: true,
+          wrapAround: true
         });
       </script>
       
