@@ -165,15 +165,6 @@ em {
             margin: auto;
             right: 20px;
         }
-        img.arrow {
-            height: 40px;
-            width: auto;
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            margin: auto;
-            right: 20px;
-        }
     }
 
     p.title-jumpmenu {
@@ -188,7 +179,6 @@ em {
     }
 }
 
-// DEFAULT PRICING TABLE
 
 // CAROUSEL SLIDER
 .table-carousel {
@@ -630,28 +620,6 @@ footer {
 }
 .info img {
     height: 20px;
-}
-
-/* TABLE */
-
-table {
-
-    line-height: 28px;
-    vertical-align: middle;
-    
-    th{
-        font-weight: 400;
-        color: #fff;
-        background: #F00000;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #DC281E, #F00000);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #DC281E, #F00000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    }
-    th:first-child{
-        border-top-left-radius: 10px;
-    }
-    th:last-child {
-        border-top-right-radius: 10px;
-    }
 }
 
 
