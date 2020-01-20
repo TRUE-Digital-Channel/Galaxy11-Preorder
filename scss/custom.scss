@@ -253,7 +253,7 @@ em {
             span {
                 color: white;
                 background-color: #fe0007;
-                padding: 5px 10px;
+                padding: 5px 15px;
                 border-radius: 100px;
                 font-size: 0.7rem;
                 font-family: "True Bold Special", "helvetica", sans-serif;
@@ -286,7 +286,7 @@ em {
     }
 }
 
-// BLACKARD TABLE 
+/*BLACKARD TABLE*/
 .blackcard-promo {
     background: #000;
     color: #fff;
@@ -314,7 +314,6 @@ em {
         display: block;
     }
     p {
-        line-height: 0.77rem;
         font-size: 0.7rem;
     }
 
@@ -382,6 +381,11 @@ em {
             font-family: "True Medium";
         }
     }
+        img {
+            height: 58px;
+            width: auto;
+            margin-bottom: 0.5rem;
+        }
 }
 
 /* BLACKCARD PROMOTION */
@@ -400,12 +404,14 @@ em {
     }
 }
 
-.best-deal {
+
+
+.best-deal, .prepay-promo {
     padding: 1.5rem 0rem;
     .title-wrapper {
         margin-bottom: 1.5rem;
         img {
-            height: 58px;
+            height: 100px;
             width: auto;
             margin-bottom: 0.5rem;
         }
@@ -469,9 +475,11 @@ em {
 
 /* SECTIONS */
 .red-section {
-    background: #F00000;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #DC281E, #F00000);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #DC281E, #F00000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #3d1f3c; /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  #3d1f3c 0%, #9e1d55 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  #3d1f3c 0%,#9e1d55 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  #3d1f3c 0%,#9e1d55 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3d1f3c', endColorstr='#9e1d55',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
     padding: 3rem 0rem;
     .bundle-desc {
         padding-bottom: 0.5rem;
@@ -503,7 +511,7 @@ em {
     font-family: 'True Bold Special';
 }
 .card img {
-    height: 50px;
+    height: 90px;
     width: auto;
 }
 
@@ -568,10 +576,7 @@ footer {
     h2 {
         line-height: 32px;
     }
-    img {
-        height: 40px;
-        width: auto;
-    }
+
     .button {
         border-radius: 30px;
         padding: 0.3rem 0.4rem;
@@ -655,3 +660,58 @@ input.input-group-field {
 .reveal {
     border-radius: 20px;
 }
+
+
+
+/*Breakpoint*/
+
+@media screen and #{breakpoint(medium)} {
+    .pricing-table .price-row .package, .discounted-price {
+        font-size: 0.85rem;
+    }
+    .pricing-table .discounted-price {
+        font-size: 1.2rem;
+    }
+    .pricing-table .rrp {
+        text-align: center;
+    }
+   p.discounted-price{
+        text-align: center;
+   }
+   .adv-pay p {
+        text-align: center;
+   }
+
+   .pricing-table .price-row .discount {
+        font-size: 1.2rem;
+   }
+    
+    .pricing-table .price-row .discount span {
+        font-size: 1rem;
+        padding: 5px 30px;
+    }
+    
+    .pricing-table .price-row .discount img {
+        height: 60px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
