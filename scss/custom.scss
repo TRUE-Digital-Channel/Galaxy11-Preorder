@@ -235,6 +235,7 @@ em {
         display: block;
         font-family: "True Bold Special", "helvetica", sans-serif;
         font-size: 0.85rem;
+        text-align: center;
     }
     .th-hr {
 //            Need to have better way to make this!!!!
@@ -259,7 +260,7 @@ em {
             span {
                 color: white;
                 background-color: #fe0007;
-                padding: 5px 15px;
+                padding: 5px 10px;
                 border-radius: 100px;
                 font-size: 0.7rem;
                 font-family: "True Bold Special", "helvetica", sans-serif;
@@ -283,12 +284,14 @@ em {
             font-size: 0.7rem;
             font-style: italic;
             color: #939393;
+            text-align: center
         }
     }
     .discounted-price {
         color: #ff0000;
         font-family: "True Bold Special", "helvetica", sans-serif;
         font-size: 0.85rem;
+        text-align: center;
     }
 }
 
@@ -316,7 +319,7 @@ em {
         color: #fff;
     }
     em {
-        font-size: 0.66rem;
+        font-size: 0.6rem;
         display: block;
     }
     p {
@@ -334,14 +337,11 @@ em {
     }
 
     .blackcard-icon_left {
-        margin-bottom: 20px;
+        padding: 20px;
         img {
-        max-width: 180px;
+        max-width: 120px;
              }
 
-    }
-    .title-bc {
-        margin: 15px 0 10px -20px;
     }
 
     .backcard-term {
@@ -701,14 +701,14 @@ input.input-group-field {
     }
 
     .blackcard-promo .callout-color{
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 
     .blackcard-promo em{
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
     .blackcard-promo .blackcard-icon_left img {
-        max-width: 280px;
+        max-width: 200px;
     }
 
     .bc-promo p{
