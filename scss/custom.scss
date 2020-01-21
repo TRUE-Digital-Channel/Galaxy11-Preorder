@@ -188,13 +188,19 @@ em {
 
 .flickity-prev-next-button {
 //    top: 0%!important;
-//    width: 30px!important;
-//    height: 30px!important;
+//    width: 25px!important;
+//    height: 25px!important;
 }
 .flickity-button {
-    background: rgba(255, 234, 0, 0.75) !important;
-    border: 1px solid #eee!important;
+    background: rgba(255, 0, 0, 7) !important;
+    border: 1px solid #ff0000!important;
     animation: pulse 1.5s ease-in-out alternate infinite running;
+    color: #fff !important; 
+    margin-top: 10px;
+}
+
+.flickity-page-dots .dot {
+    background: #c8c8c8 !important;
 }
 
 @keyframes pulse {
@@ -384,7 +390,6 @@ em {
         img {
             height: 58px;
             width: auto;
-            margin-bottom: 0.5rem;
         }
 }
 
@@ -692,24 +697,23 @@ input.input-group-field {
     }
     
     .pricing-table .price-row .discount img {
-        height: 60px;
+        height: 50px;
     }
 
+    .blackcard-promo .callout-color{
+        font-size: 1rem;
+    }
 
+    .blackcard-promo em{
+        font-size: 1rem;
+    }
+    .blackcard-promo .blackcard-icon_left img {
+        max-width: 280px;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+    .bc-promo p{
+        font-size: 0.8rem;
+    }
 
 }
 
