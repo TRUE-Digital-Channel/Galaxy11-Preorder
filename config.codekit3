@@ -1096,7 +1096,7 @@
 	"/mobile.html": {
 		"cB": 0,
 		"ft": 8192,
-		"hM": 0,
+		"hM": 1,
 		"oA": 0,
 		"oAP": "/build/mobile.html",
 		"oF": 0
@@ -1165,7 +1165,7 @@
 		"oA": 0,
 		"oAP": "/build/css/app.css",
 		"oF": 3,
-		"oS": 1,
+		"oS": 3,
 		"uL": 1
 		},
 	"/scss/custom.scss": {
