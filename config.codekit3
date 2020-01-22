@@ -1008,17 +1008,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/img/Icon-05.png": {
-		"ft": 32768,
-		"iS": 81416,
-		"oA": 0,
-		"oAP": "/build/img/Icon-05.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
 	"/img/prepay-smart-value.png": {
 		"ft": 32768,
 		"iS": 23719,
@@ -1200,7 +1189,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-pale",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 601189156.81280506
+	"lastBuiltDate": 601282840.28118002
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
