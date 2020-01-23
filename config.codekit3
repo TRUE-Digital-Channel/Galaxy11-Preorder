@@ -865,6 +865,14 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/img/bank-logos-mb.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/img/bank-logos-mb.webp",
+		"oF": 0
+		},
 	"/img/bank-logos.png": {
 		"ft": 32768,
 		"iS": 64127,
@@ -875,6 +883,14 @@
 		"opt": 1,
 		"oT": 1,
 		"q": 100
+		},
+	"/img/bank-logos.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/img/bank-logos.webp",
+		"oF": 0
 		},
 	"/img/banner-promotion.jpg": {
 		"ft": 16384,
@@ -942,6 +958,14 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/img/black-card.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/img/black-card.webp",
+		"oF": 0
+		},
 	"/img/bundle-deals-promo.jpg": {
 		"ft": 16384,
 		"iS": 56618,
@@ -953,6 +977,14 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/img/bundle-deals-promo.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/img/bundle-deals-promo.webp",
+		"oF": 0
+		},
 	"/img/en-icon.jpg": {
 		"ft": 16384,
 		"iS": 5514,
@@ -963,6 +995,14 @@
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
+		},
+	"/img/en-icon.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/img/en-icon.webp",
+		"oF": 0
 		},
 	"/img/Icon-01.png": {
 		"ft": 32768,
@@ -1052,6 +1092,14 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/img/promo_bank.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/img/promo_bank.webp",
+		"oF": 0
+		},
 	"/img/th-icon.jpg": {
 		"ft": 16384,
 		"iS": 2620,
@@ -1062,6 +1110,14 @@
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
+		},
+	"/img/th-icon.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/img/th-icon.webp",
+		"oF": 0
 		},
 	"/img/tmh-logo.png": {
 		"ft": 32768,
@@ -1200,7 +1256,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-pale",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 601403032.87714005
+	"lastBuiltDate": 601442146.75110304
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
