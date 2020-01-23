@@ -39,10 +39,22 @@
         </div>
         <div class="top-bar-right">
 
-          <a data-toggle="language-dropdown"><img src="img/th-icon.jpg"> ภาษาไทย <img class="toggle"
-                                                                                      src="icons/chevron-down-solid.svg"></a>
+          <a data-toggle="language-dropdown">
+              <picture>
+                  <source srcset="img/th-icon.webp" type="image/webp">
+                  <source srcset="img/th-icon.jpg" type="image/jpeg"> 
+                  <img src="img/th-icon.jpg" alt="Thai flag"> ภาษาไทย
+              </picture>
+              <img class="toggle" src="icons/chevron-down-solid.svg"></a>
+            
           <div class="dropdown-pane" id="language-dropdown" data-dropdown data-auto-focus="true">
-            <a data-toggle="language-dropdown"><img src="img/en-icon.jpg"> English</a>
+            <a data-toggle="language-dropdown">
+              <picture>
+                  <source srcset="img/en-icon.webp" type="image/webp">
+                  <source srcset="img/en-icon.jpg" type="image/jpeg"> 
+                  <img src="img/en-icon.jpg" alt="English flag"> English
+              </picture>
+            </a>
           </div>
 
         </div>
@@ -66,7 +78,11 @@
         <h3 class="text-center">ผ่อน <strong>0%</strong> นานสูงสุด <strong>48</strong> เดือน เริ่มเพียง xxx.- / เดือน
         </h3>
         <div class="banner">
-          <img src="img/bundle-deals-promo.jpg">
+          <picture>
+              <source srcset="img/bundle-deals-promo.webp" type="image/webp">
+              <source srcset="img/bundle-deals-promo.jpg" type="image/jpeg"> 
+              <img src="img/bundle-deals-promo.jpg" alt="Promotional bundle deals">
+          </picture>
         </div>
       </div>
     </div>
@@ -139,9 +155,6 @@
           </div>
         </div>
       </section>
-
-
-
 
 <!-- MOBILE VIEW -->
 <section class="grid-container full jumpmenu hide-for-large" id="jumpmenu">
@@ -1745,7 +1758,13 @@
     </div>
     <div class="large reveal text-center" id="footer-faq" data-reveal>
       <h1>โปรโมชั่นบัตรเครดิต</h1>
-      <p><img src="img/promo_bank.jpg"></p>
+      <p>
+          <picture>
+              <source srcset="img/promo_bank.webp" type="image/webp">
+              <source srcset="img/promo_bank.jpg" type="image/jpeg"> 
+              <img src="img/promo_bank.jpg" alt="English flag">
+          </picture>
+      </p>
       <button class="close-button" data-close aria-label="Close modal" type="button">
         <span aria-hidden="true">&times;</span>
       </button>
@@ -1758,10 +1777,10 @@
   <span class="screen-reader-text"></span>
 </a>
 
-<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
 <script src="node_modules/flickity/dist/flickity.pkgd.min.js"></script>
-<script src="node_modules/what-input/dist/what-input.js"></script>
-<script src="node_modules/foundation-sites/dist/js/foundation.js"></script>
+<script src="node_modules/what-input/dist/what-input.min.js"></script>
+<script src="node_modules/foundation-sites/dist/js/foundation.min.js"></script>
 <script src="js/app.js"></script>
 
 

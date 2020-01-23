@@ -1008,6 +1008,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/img/Icon-05.png": {
+		"ft": 32768,
+		"iS": 81416,
+		"oA": 0,
+		"oAP": "/build/img/Icon-05.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/img/prepay-smart-value.png": {
 		"ft": 32768,
 		"iS": 23719,
@@ -1085,7 +1096,7 @@
 	"/mobile.html": {
 		"cB": 0,
 		"ft": 8192,
-		"hM": 0,
+		"hM": 1,
 		"oA": 0,
 		"oAP": "/build/mobile.html",
 		"oF": 0
@@ -1154,7 +1165,7 @@
 		"oA": 0,
 		"oAP": "/build/css/app.css",
 		"oF": 3,
-		"oS": 1,
+		"oS": 3,
 		"uL": 1
 		},
 	"/scss/custom.scss": {
@@ -1189,7 +1200,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-pale",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 601282840.28118002
+	"lastBuiltDate": 601403032.87714005
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
