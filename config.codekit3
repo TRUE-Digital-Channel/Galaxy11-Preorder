@@ -1012,6 +1012,17 @@
 		"oAP": "/build/img/en-icon.webp",
 		"oF": 0
 		},
+	"/img/galaxy_s20_name.jpg": {
+		"ft": 16384,
+		"iS": 71139,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/galaxy_s20_name.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"/img/Icon-01.png": {
 		"ft": 32768,
 		"iS": 706681,
@@ -1264,7 +1275,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-pale",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 601442146.75110304
+	"lastBuiltDate": 601550240.22941506
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
