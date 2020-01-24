@@ -32,6 +32,14 @@
 		"oAP": "/build/.idea",
 		"oF": 0
 		},
+	"/archive_index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/archive_index.html",
+		"oF": 0
+		},
 	"/build": {
 		"ft": 65536,
 		"oA": 1,
