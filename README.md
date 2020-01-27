@@ -6,4 +6,8 @@ This is the code respository for the Samsung Galaxy S11 Pre Booking Landing Page
 
 Please run `npm install` to download and install the necessary build node package dependencies. CodeKit is setup to push the completed static web files into the `/build/` folder.
 
+## Deployment
 To deploy to server, please copy across the contents of only the `/build/` folder. Can exclude the `scss` and `yarn.lock` folder from deployment assets as well.
+
+### Bundling the JS files
+All the library JS files link directly to `node_modules` directory from the HTML pages. To make deployment package lightweight (and less complex), please copy across the minified JS files from the `node_modules` locations and put them directly into `/build/js/` and then make sure you update the HTML to point to these JS files.
