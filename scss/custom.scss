@@ -572,6 +572,13 @@ table {
     }
 }
 
+// Tweak for prices in accordions
+.mass-promo {
+    .accordion-content {
+        padding: 0px;
+    }
+}
+
 // over ride the default border radius when inactive
 :last-child:not(.is-active)>.accordion-title {
     border-radius: 30px;
