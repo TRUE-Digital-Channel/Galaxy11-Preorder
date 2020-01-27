@@ -911,17 +911,6 @@
 		"opt": 1,
 		"q": 100
 		},
-	"/img/banner-s10.jpg": {
-		"ft": 16384,
-		"iS": 1610755,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/build/img/banner-s10.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
 	"/img/banner-s11.jpg": {
 		"ft": 16384,
 		"iS": 102013,
@@ -1045,6 +1034,14 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/img/Icon-02.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/img/Icon-02.webp",
+		"oF": 0
+		},
 	"/img/Icon-03.png": {
 		"ft": 32768,
 		"iS": 652417,
@@ -1055,6 +1052,14 @@
 		"opt": 1,
 		"oT": 1,
 		"q": 100
+		},
+	"/img/Icon-03.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/img/Icon-03.webp",
+		"oF": 0
 		},
 	"/img/Icon-04.png": {
 		"ft": 32768,
@@ -1077,6 +1082,14 @@
 		"opt": 1,
 		"oT": 1,
 		"q": 100
+		},
+	"/img/Icon-05.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/img/Icon-05.webp",
+		"oF": 0
 		},
 	"/img/prepay-smart-value.png": {
 		"ft": 32768,
@@ -1174,6 +1187,14 @@
 		"hM": 1,
 		"oA": 0,
 		"oAP": "/build/mobile.html",
+		"oF": 0
+		},
+	"/mobileb.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/mobileb.html",
 		"oF": 0
 		},
 	"/node_modules": {
@@ -1275,7 +1296,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-pale",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 601550240.22941506
+	"lastBuiltDate": 601815868.958915
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -3349,7 +3370,7 @@
 	"rollupExternals": "",
 	"rollupReplacements": "process.env.NODE_ENV:::$NODE_ENV,,,ENVIRONMENT:::$NODE_ENV",
 	"rollupTreeshakingEnabled": 1,
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, /storage/framework/sessions, node_modules",
+	"skippedFoldersString": "/storage/framework/sessions, _logs, logs, log, .idea, _cache, cache, node_modules/, /node_modules",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
 	"tsAllowSyntheticDefaultImports": 0,

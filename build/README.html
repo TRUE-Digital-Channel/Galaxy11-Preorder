@@ -15,7 +15,13 @@
 
 <p>Please run <code>npm install</code> to download and install the necessary build node package dependencies. CodeKit is setup to push the completed static web files into the <code>/build/</code> folder.</p>
 
+<h2 id="deployment">Deployment</h2>
+
 <p>To deploy to server, please copy across the contents of only the <code>/build/</code> folder. Can exclude the <code>scss</code> and <code>yarn.lock</code> folder from deployment assets as well.</p>
+
+<h3 id="bundlingthejsfiles">Bundling the JS files</h3>
+
+<p>All the library JS files link directly to <code>node_modules</code> directory from the HTML pages. To make deployment package lightweight (and less complex), please copy across the minified JS files from the <code>node_modules</code> locations and put them directly into <code>/build/js/</code> and then make sure you update the HTML to point to these JS files.</p>
 
 </body>
 </html>

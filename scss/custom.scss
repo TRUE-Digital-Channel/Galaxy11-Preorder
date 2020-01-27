@@ -475,7 +475,7 @@ em {
 
 .button {
     padding: 0.45rem;
-    max-width: 280px;
+//    max-width: 280px;
 }
 
 /* SECTIONS */
@@ -541,12 +541,11 @@ table {
 /* ACCORDIONS */
 .accordion {
     background-color: white;
-    border-radius: 30px;
     margin: 0 0.5rem;
     font-size: 0.75rem;
+    margin: 0; //overwrite the default
     li {
         .accordion-title {
-            border-radius: 30px 30px 0px 0px;
             padding: 0.5rem;
             font-size: 0.7rem;
             font-family: "True Bold";
@@ -561,23 +560,48 @@ table {
         }
     }
     .accordion-content {
-        border-radius: 0px 0px 30px 30px;
-        p{
+        p {
             color: #4D4D4D;
         }
     }
 }
 
+// Tweak for prices in accordions
+.mass-promo, .blackcard-promo, .best-deal, .prepay-promo {
+    .accordion-content {
+        padding: 10px 0px;
+        p {
+            line-height: 24px;
+        }
+    }
+}
+
+// Exceptions for T&C accordions (border radius)
+.accordion.conditions > li a {
+    border-radius: 30px 30px 0px 0px;
+}
+
+.accordion.conditions {
+    background-color: transparent; // fix display bug on blackcard
+    .accordion-content {
+        padding: 10px;
+    }
+}
+
 // over ride the default border radius when inactive
-:last-child:not(.is-active)>.accordion-title {
-    border-radius: 30px;
+.accordion.conditions :last-child:not(.is-active)>.accordion-title {
+    border-radius: 30px ;
+}
+
+.accordion.conditions :last-child>.accordion-content:last-child {
+    border-radius: 0px 0px 30px 30px;
 }
 
 
 /* FOOTER */
 footer {
     background-color: #eee;
-    padding: 3rem 0rem;
+    padding: 1.5rem 0rem;
     h2 {
         line-height: 32px;
     }
@@ -714,8 +738,9 @@ input.input-group-field {
     .bc-promo p{
         font-size: 0.8rem;
     }
+    
+    .button {
+        max-width: 280px;
+    }
 
 }
-
-
-
