@@ -582,6 +582,7 @@ table {
 }
 
 .accordion.conditions {
+    background-color: transparent; // fix display bug on blackcard
     .accordion-content {
         padding: 10px;
     }
