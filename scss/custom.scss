@@ -475,7 +475,7 @@ em {
 
 .button {
     padding: 0.45rem;
-    max-width: 280px;
+//    max-width: 280px;
 }
 
 /* SECTIONS */
@@ -724,6 +724,10 @@ input.input-group-field {
 
     .bc-promo p{
         font-size: 0.8rem;
+    }
+    
+    .button {
+        max-width: 280px;
     }
 
 }

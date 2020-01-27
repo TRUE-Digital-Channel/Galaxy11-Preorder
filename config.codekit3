@@ -911,17 +911,6 @@
 		"opt": 1,
 		"q": 100
 		},
-	"/img/banner-s10.jpg": {
-		"ft": 16384,
-		"iS": 1610755,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/build/img/banner-s10.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
 	"/img/banner-s11.jpg": {
 		"ft": 16384,
 		"iS": 102013,
