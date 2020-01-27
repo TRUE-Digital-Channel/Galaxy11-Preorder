@@ -1034,6 +1034,14 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/img/Icon-02.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/img/Icon-02.webp",
+		"oF": 0
+		},
 	"/img/Icon-03.png": {
 		"ft": 32768,
 		"iS": 652417,
@@ -1044,6 +1052,14 @@
 		"opt": 1,
 		"oT": 1,
 		"q": 100
+		},
+	"/img/Icon-03.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/img/Icon-03.webp",
+		"oF": 0
 		},
 	"/img/Icon-04.png": {
 		"ft": 32768,
@@ -1066,6 +1082,14 @@
 		"opt": 1,
 		"oT": 1,
 		"q": 100
+		},
+	"/img/Icon-05.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/img/Icon-05.webp",
+		"oF": 0
 		},
 	"/img/prepay-smart-value.png": {
 		"ft": 32768,
