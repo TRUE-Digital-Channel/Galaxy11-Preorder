@@ -559,6 +559,10 @@ table {
                 font-weight: bold;
             }
         }
+        // Exception for product model accordions
+        .accordion-title.phonemodels {
+            border-radius: 0;
+        }
     }
     .accordion-content {
         border-radius: 0px 0px 30px 30px;

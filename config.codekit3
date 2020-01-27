@@ -1176,6 +1176,14 @@
 		"oAP": "/build/mobile.html",
 		"oF": 0
 		},
+	"/mobileb.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/mobileb.html",
+		"oF": 0
+		},
 	"/node_modules": {
 		"ft": 65536,
 		"oA": 2,
@@ -1275,7 +1283,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-pale",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 601550240.22941506
+	"lastBuiltDate": 601569421.01941097
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
