@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="62px" viewBox="0 0 14 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>check-radio</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="check-radio">
+            <g id="icn/radio-off" stroke="#CBC9C9">
+                <circle id="Oval" cx="7" cy="7" r="6.5"></circle>
+            </g>
+            <g id="icn/radio-check" transform="translate(0.000000, 24.000000)">
+                <g id="-g-Group">
+                    <circle id="Oval-2" fill="#F5B33E" cx="7" cy="7" r="7"></circle>
+                    <circle id="Oval-2" fill="#FFFFFF" cx="7" cy="7" r="3.5"></circle>
+                </g>
+            </g>
+            <g id="icn/radio-on" transform="translate(0.000000, 48.000000)">
+                <g id="-g-Group">
+                    <circle id="Oval-2" fill="#F5B33E" cx="7" cy="7" r="7"></circle>
+                    <circle id="Oval-2" fill="#FFFFFF" cx="7" cy="7" r="3.5"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

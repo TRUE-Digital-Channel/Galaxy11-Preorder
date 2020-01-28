@@ -50,7 +50,7 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/build/checkout/checkout2.html",
 		"oF": 1
 		},
@@ -58,7 +58,7 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/build/checkout/comfirm_mail.html",
 		"oF": 1
 		},
@@ -67,7 +67,7 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/build/checkout/css/bootstrap.min-min.css",
 		"oF": 1,
 		"oS": 3
@@ -77,7 +77,7 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/build/checkout/css/select-min-min.css",
 		"oF": 1,
 		"oS": 3
@@ -87,7 +87,7 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/build/checkout/css/select-min.css",
 		"oF": 1,
 		"oS": 3
@@ -97,7 +97,7 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/build/checkout/css/style copy-min-min.css",
 		"oF": 1,
 		"oS": 3
@@ -107,7 +107,7 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/build/checkout/css/style-min-min.css",
 		"oF": 1,
 		"oS": 3
@@ -117,7 +117,7 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/build/checkout/css/style-min.css",
 		"oF": 1,
 		"oS": 3
@@ -126,7 +126,7 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/build/checkout/delivery.html",
 		"oF": 1
 		},
@@ -134,14 +134,14 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/build/checkout/fonts/tboldspecial-webfont.eot",
 		"oF": 1
 		},
 	"/checkout/fonts/tboldspecial-webfont.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/build/checkout/fonts/tboldspecial-webfont.svg",
 		"oF": 1,
 		"opt": 0,
@@ -152,7 +152,7 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/build/checkout/fonts/tboldspecial-webfont.woff",
 		"oF": 1
 		},
@@ -160,7 +160,7 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/build/checkout/fonts/tboldspecial-webfont.woff2",
 		"oF": 1
 		},
@@ -168,14 +168,14 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/build/checkout/fonts/tmedium-webfont.eot",
 		"oF": 1
 		},
 	"/checkout/fonts/tmedium-webfont.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/build/checkout/fonts/tmedium-webfont.svg",
 		"oF": 1,
 		"opt": 0,
@@ -186,7 +186,7 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/build/checkout/fonts/tmedium-webfont.woff",
 		"oF": 1
 		},
@@ -194,14 +194,14 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/build/checkout/fonts/tmedium-webfont.woff2",
 		"oF": 1
 		},
 	"/checkout/images/barcode.png": {
 		"ft": 32768,
 		"iS": 41802,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/build/checkout/images/barcode.png",
 		"oF": 1,
 		"oIPL": 0,
@@ -212,7 +212,7 @@
 	"/checkout/images/bg-red-btn.png": {
 		"ft": 32768,
 		"iS": 17014,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/build/checkout/images/bg-red-btn.png",
 		"oF": 1,
 		"oIPL": 0,
@@ -223,7 +223,7 @@
 	"/checkout/images/black-dot.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/build/checkout/images/black-dot.svg",
 		"oF": 1,
 		"opt": 0,
@@ -233,7 +233,7 @@
 	"/checkout/images/blackcard.png": {
 		"ft": 32768,
 		"iS": 49692,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/build/checkout/images/blackcard.png",
 		"oF": 1,
 		"oIPL": 0,
@@ -244,7 +244,7 @@
 	"/checkout/images/check-box.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/build/checkout/images/check-box.svg",
 		"oF": 1,
 		"opt": 0,
@@ -254,7 +254,7 @@
 	"/checkout/images/check-radio.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/build/checkout/images/check-radio.svg",
 		"oF": 1,
 		"opt": 0,
@@ -264,7 +264,7 @@
 	"/checkout/images/device.png": {
 		"ft": 32768,
 		"iS": 39367,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/build/checkout/images/device.png",
 		"oF": 1,
 		"oIPL": 0,
@@ -275,7 +275,7 @@
 	"/checkout/images/device1.png": {
 		"ft": 32768,
 		"iS": 42029,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/build/checkout/images/device1.png",
 		"oF": 1,
 		"oIPL": 0,
@@ -286,7 +286,7 @@
 	"/checkout/images/device2.png": {
 		"ft": 32768,
 		"iS": 41287,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/build/checkout/images/device2.png",
 		"oF": 1,
 		"oIPL": 0,
@@ -297,7 +297,7 @@
 	"/checkout/images/iconbank.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/build/checkout/images/iconbank.svg",
 		"oF": 1,
 		"opt": 0,
@@ -307,7 +307,7 @@
 	"/checkout/images/info.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/build/checkout/images/info.svg",
 		"oF": 1,
 		"opt": 0,
@@ -317,7 +317,7 @@
 	"/checkout/images/logo.png": {
 		"ft": 32768,
 		"iS": 5682,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/build/checkout/images/logo.png",
 		"oF": 1,
 		"oIPL": 0,
@@ -328,7 +328,7 @@
 	"/checkout/images/logo@2x.png": {
 		"ft": 32768,
 		"iS": 12343,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/build/checkout/images/logo@2x.png",
 		"oF": 1,
 		"oIPL": 0,
@@ -339,7 +339,7 @@
 	"/checkout/images/logo@3x.png": {
 		"ft": 32768,
 		"iS": 19789,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/build/checkout/images/logo@3x.png",
 		"oF": 1,
 		"oIPL": 0,
@@ -350,7 +350,7 @@
 	"/checkout/images/logo_bank-02.png": {
 		"ft": 32768,
 		"iS": 7620,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/build/checkout/images/logo_bank-02.png",
 		"oF": 1,
 		"oIPL": 0,
@@ -361,7 +361,7 @@
 	"/checkout/images/logo_bank-03.png": {
 		"ft": 32768,
 		"iS": 16178,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/build/checkout/images/logo_bank-03.png",
 		"oF": 1,
 		"oIPL": 0,
@@ -372,7 +372,7 @@
 	"/checkout/images/logo_bank-04.png": {
 		"ft": 32768,
 		"iS": 16008,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/build/checkout/images/logo_bank-04.png",
 		"oF": 1,
 		"oIPL": 0,
@@ -383,7 +383,7 @@
 	"/checkout/images/logo_bank-05.png": {
 		"ft": 32768,
 		"iS": 15090,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/build/checkout/images/logo_bank-05.png",
 		"oF": 1,
 		"oIPL": 0,
@@ -394,7 +394,7 @@
 	"/checkout/images/logo_bank-06.png": {
 		"ft": 32768,
 		"iS": 15772,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/build/checkout/images/logo_bank-06.png",
 		"oF": 1,
 		"oIPL": 0,
@@ -405,7 +405,7 @@
 	"/checkout/images/logo_bank-07.png": {
 		"ft": 32768,
 		"iS": 35512,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/build/checkout/images/logo_bank-07.png",
 		"oF": 1,
 		"oIPL": 0,
@@ -416,7 +416,7 @@
 	"/checkout/images/logo_bank-08.png": {
 		"ft": 32768,
 		"iS": 27369,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/build/checkout/images/logo_bank-08.png",
 		"oF": 1,
 		"oIPL": 0,
@@ -427,7 +427,7 @@
 	"/checkout/images/logo_bank-09.png": {
 		"ft": 32768,
 		"iS": 8920,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/build/checkout/images/logo_bank-09.png",
 		"oF": 1,
 		"oIPL": 0,
@@ -438,7 +438,7 @@
 	"/checkout/images/logo_bank-10.png": {
 		"ft": 32768,
 		"iS": 35373,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/build/checkout/images/logo_bank-10.png",
 		"oF": 1,
 		"oIPL": 0,
@@ -449,7 +449,7 @@
 	"/checkout/images/logo_bank-11.png": {
 		"ft": 32768,
 		"iS": 3075,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/build/checkout/images/logo_bank-11.png",
 		"oF": 1,
 		"oIPL": 0,
@@ -460,7 +460,7 @@
 	"/checkout/images/logo_bank-12.png": {
 		"ft": 32768,
 		"iS": 4291,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/build/checkout/images/logo_bank-12.png",
 		"oF": 1,
 		"oIPL": 0,
@@ -471,7 +471,7 @@
 	"/checkout/images/pin-copy-2.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/build/checkout/images/pin-copy-2.svg",
 		"oF": 1,
 		"opt": 0,
@@ -482,7 +482,7 @@
 		"ft": 16384,
 		"iS": 21855,
 		"jF": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/build/checkout/images/qrcode.jpg",
 		"oF": 1,
 		"oIPL": 0,
@@ -492,7 +492,7 @@
 	"/checkout/images/step-1-active.png": {
 		"ft": 32768,
 		"iS": 829,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/build/checkout/images/step-1-active.png",
 		"oF": 1,
 		"oIPL": 0,
@@ -503,7 +503,7 @@
 	"/checkout/images/step-1-active@2x.png": {
 		"ft": 32768,
 		"iS": 1733,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/build/checkout/images/step-1-active@2x.png",
 		"oF": 1,
 		"oIPL": 0,
@@ -514,7 +514,7 @@
 	"/checkout/images/step-1-active@3x.png": {
 		"ft": 32768,
 		"iS": 2781,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/build/checkout/images/step-1-active@3x.png",
 		"oF": 1,
 		"oIPL": 0,
@@ -525,7 +525,7 @@
 	"/checkout/images/step-2-active.png": {
 		"ft": 32768,
 		"iS": 1337,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/build/checkout/images/step-2-active.png",
 		"oF": 1,
 		"oIPL": 0,
@@ -536,7 +536,7 @@
 	"/checkout/images/step-2-active@2x.png": {
 		"ft": 32768,
 		"iS": 2779,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/build/checkout/images/step-2-active@2x.png",
 		"oF": 1,
 		"oIPL": 0,
@@ -547,7 +547,7 @@
 	"/checkout/images/step-2-active@3x.png": {
 		"ft": 32768,
 		"iS": 4224,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/build/checkout/images/step-2-active@3x.png",
 		"oF": 1,
 		"oIPL": 0,
@@ -558,7 +558,7 @@
 	"/checkout/images/step-2.png": {
 		"ft": 32768,
 		"iS": 768,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/build/checkout/images/step-2.png",
 		"oF": 1,
 		"oIPL": 0,
@@ -569,7 +569,7 @@
 	"/checkout/images/step-2@2x.png": {
 		"ft": 32768,
 		"iS": 1608,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/build/checkout/images/step-2@2x.png",
 		"oF": 1,
 		"oIPL": 0,
@@ -580,7 +580,7 @@
 	"/checkout/images/step-2@3x.png": {
 		"ft": 32768,
 		"iS": 2559,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/build/checkout/images/step-2@3x.png",
 		"oF": 1,
 		"oIPL": 0,
@@ -591,7 +591,7 @@
 	"/checkout/images/step-check-icon.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/build/checkout/images/step-check-icon.svg",
 		"oF": 1,
 		"opt": 0,
@@ -603,7 +603,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/build/checkout/js/all-min-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -614,7 +614,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/build/checkout/js/all-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -625,7 +625,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/build/checkout/js/bootstrap.min-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -636,7 +636,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/build/checkout/js/jquery.min-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -647,7 +647,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/build/checkout/js/jquery.selectric-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -658,7 +658,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/build/checkout/js/popper.min-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -668,7 +668,7 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/build/checkout/order.html",
 		"oF": 1
 		},
@@ -676,7 +676,7 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/build/checkout/paymenterror.html",
 		"oF": 1
 		},
@@ -684,7 +684,7 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "/build/checkout/thankyou.html",
 		"oF": 1
 		},
@@ -1285,7 +1285,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-pale",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 601891139.94430494
+	"lastBuiltDate": 601891748.04302299
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
