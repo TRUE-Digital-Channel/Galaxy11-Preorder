@@ -1162,6 +1162,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/img/truemoneywallet_smartphone-hotdeal_banner_1920x480.jpg": {
+		"ft": 16384,
+		"iS": 93501,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/truemoneywallet_smartphone-hotdeal_banner_1920x480.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/truemoneywallet_smartphone-hotdeal_banner_650x560.jpg": {
+		"ft": 16384,
+		"iS": 47264,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/truemoneywallet_smartphone-hotdeal_banner_650x560.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/index.html": {
 		"cB": 0,
 		"ft": 8192,
