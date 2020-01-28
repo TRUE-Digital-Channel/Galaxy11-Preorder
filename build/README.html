@@ -23,6 +23,10 @@
 
 <p>All the library JS files link directly to <code>node_modules</code> directory from the HTML pages. To make deployment package lightweight (and less complex), please copy across the minified JS files from the <code>node_modules</code> locations and put them directly into <code>/build/js/</code> and then make sure you update the HTML to point to these JS files.</p>
 
+<h3 id="googletagmanager">Google Tag Manager</h3>
+
+<p>The GTM container code is currently commented out in the HTML. When deploying to server, ensure that GTM scripts are activated.</p>
+
 </body>
 </html>
 
