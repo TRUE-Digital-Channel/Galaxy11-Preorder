@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>TrueMove-H</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/select.css">
+    <script defer src="js/all.js"></script>
+  </head>
+  <body>
+
+    
+    <div class="container">
+      
+    
+        <!-- Price summary -->
+        <div class="row pb-4 justify-content-center">
+  
+              <!-- Logo -->
+              <div class="col-12 mt-3">
+                <div class="logo">
+                  <img src="images/logo.png" srcset="images/logo@2x.png 2x, images/logo@3x.png 3x">
+                </div>
+              </div>
+              
+        </div>
+
+      <!-- Step -->
+      <div class="row justify-content-center pt-4">
+          <div class="col col-md-11">
+            <h5 class="text-left font-weight-bold w-100">ขั้นตอนการสั่งจอง</h5>
+
+            <div class="step-bar-box">
+                <ul class="step-bar d-flex pl-0 mb-0 w-100 mx-auto">
+                    <li class="finish h6">ยืนยันรายการ</li>
+                    <li class="active h6">ข้อมูลส่วนตัวและที่อยู่</li>
+                    <li class="h6">สรุปและสั่งจอง</li>
+                </ul>
+             </div>
+          </div>
+      </div>
+      <!-- End step bar -->
+
+
+
+      <div class="row justify-content-center mt-4">
+        <div class="col col-md-11">
+            <h5 class="text-left font-weight-bold w-100">ข้อมูลส่วนตัวผู้สั่งจอง</h5>
+        </div>
+        <div class="col-12 col-md-10 col-lg-9 mx-auto">
+              <!--radio customer type -->
+              <div class="form-row justify-content-center py-3">
+                  <div class="form-group col-md-10 col-lg-8 col-xl-6 d-flex align-items-center">
+                      <div class="custom-control custom-radio-2 custom-control-inline">
+                        <input type="radio" id="customRadio3" name="customRadio2" class="custom-control-input">
+                        <label class="custom-control-label" for="customRadio3">สำหรับลูกค้าบุคคลธรรมดา</label>
+                      </div>
+                      <div class="custom-control custom-radio-2 custom-control-inline ml-3">
+                        <input type="radio" id="customRadio4" name="customRadio2" class="custom-control-input">
+                        <label class="custom-control-label" for="customRadio4">สำหรับลูกค้านิติบุคคล</label>
+                      </div>
+                  </div>
+              </div>
+
+              <!--thai id passport-->
+              <div class="form-row">
+                  <div class="form-group col-md-6 d-flex align-items-center justify-content-start">
+                        <div class="custom-control custom-radio custom-control-inline">
+                          <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+                          <label class="custom-control-label" for="customRadio1">บัตรประชาชน</label>
+                        </div>
+                        <div class="custom-control custom-radio custom-control-inline">
+                          <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                          <label class="custom-control-label" for="customRadio2">หนังสือเดินทาง</label>
+                        </div>
+                  </div>
+                  <div class="form-group col-md-6">
+                      <label class="text-s" for="">เลขที่บัตรประชาชน / หนังสือเดินทาง</label>
+                      <input type="text" class="form-control" id="" aria-describedby="" placeholder="กรุณากรอกเลขที่บัตรประชาชน / หนังสือเดินทาง">
+                  </div>
+              </div>
+              <!--Name+surname-->
+              <div class="form-row">
+                  <div class="form-group error col-md-6">
+                      <label class="text-s label-error" for="">ชื่อ*</label>
+                      <input type="text" class="form-control" id="" aria-describedby="" placeholder="กรุณากรอกชื่อ">
+                  </div>
+                  <div class="form-group col-md-6">
+                      <label class="text-s" for="">นามสกุล*</label>
+                      <input type="text" class="form-control" id="" aria-describedby="" placeholder="กรุณากรอกนามสกุล">
+                  </div>
+              </div>
+
+              <!--contact-->
+              <div class="form-row">
+                  <div class="form-group col-md-6">
+                      <label class="text-s" for="">หมายเลขโทรศัพท์มือถือที่ติดต่อได้*</label>
+                      <input type="text" class="form-control" id="" aria-describedby="" placeholder="กรุณากรอกหมายเลขโทรศัพท์">
+                  </div>
+                  <div class="form-group col-md-6">
+                      <label class="text-s" for="">อีเมล*</label>
+                      <input type="text" class="form-control" id="" aria-describedby="" placeholder="กรุณากรอกอีเมล">
+                  </div>
+              </div>
+
+              <!-- Show this section For Radio company-->
+              <!--Name+surname-->
+              <div class="form-row">
+                  <div class="form-group col-md-6">
+                      <label class="text-s" for="">หนังสือรับรองบริษัท / ใบทะเบียนพาณิชย์ เลขที่*</label>
+                      <input type="text" class="form-control" id="" aria-describedby="" placeholder="กรุณากรอกหนังสือรับรองบริษัท / ใบทะเบียนพาณิชย์ เลขที่">
+                  </div>
+                  <div class="form-group col-md-6">
+                      <label class="text-s" for="">ชื่อ นิติบุคคล / ร้านค้า*</label>
+                      <input type="text" class="form-control" id="" aria-describedby="" placeholder="กรุณากรอกชื่อ นิติบุคคล / ร้านค้า">
+                  </div>
+              </div>
+
+              <!--contact-->
+              <div class="form-row">
+                  <div class="form-group col-md-6">
+                      <label class="text-s" for="">หมายเลขโทรศัพท์มือถือที่ติดต่อได้*</label>
+                      <input type="text" class="form-control" id="" aria-describedby="" placeholder="กรุณากรอกหมายเลขโทรศัพท์">
+                  </div>
+                  <div class="form-group col-md-6">
+                      <label class="text-s" for="">อีเมล*</label>
+                      <input type="text" class="form-control" id="" aria-describedby="" placeholder="กรุณากรอกอีเมล">
+                  </div>
+              </div>
+              <!--========= Show this section For Radio company =========-->
+              
+              <!-- separate section -->
+              <div class="red-bar w-100 py-2 mt-4 mb-3">ที่อยู่ในการออกใบเสร็จ</div>
+
+              <!--Number+Road -->
+              <div class="form-row">
+                  <div class="form-group col-md-6">
+                      <label class="text-s" for="">เลขที่บ้าน / อาคาร / ซอย*</label>
+                      <input type="text" class="form-control" id="" aria-describedby="" placeholder="กรุณากรอกเลขที่บ้าน / อาคาร / ซอย">
+                  </div>
+                  <div class="form-group col-md-6">
+                      <label class="text-s" for="">ถนน*</label>
+                      <input type="text" class="form-control" id="" aria-describedby="" placeholder="กรุณากรอกถนน">
+                  </div>
+              </div>
+
+              <!-- Address 1 -->
+              <div class="form-row">
+                  <div class="form-group col-md-6">
+                      <label class="text-s" for="">จังหวัด*</label>
+                      <select class="custom-select" required>
+                          <option value="" disabled selected>กรุณาเลือกจังหวัด</option>
+                          <option>กรุงเทพมหานคร</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                  </div>
+                  <div class="form-group col-md-6">
+                      <label class="text-s" for="">เขต / อำเภอ*</label>
+                      <select class="custom-select" required>
+                          <option value="" disabled selected>กรุณาเลือกเขต / อำเภอ</option>
+                          <option>กรุงเทพมหานคร</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                  </div>
+              </div>
+
+              <!-- Address 2 -->
+              <div class="form-row">
+                  <div class="form-group col-md-6">
+                      <label class="text-s" for="">แขวง / ตำบล*</label>
+                      <select class="custom-select" required>
+                          <option value="" disabled selected>กรุณาเลือกแขวง / ตำบล</option>
+                          <option>กรุงเทพมหานคร</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                  </div>
+                  <div class="form-group col-md-6">
+                      <label class="text-s" for="">รหัสไปรษณีย์*</label>
+                      <select class="custom-select" required>
+                          <option value="" disabled selected>กรุณาเลือกรหัสไปรษณีย์</option>
+                          <option>กรุงเทพมหานคร</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                  </div>
+              </div>
+
+              <!-- separate section -->
+              <div class="red-bar w-100 py-2 mt-4 mb-3">เลือกสาขาเพื่อรับสินค้า</div>
+
+              <!--Shop Address -->
+              <div class="form-row">
+                  <div class="form-group col-md-6">
+                      <label class="text-s" for="">จังหวัด*</label>
+                      <select class="custom-select" required>
+                          <option value="" disabled selected>กรุณาเลือกจังหวัด</option>
+                          <option>กรุงเทพมหานคร</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                  </div>
+                  <div class="form-group col-md-6">
+                      <label class="text-s" for="">เขต / อำเภอ*</label>
+                      <select class="custom-select" required>
+                          <option value="" disabled selected>กรุณาเลือกเขต / อำเภอ</option>
+                          <option>กรุงเทพมหานคร</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                  </div>
+              </div>
+
+              <!--Name Shop -->
+              <div class="form-row">
+                  <div class="form-group col-md-6">
+                      <label class="text-s" for="">รายชื่อช็อป*</label>
+                      <select class="custom-select" required>
+                          <option value="" disabled selected>กรุณาเลือกช็อปเพื่อรับสินค้า</option>
+                          <option>กรุงเทพมหานคร</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                  </div>
+              </div>
+
+              <!-- separate section -->
+              <div class="red-bar w-100 py-2 mt-4 mb-3">เลือกวันและเวลารับสินค้า</div>
+
+              <!--Time -->
+              <div class="form-row">
+                  <div class="form-group col-md-6">
+                      <label class="text-s" for="">วันที่รับสินค้า*</label>
+                      <select class="custom-select" required>
+                          <option value="" disabled selected>กรุณาเลือกวันที่รับสินค้า</option>
+                          <option>กรุงเทพมหานคร</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                  </div>
+                  <div class="form-group col-md-6">
+                      <label class="text-s" for="">เวลาที่รับสินค้า*</label>
+                      <select class="custom-select" required>
+                          <option value="" disabled selected>กรุณาเลือกเวลที่รับสินค้า</option>
+                          <option>กรุงเทพมหานคร</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                  </div>
+              </div>
+
+        </div>
+      </div>
+
+              <!-- submit button-->
+              <div class="row">
+                <div class="col-12 col-lg-8 mx-auto"> 
+                  <div class="text-center my-4">
+                      <button type="button" class="btn btn-true px-4 py-2 mr-2" onclick="window.location.href = 'order.html';">ย้อนกลับ</button>
+                      <button type="button" class="btn btn-true px-4 py-2 ml-2" data-toggle="modal" data-target="#exampleModalScrollable">ต่อไป ></button>
+                  </div>
+                </div>
+              </div>
+  </div>
+
+  <!-- Modal -->
+<div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title  w-100 text-center font-weight-bold" id="exampleModalScrollableTitle">เงื่อนไข</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body mt-3">
+            <ol class="text-xs pl-3 list-unstyled">
+              <li> ลูกค้าจะต้องดำเนินการชำระเงินมัดจำค่าเครื่องโทรศัพท์เคลื่อนที่ (“เครื่อง”) เป็นจำนวนเงินเครื่องละ 5,350 บาท (สองพันหนึ่งร้อยสี่สิบบาทถ้วน) (ราคานี้รวมภาษีมูลค่าเพิ่มแล้ว) โดย
+                 ลูกค้าจะต้องชำระเงินค่ามัดจำเครื่องผ่านบัตรเดบิต, บัตรเครดิต ประเภท วีซ่า มาสเตอร์ หรือ เจซีบี ที่ออกโดยธนาคารในประเทศไทยเท่านั้น และตกลงชําระค่าเครื่องส่วนที่เหลือในวัน และเวลา ที่ลูกค้าได้รับสินค้า
+              </li>
+              <li>เมื่อลูกค้าทำการสั่งซื้อเครื่องล่วงหน้าในรุ่น ความจุ และสีที่ลูกค้าระบุแล้ว ลูกค้าจะไม่สามารถแก้ไข เปลี่ยนแปลง หรือ ยกเลิกได้ ในกรณีที่ลูกค้าแก้ไข เปลี่ยนแปลง หรือยกเลิกการซื้อเครื่อง 
+                 บริษัท ทรู ดิสทริบิวชั่น แอนด์ เซลล์ จำกัด ("บริษัทฯ") มีสิทธิริบเงินมัดจำการสั่งซื้อเครื่องล่วงหน้าที่ลูกค้าได้ชำระไว้แล้ว
+              </li>
+              <li>บริษัทฯ จะดำเนินการจัดส่งสินค้าตามลำดับคิวการสั่งซื้อล่วงหน้าในระบบการสั่งซื้อเครื่องเท่านั้น โดยบริษัทฯ จะดำเนินการส่ง SMS เพื่อยืนยันวันและเวลา เพื่อการรับสินค้าตามที่ท่านได้เลือกไว้ในรายการสั่งซื้อ
+                 สินค้าล่วงหน้า โดย บริษัทฯ มีสิทธิเปลี่ยนแปลง วัน เวลา และ สาขาที่รับสินค้าได้ โดยจะแจ้งให้ลูกค้าทราบผ่านทาง SMS
+              </li>
+             <li>ลูกค้าจะต้องมารับสินค้าด้วยตัวเอง ไม่สามารถโอนสิทธิหรือมอบอำนาจให้ผู้อื่นดำเนินการแทนได้ กรุณาพิมพ์เอกสารยืนยันการสั่งซื้อล่วงหน้า พร้อมบัตรประชาชนฉบับจริง (สำหรับลูกค้าสัญชาติไทย) หรือ 
+                 หนังสือเดินทางฉบับจริง พร้อมใบอนุญาตการทำงานในประเทศไทย (สำหรับลูกค้าสัญชาติอื่นๆ) หรือ สำเนาเอกสารทะเบียนพาณิชย์/สำเนาหนังสือรับรองบริษัท (ลงนามรับรองสำเนาจากกรรมการผู้มีอำนาจ) 
+                 พร้อมบัตรประชาชนฉบับจริงของกรรมการผู้มีอำนาจลงนาม (สำหรับลูกค้านิติบุคคล) เพื่อใช้เป็นหลักฐานในการรับสินค้า
+             </li>
+             <li>บริษัทฯ มีสิทธในการยกเลิกสิทธิการสั่งซื้อสินค้าล่วงหน้าของลูกค้าได้ ในกรณีที่ผู้ลงทะเบียนสั่งซื้อสินค้าล่วงหน้าไม่มารับสินค้าตามที่กำหนด
+             </li>
+            <li>ลูกค้าที่ลงทะเบียนสั่งซื้อสินค้าล่วงหน้า สามารถเลือกรายการส่งเสริมการขายที่ร่วมรายการ (ถ้ามี) ในวันที่รับสินค้า ดังนี้
+              <ul>
+                <li>กรณีเปิดเบอร์ใหม่ ลูกค้าในนามบุคคลธรรมดาที่มีอายุตั้งแต่ 18 ปีบริบูรณ์ขึ้นไปเท่านั้น</li>
+                <li>กรณีลูกค้าย้ายค่ายเบอร์เดิม ลูกค้าต้องทำการย้ายค่ายเสร็จสมบูรณ์ก่อนวันที่มารับสินค้า</li>
+                <li>กรณีลูกค้าทรูมูฟ เอชแบบรายเดือนปัจจุบันมีอายุการใช้งานตั้งแต่ 90 วันขึ้นไป (ไม่มีสัญญาการใช้งานและไม่มีส่วนลดค่าบริการรายเดือนพิเศษจากรายการส่งเสริมการขายอื่น หรือ มีสัญญาการใช้งานคงเหลือ
+                 น้อยกว่า 90 วัน)</li>
+                <li>กรณีลูกค้าทรูมูฟ เอชแบบเติมเงิน เปลี่ยนมาเป็นแบบรายเดือนที่ต้องการซื้อเครื่องพร้อมแพ็กเกจจะต้องมีอายุการใช้งานแบบเติมเงินขั้นต่ำ 30 วันขึ้นไป</li>
+              </ul>
+            </li>
+          </ol>
+          <div class="form-check text-center pt-3">
+              <input class="form-check-input " type="checkbox" value="" id="defaultCheck1">
+              <label class="form-check-label" for="defaultCheck1">
+                ข้าพเจ้ายอมรับเงื่อนไขการสั่งจอง
+              </label>
+            </div>
+        </div>
+          <div class="modal-footer">
+            
+            <button type="button" class="btn btn-true disable px-4 py-2 ml-2" data-dismiss="modal">ยอมรับ</button>
+
+          </div>
+      
+      </div>
+    </div>
+  </div>
+  
+ 
+
+    
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
+  
+  </body>
+</html>

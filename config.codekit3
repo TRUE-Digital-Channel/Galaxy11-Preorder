@@ -1137,7 +1137,7 @@
 		"oAP": "/build/img/truemoneywallet_smartphone-hotdeal_banner_1920x480.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/img/truemoneywallet_smartphone-hotdeal_banner_650x560.jpg": {
@@ -1148,7 +1148,7 @@
 		"oAP": "/build/img/truemoneywallet_smartphone-hotdeal_banner_650x560.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/index.html": {
@@ -1173,7 +1173,7 @@
 	"/mobile.html": {
 		"cB": 0,
 		"ft": 8192,
-		"hM": 1,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/build/mobile.html",
 		"oF": 0
@@ -1285,7 +1285,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-pale",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 601830739.18883801
+	"lastBuiltDate": 601891139.94430494
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
