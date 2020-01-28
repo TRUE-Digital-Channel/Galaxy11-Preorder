@@ -911,44 +911,11 @@
 		"opt": 1,
 		"q": 100
 		},
-	"/img/banner-s11.jpg": {
-		"ft": 16384,
-		"iS": 102013,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/build/img/banner-s11.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
 	"/img/best-deal.png": {
 		"ft": 32768,
 		"iS": 28276,
 		"oA": 0,
 		"oAP": "/build/img/best-deal.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"/img/black-card-section.png": {
-		"ft": 32768,
-		"iS": 39697,
-		"oA": 0,
-		"oAP": "/build/img/black-card-section.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"/img/black-card.png": {
-		"ft": 32768,
-		"iS": 15677,
-		"oA": 0,
-		"oAP": "/build/img/black-card.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
