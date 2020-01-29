@@ -870,28 +870,6 @@
 		"opt": 1,
 		"q": 100
 		},
-	"/img/banner-s11.jpg": {
-		"ft": 16384,
-		"iS": 102013,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/build/img/banner-s11.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"/img/black-card.png": {
-		"ft": 32768,
-		"iS": 15677,
-		"oA": 0,
-		"oAP": "/build/img/black-card.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
 	"/img/black-card.webp": {
 		"cB": 0,
 		"ft": 8192,
@@ -1276,7 +1254,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-pale",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 601966867.739097
+	"lastBuiltDate": 601976738.29255903
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -3350,7 +3328,7 @@
 	"rollupExternals": "",
 	"rollupReplacements": "process.env.NODE_ENV:::$NODE_ENV,,,ENVIRONMENT:::$NODE_ENV",
 	"rollupTreeshakingEnabled": 1,
-	"skippedFoldersString": "/storage/framework/sessions, _logs, logs, log, .idea, _cache, cache, node_modules/, /node_modules",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, /storage/framework/sessions, node_modules",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
 	"tsAllowSyntheticDefaultImports": 0,
@@ -3656,7 +3634,7 @@
 		},
 	"uglifyMangleNames": 1,
 	"uglifyReservedNamesString": "$,exports,require",
-	"websiteRelativeRoot": "/build"
+	"websiteRelativeRoot": ""
 	},
 "settingsFileVersion": "3"
 }
