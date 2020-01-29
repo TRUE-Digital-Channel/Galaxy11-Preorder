@@ -72,16 +72,6 @@
 		"oF": 3,
 		"oS": 3
 		},
-	"/checkout/css/select-min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "/build/checkout/css/select-min.css",
-		"oF": 3,
-		"oS": 3
-		},
 	"/checkout/css/select.css": {
 		"aP": 1,
 		"bl": 0,
@@ -90,26 +80,6 @@
 		"oA": 2,
 		"oAP": "/build/checkout/css/select.css",
 		"oF": 3,
-		"oS": 3
-		},
-	"/checkout/css/style copy-min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "/build/checkout/css/style copy-min-min.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"/checkout/css/style-min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "/build/checkout/css/style-min-min.css",
-		"oF": 1,
 		"oS": 3
 		},
 	"/checkout/css/style.css": {
@@ -598,17 +568,6 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/checkout/js/all-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "/build/checkout/js/all-min-min.js",
-		"oF": 1,
-		"sC": 3,
-		"tS": 0
-		},
 	"/checkout/js/all.js": {
 		"bF": 0,
 		"ft": 64,
@@ -911,17 +870,6 @@
 		"opt": 1,
 		"q": 100
 		},
-	"/img/best-deal.png": {
-		"ft": 32768,
-		"iS": 28276,
-		"oA": 0,
-		"oAP": "/build/img/best-deal.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
 	"/img/black-card.webp": {
 		"cB": 0,
 		"ft": 8192,
@@ -989,6 +937,14 @@
 		"opt": 1,
 		"oT": 1,
 		"q": 100
+		},
+	"/img/Icon-01.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/img/Icon-01.webp",
+		"oF": 0
 		},
 	"/img/Icon-02.png": {
 		"ft": 32768,
@@ -1058,17 +1014,6 @@
 		"oAP": "/build/img/Icon-05.webp",
 		"oF": 0
 		},
-	"/img/prepay-smart-value.png": {
-		"ft": 32768,
-		"iS": 23719,
-		"oA": 0,
-		"oAP": "/build/img/prepay-smart-value.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
 	"/img/privilage-prebook.png": {
 		"ft": 32768,
 		"iS": 79368,
@@ -1129,6 +1074,14 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/img/tmh-logo.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/img/tmh-logo.webp",
+		"oF": 0
+		},
 	"/img/truemoneywallet_smartphone-hotdeal_banner_1920x480.jpg": {
 		"ft": 16384,
 		"iS": 93501,
@@ -1140,6 +1093,14 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/img/truemoneywallet_smartphone-hotdeal_banner_1920x480.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/img/truemoneywallet_smartphone-hotdeal_banner_1920x480.webp",
+		"oF": 0
+		},
 	"/img/truemoneywallet_smartphone-hotdeal_banner_650x560.jpg": {
 		"ft": 16384,
 		"iS": 47264,
@@ -1150,6 +1111,14 @@
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
+		},
+	"/img/truemoneywallet_smartphone-hotdeal_banner_650x560.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/img/truemoneywallet_smartphone-hotdeal_banner_650x560.webp",
+		"oF": 0
 		},
 	"/index.html": {
 		"cB": 0,
@@ -1285,7 +1254,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-pale",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 601892510.07901704
+	"lastBuiltDate": 601976738.29255903
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -3359,7 +3328,7 @@
 	"rollupExternals": "",
 	"rollupReplacements": "process.env.NODE_ENV:::$NODE_ENV,,,ENVIRONMENT:::$NODE_ENV",
 	"rollupTreeshakingEnabled": 1,
-	"skippedFoldersString": "/storage/framework/sessions, _logs, logs, log, .idea, _cache, cache, node_modules/, /node_modules",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, /storage/framework/sessions, node_modules",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
 	"tsAllowSyntheticDefaultImports": 0,
@@ -3665,7 +3634,7 @@
 		},
 	"uglifyMangleNames": 1,
 	"uglifyReservedNamesString": "$,exports,require",
-	"websiteRelativeRoot": "/build"
+	"websiteRelativeRoot": ""
 	},
 "settingsFileVersion": "3"
 }
