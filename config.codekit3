@@ -807,17 +807,6 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/img/Asset 5.png": {
-		"ft": 32768,
-		"iS": 39379,
-		"oA": 0,
-		"oAP": "/build/img/Asset 5.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
 	"/img/bank-logos-mb.png": {
 		"ft": 32768,
 		"iS": 58122,
@@ -855,17 +844,6 @@
 		"oA": 0,
 		"oAP": "/build/img/bank-logos.webp",
 		"oF": 0
-		},
-	"/img/banner-promotion.jpg": {
-		"ft": 16384,
-		"iS": 428662,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/build/img/banner-promotion.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
 		},
 	"/img/black-card.webp": {
 		"cB": 0,
@@ -1273,7 +1251,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-pale",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 601976738.29255903
+	"lastBuiltDate": 601990189.55166996
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
