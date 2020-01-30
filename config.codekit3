@@ -859,17 +859,6 @@
 		"oAP": "/build/img/bank-logos.webp",
 		"oF": 0
 		},
-	"/img/banner-promotion.jpg": {
-		"ft": 16384,
-		"iS": 428662,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/build/img/banner-promotion.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
 	"/img/black-card.webp": {
 		"cB": 0,
 		"ft": 8192,
@@ -1186,9 +1175,9 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/README.html",
-		"oF": 0,
+		"oF": 1,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
@@ -1254,7 +1243,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-pale",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 601976738.29255903
+	"lastBuiltDate": 602056187.46882796
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
