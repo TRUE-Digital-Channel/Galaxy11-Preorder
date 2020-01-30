@@ -12,6 +12,9 @@ To deploy to server, please copy across the contents of only the `/build/` folde
 ### Bundling the JS files
 All the library JS files link directly to `node_modules` directory from the HTML pages. To make deployment package lightweight (and less complex), please copy across the minified JS files from the `node_modules` locations and put them directly into `/build/js/` and then make sure you update the HTML to point to these JS files.
 
+#### TODO
+Bundling the JS files manually is not ideal approach to packaging the code. Will be working on a way change reference of JS files from `node_modules` to having their own JS folder and compiling straight from there into the build folder. Want to make it easier to distribute code.
+
 ### Checkout process
 Currently the "Call to Action" buttons are linked to a demo checkout process, based on a previous campaign for iPhone 11. These pages are for mockup purposes only. They will need to be created on the server location booking.truecorp.co.th with updated content from TRUE/Samsung. Please disregard the contents of this folder for live deployment - THEY ARE FOR DEMO ONLY!
 
