@@ -26,6 +26,12 @@
 		"oAP": "/build/.gitignore",
 		"oF": 0
 		},
+	"/.idea": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "/build/.idea",
+		"oF": 0
+		},
 	"/archive_index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -777,6 +783,14 @@
 		"oAP": "/build/fonts/TrueMedium.woff2",
 		"oF": 0
 		},
+	"/foundation.html": {
+		"cB": 1,
+		"ft": 8192,
+		"hM": 1,
+		"oA": 0,
+		"oAP": "/build/foundation.html",
+		"oF": 0
+		},
 	"/icons/chevron-circle-right-solid.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -871,17 +885,6 @@
 		"oA": 0,
 		"oAP": "/build/img/bundle-deals-promo.webp",
 		"oF": 0
-		},
-	"/img/Easy-Swap.png": {
-		"ft": 32768,
-		"iS": 39379,
-		"oA": 0,
-		"oAP": "/build/img/Easy-Swap.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
 		},
 	"/img/en-icon.jpg": {
 		"ft": 16384,
@@ -1030,17 +1033,6 @@
 		"oAP": "/build/img/promo_bank.webp",
 		"oF": 0
 		},
-	"/img/Swap.png": {
-		"ft": 32768,
-		"iS": 39379,
-		"oA": 0,
-		"oAP": "/build/img/Swap.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
 	"/img/th-icon.jpg": {
 		"ft": 16384,
 		"iS": 2620,
@@ -1156,7 +1148,7 @@
 		"ft": 65536,
 		"oA": 2,
 		"oAP": "/build/node_modules",
-		"oF": 1
+		"oF": 0
 		},
 	"/package-lock.json": {
 		"ft": 524288,
@@ -1183,9 +1175,9 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/README.html",
-		"oF": 0,
+		"oF": 1,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
@@ -1247,11 +1239,11 @@
 	},
 "projectAttributes": {
 	"creationDate": 600261931.06932497,
-	"displayValue": "Samsung",
+	"displayValue": "fnd_landingpage",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-pale",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 601990189.55166996
+	"lastBuiltDate": 602056187.46882796
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
