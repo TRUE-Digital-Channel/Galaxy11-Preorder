@@ -47,6 +47,7 @@ em {
     font-size: 0.9rem
 }
 
+
 /* HEADER */
 .top-bar {
     padding: 0;
@@ -202,28 +203,33 @@ em {
 }
 
 .flickity-prev-next-button {
-//    top: 0%!important;
-//    width: 25px!important;
-//    height: 25px!important;
+    top: 50%!important;
+    width: 25px;
+    height: 25px;
 }
 .flickity-button {
     background: rgba(255, 0, 0, 7) !important;
     border: 1px solid #ff0000!important;
     animation: pulse 1.5s ease-in-out alternate infinite running;
     color: #fff !important; 
-    margin-top: 10px;
 }
 
 .flickity-page-dots .dot {
     background: #c8c8c8 !important;
 }
+/*.flickity-prev-next-button.previous {
+    left: -50px !important;
+}
+.flickity-prev-next-button.next {
+    right: -50px !important;
+}*/
 
 @keyframes pulse {
   0% {
-    top: -8%;
+    top: -2%;
   }
   100% {
-    top: -5%;
+    top: -6%;
   }
 }
 
@@ -318,7 +324,7 @@ em {
         color: #fff;
         padding: 5px;
         border-radius: 20px;
-        width: 100%;
+        max-width: 100%;
         margin: 0;
         background-color: rgba(255,0,7,1);
         background: rgba(255,0,7,1);
@@ -495,14 +501,15 @@ em {
 }
 .swap-device {
     background-color: #fff;
-    max-width: 400px !important;
+    max-width: 350px !important;
     padding: 10px 30px !important;
     color: #000;
-     &:hover, :focus {
+    font-size: 0.64rem;
+     &:hover, &:focus {
             background-color: #000;
         }
     img {
-        width: 100px;
+        width: 80px;
     }
 }
 
@@ -524,6 +531,7 @@ em {
 //          font-size: 1.7rem;
             color: white;
             margin-bottom: 0.45rem;
+            margin-top: -10px;
             a {
                 text-decoration: none;
                 color: #fff;
@@ -795,7 +803,22 @@ input.input-group-field {
         max-width: 280px;
     }
     .callout-color {
-        width: 40%;
+        max-width: 30%
+    }
+    .grid-container {
+   /* padding-right: .46875rem;
+    padding-left: .46875rem;*/
+    padding-right: 3.25rem;
+    padding-left: 3.25rem;
+}
+
+.grid-container_promo {
+    padding-right: .46875rem !important;
+    padding-left: .46875rem !important;
+}
+.ph-storage {
+        width: 200px;
+        margin: 0 auto;
     }
 
 }
