@@ -177,6 +177,21 @@ em {
         
         
     }
+    h2 {
+        color: #fff;
+        font-size: 0.77rem;
+    }
+    p {
+        color: #fff;
+        margin: 0;
+        font-size: 0.7rem;
+    }
+    a {
+        color: #fff;
+    }
+    .blackcard-padding {
+        padding: 10px;
+    }
 }
 
 
@@ -325,6 +340,7 @@ em {
     p {
         font-size: 0.7rem;
     }
+
 
     .verify {
         margin: 0 auto;
@@ -475,7 +491,19 @@ em {
 
 .button {
     padding: 0.45rem;
-//    max-width: 280px;
+    max-width: 280px;
+}
+.swap-device {
+    background-color: #fff;
+    max-width: 400px !important;
+    padding: 10px 30px !important;
+    color: #000;
+     &:hover, :focus {
+            background-color: #000;
+        }
+    img {
+        width: 100px;
+    }
 }
 
 /* SECTIONS */
@@ -493,8 +521,14 @@ em {
             color: white;
         }
         p {
-//            font-size: 1.7rem;
+//          font-size: 1.7rem;
             color: white;
+            margin-bottom: 0.45rem;
+            a {
+                text-decoration: none;
+                color: #fff;
+                font-size: 0.77rem;
+            }
         }
     }
 }
@@ -691,6 +725,24 @@ input.input-group-field {
 }
 
 
+/*CALLOUT*/
+.callout-color {
+        color: #fff;
+        padding: 5px;
+        border-radius: 20px;
+        max-width: 50%;
+        margin: 0 auto;
+        background-color: rgba(255,0,7,1);
+        background: rgba(255,0,7,1);
+        background: -moz-linear-gradient(-45deg, rgba(255,0,7,1) 0%, rgba(255,0,100,1) 100%);
+        background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(255,0,7,1)), color-stop(100%, rgba(255,0,100,1)));
+        background: -webkit-linear-gradient(-45deg, rgba(255,0,7,1) 0%, rgba(255,0,100,1) 100%);
+        background: -o-linear-gradient(-45deg, rgba(255,0,7,1) 0%, rgba(255,0,100,1) 100%);
+        background: -ms-linear-gradient(-45deg, rgba(255,0,7,1) 0%, rgba(255,0,100,1) 100%);
+        background: linear-gradient(135deg, rgba(255,0,7,1) 0%, rgba(255,0,100,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0007', endColorstr='#ff0064', GradientType=1 );
+    }
+
 
 /*Breakpoint*/
 
@@ -741,6 +793,9 @@ input.input-group-field {
     
     .button {
         max-width: 280px;
+    }
+    .callout-color {
+        width: 40%;
     }
 
 }
