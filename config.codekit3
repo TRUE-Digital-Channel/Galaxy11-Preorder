@@ -1186,9 +1186,9 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/README.html",
-		"oF": 0,
+		"oF": 1,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
@@ -1254,7 +1254,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-pale",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 602136128.65726805
+	"lastBuiltDate": 602057282.50803494
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
