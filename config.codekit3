@@ -1183,6 +1183,17 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/js/foundation.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "/build/js/foundation.min.js",
+		"oF": 3,
+		"sC": 3,
+		"tS": 0
+		},
 	"/js/jquery.min.js": {
 		"bF": 0,
 		"ft": 64,
