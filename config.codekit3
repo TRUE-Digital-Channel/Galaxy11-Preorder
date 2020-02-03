@@ -1178,8 +1178,8 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "/build/js/flickity.pkgd.min-min.js",
-		"oF": 1,
+		"oAP": "/build/js/flickity.pkgd.min.js",
+		"oF": 3,
 		"sC": 3,
 		"tS": 0
 		},
@@ -1189,8 +1189,8 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "/build/js/jquery.min-min.js",
-		"oF": 1,
+		"oAP": "/build/js/jquery.min.js",
+		"oF": 3,
 		"sC": 3,
 		"tS": 0
 		},
@@ -1200,8 +1200,8 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "/build/js/what-input.min-min.js",
-		"oF": 1,
+		"oAP": "/build/js/what-input.min.js",
+		"oF": 3,
 		"sC": 3,
 		"tS": 0
 		},
@@ -1307,7 +1307,7 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 2,
-		"oAP": "/build/css/flickity.min-min.css",
+		"oAP": "/build/css/flickity.min.css",
 		"oF": 3,
 		"oS": 3
 		},
