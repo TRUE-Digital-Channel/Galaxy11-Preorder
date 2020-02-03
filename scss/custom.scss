@@ -256,7 +256,6 @@ em {
         text-align: center;
     }
     .th-hr {
-//            Need to have better way to make this!!!!
         background: #707070;
         height: 2px;
         width: 100%;
@@ -345,7 +344,6 @@ em {
         font-size: 0.7rem;
     }
 
-
     .verify {
         margin: 0 auto;
         background: #F00000;
@@ -359,9 +357,8 @@ em {
     .blackcard-icon_left {
         padding: 20px;
         img {
-        max-width: 120px;
-             }
-
+            max-width: 120px;
+        }
     }
 
     .backcard-term {
@@ -376,16 +373,6 @@ em {
     margin-top: 0.8rem;
     margin-bottom: 0;
     padding: 0.40rem;
-}
-
-// ORBIT SLIDER
-.orbit-bullets {
-    margin-top: 0;
-    button {
-        width: 0.3rem;
-        height: 0.3rem;
-        margin: 0;
-    }
 }
 
 .mass-promo {
@@ -429,8 +416,6 @@ em {
     }
 }
 
-
-
 .best-deal, .prepay-promo {
     padding: 1.5rem 0rem;
     .title-wrapper {
@@ -456,9 +441,8 @@ em {
             color: #4d4d4d;
             line-height: 18px;
         }
+    }
 }
-}
-
 
 .title h3 {
     font-size: 1rem;
@@ -526,7 +510,6 @@ em {
             color: white;
         }
         p {
-//          font-size: 1.7rem;
             color: white;
             margin-bottom: 0.45rem;
             margin-top: -10px;
@@ -567,16 +550,6 @@ em {
         min-height: 100px;
     }
 }
-
-/* TABLES */
-table {
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
-    margin-top: 2rem;
-    border-collapse: separate;
-
-}
-
 
 /* ACCORDIONS */
 .accordion {
@@ -669,7 +642,6 @@ footer {
         &:before {
             content: "\f106";
             color: white;
-//            content: '^';
             }
     span {
         position:absolute;
@@ -804,8 +776,6 @@ input.input-group-field {
         max-width: 30%
     }
     .grid-container {
-   /* padding-right: .46875rem;
-    padding-left: .46875rem;*/
     padding-right: 3.25rem;
     padding-left: 3.25rem;
 }
