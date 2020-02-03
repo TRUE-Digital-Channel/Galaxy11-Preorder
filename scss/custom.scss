@@ -200,6 +200,7 @@ em {
 .table-carousel {
     width: 100%;
     .s20,.s20_plus, .s20_ultra { width: 100%; }
+    padding-bottom: 1.5rem;
 }
 
 .flickity-prev-next-button {
@@ -214,15 +215,11 @@ em {
     color: #fff !important; 
 }
 
-.flickity-page-dots .dot {
-    background: #c8c8c8 !important;
+.flickity-page-dots {
+    .dot {
+        background: #c8c8c8 !important;
+    }
 }
-/*.flickity-prev-next-button.previous {
-    left: -50px !important;
-}
-.flickity-prev-next-button.next {
-    right: -50px !important;
-}*/
 
 @keyframes pulse {
   0% {
@@ -303,6 +300,7 @@ em {
         }
         .adv-pay {
             font-size: 0.7rem;
+            line-height: 20px;
             font-style: italic;
             color: #939393;
             text-align: center
@@ -817,7 +815,7 @@ input.input-group-field {
     padding-left: .46875rem !important;
 }
 .ph-storage {
-        width: 200px;
+        width: 100px;
         margin: 0 auto;
     }
 

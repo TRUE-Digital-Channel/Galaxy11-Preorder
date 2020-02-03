@@ -1164,9 +1164,9 @@
 	"/js/app.js": {
 		"bF": 0,
 		"ft": 64,
-		"ma": 1,
+		"ma": 0,
 		"mi": 1,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "/build/js/app.js",
 		"oF": 3,
 		"sC": 3,
