@@ -1301,6 +1301,16 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/scss/flickity.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "/build/css/flickity.min-min.css",
+		"oF": 3,
+		"oS": 3
+		},
 	"/yarn.lock": {
 		"cB": 0,
 		"ft": 8192,
@@ -1320,7 +1330,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-pale",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 602138078.091676
+	"lastBuiltDate": 602411401.26272094
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
