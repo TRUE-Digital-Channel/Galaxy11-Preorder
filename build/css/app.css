@@ -2066,7 +2066,7 @@ em { color: #fff; font-size: 0.9rem; }
 
 .table-carousel .s20, .table-carousel .s20_plus, .table-carousel .s20_ultra { width: 100%; }
 
-.flickity-prev-next-button { top: 50% !important; width: 25px; height: 25px; }
+.flickity-prev-next-button { width: 25px; height: 25px; }
 
 .flickity-button { background: red !important; border: 1px solid #ff0000 !important; -webkit-animation: pulse 1.5s ease-in-out alternate infinite running; animation: pulse 1.5s ease-in-out alternate infinite running; color: #fff !important; }
 

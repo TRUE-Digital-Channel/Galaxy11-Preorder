@@ -204,13 +204,13 @@ em {
 }
 
 .flickity-prev-next-button {
-    top: 50%!important;
     width: 25px;
     height: 25px;
 }
 .flickity-button {
     background: rgba(255, 0, 0, 7) !important;
     border: 1px solid #ff0000!important;
+    -webkit-animation: pulse 1.5s ease-in-out alternate infinite running;
     animation: pulse 1.5s ease-in-out alternate infinite running;
     color: #fff !important; 
 }
