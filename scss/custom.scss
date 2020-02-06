@@ -344,16 +344,6 @@ em {
         font-size: 0.7rem;
     }
 
-    .verify {
-        margin: 0 auto;
-        background: #F00000;
-        background: -webkit-gradient(linear, left top, right top, from(#DC281E), to(#F00000));
-        background: linear-gradient(to right, #DC281E, #F00000);
-        font-family: "True Bold";
-        border-radius: 10px;
-        margin-bottom: 30px;
-    }
-
     .blackcard-icon_left {
         padding: 20px;
         img {
@@ -668,40 +658,9 @@ footer {
     height: 20px;
 }
 
-
-/*VERIFY*/
-
-.verify-modal {
-    label {
-        font-size: 0.88rem;
-    }
-    input.button.expanded.verify{
-         margin: 0 auto;
-        background: #F00000;
-        background: -webkit-gradient(linear, left top, right top, from(#DC281E), to(#F00000));
-        background: linear-gradient(to right, #DC281E, #F00000);
-        font-family: "True Bold";
-        border-radius: 10px;
-        margin-bottom: 30px;
-        margin-top: 20px;
-     }
-
-input.input-group-field {
-    border: 1px solid #e8e8e8;
-    padding: 20px;
-    border-radius: 10px;
-    font-size: 0.65rem;
-    width: auto;
-    min-width: 280px;
-        }
-}
-
-/*MODAL*/
-
 .reveal {
     border-radius: 20px;
 }
-
 
 /*CALLOUT*/
 .callout-color {
@@ -720,7 +679,6 @@ input.input-group-field {
         background: linear-gradient(135deg, rgba(255,0,7,1) 0%, rgba(255,0,100,1) 100%);
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0007', endColorstr='#ff0064', GradientType=1 );
     }
-
 
 /*Breakpoint*/
 

@@ -2121,8 +2121,6 @@ em { color: #fff; font-size: 0.9rem; }
 
 .blackcard-promo p { font-size: 0.7rem; }
 
-.blackcard-promo .verify { margin: 0 auto; background: #F00000; background: -webkit-gradient(linear, left top, right top, from(#DC281E), to(#F00000)); background: linear-gradient(to right, #DC281E, #F00000); font-family: "True Bold"; border-radius: 10px; margin-bottom: 30px; }
-
 .blackcard-promo .blackcard-icon_left { padding: 20px; }
 
 .blackcard-promo .blackcard-icon_left img { max-width: 120px; }
@@ -2250,14 +2248,6 @@ footer .button { border-radius: 30px; padding: 0.3rem 0.4rem; }
 
 .info img { height: 20px; }
 
-/*VERIFY*/
-.verify-modal label { font-size: 0.88rem; }
-
-.verify-modal input.button.expanded.verify { margin: 0 auto; background: #F00000; background: -webkit-gradient(linear, left top, right top, from(#DC281E), to(#F00000)); background: linear-gradient(to right, #DC281E, #F00000); font-family: "True Bold"; border-radius: 10px; margin-bottom: 30px; margin-top: 20px; }
-
-.verify-modal input.input-group-field { border: 1px solid #e8e8e8; padding: 20px; border-radius: 10px; font-size: 0.65rem; width: auto; min-width: 280px; }
-
-/*MODAL*/
 .reveal { border-radius: 20px; }
 
 /*CALLOUT*/
