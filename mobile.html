@@ -122,7 +122,7 @@
               <span class="bundle-black">สำหรับลูกค้าเปิดเบอร์ใหม่ ย้ายค่ายเบอร์เดิม เปลี่ยนจากเติมเงินเป็นรายเดือน</span>
               <span class="bundle-red">ลดสูงสุด 9,700 บาท</span>
             </h3>
-            <a class="truered-inverse button small" href="#mass-table" data-smooth-scroll>สั่งซื้อล่วงหน้า</a>
+            <a class="truered-inverse button small" id="check-mnp" href="#mass-table" data-smooth-scroll>สั่งซื้อล่วงหน้า</a>
           </div>
         </div>
       </div>
@@ -139,7 +139,7 @@
               <span class="bundle-black">ส่วนลดพิเศษสำหรับลูกค้าทรูมูฟ เอชแบบรายเดือน</span>
               <span class="bundle-red">รับส่วนลดสูงสุด <br>7,700 บาท</span>
             </h3>
-            <a class="truered-inverse button small" href="#bdbc-table" data-smooth-scroll>สั่งซื้อล่วงหน้า</a>
+            <a class="truered-inverse button small" id="check-bdbc" href="#bdbc-table" data-smooth-scroll>สั่งซื้อล่วงหน้า</a>
           </div>
         </div>
       </div>
@@ -156,7 +156,7 @@
               <span class="bundle-black">สำหรับลูกค้าแบล็คการ์ด</span>
               <span class="bundle-red">รับส่วนลดสูงสุด 10,700 บาท</span>
             </h3>
-            <a class="truered-inverse button small" href="#blackcard-table" data-smooth-scroll>สั่งซื้อล่วงหน้า</a>
+            <a class="truered-inverse button small" id="check-blackcard" href="#blackcard-table" data-smooth-scroll>สั่งซื้อล่วงหน้า</a>
           </div>
         </div>
       </div>
@@ -173,7 +173,7 @@
               <span class="bundle-black">เครื่องเปล่าราคาพิเศษ <br>พร้อมซิมเติมเงิน</span>
               <span class="bundle-red">ไม่ติดสัญญา</span>
             </h3>
-            <a class="truered-inverse button small" href="#prepay-table" data-smooth-scroll>สั่งซื้อล่วงหน้า</a>
+            <a class="truered-inverse button small" id="check-prepaid" href="#prepay-table" data-smooth-scroll>สั่งซื้อล่วงหน้า</a>
           </div>
         </div>
       </div>
@@ -190,7 +190,7 @@
       <h4 class="callout-color align-justify">ลูกค้าย้่ายค่ายเบอร์เดิม</h4>
       <p><a href="http://truemoveh.truecorp.co.th/move_to_true/postpaid">คลิ๊กดูรายละเอียด</a></p>
       <h2>รับส่วนลดเพิ่มสูงสุด 2,000 บาท*</h2>
-      <a href="#mass-table" data-smooth-scroll>
+      <a href="#mass-table" id="check-mnp" data-smooth-scroll>
         <div class="row menu">
           <div class="columns small-2">
             <picture>
@@ -203,7 +203,7 @@
           <div class="columns small-2"><img class="arrow" src="icons/chevron-down-solid.svg"></div>
         </div>
       </a>
-      <a href="#bdbc-table" data-smooth-scroll>
+      <a href="#bdbc-table" id="check-bdbc" data-smooth-scroll>
         <div class="row menu">
           <div class="columns small-2">
             <picture>
@@ -216,7 +216,7 @@
           <div class="columns small-2"><img class="arrow" src="icons/chevron-down-solid.svg"></div>
         </div>
       </a>
-      <a href="#blackcard-table" data-smooth-scroll>
+      <a href="#blackcard-table" id="check-blackcard" data-smooth-scroll>
         <div class="row menu">
           <div class="columns small-2">
             <picture>
@@ -229,7 +229,7 @@
           <div class="columns small-2"><img class="arrow" src="icons/chevron-down-solid.svg"></div>
         </div>
       </a>
-      <a href="#prepay-table" data-smooth-scroll>
+      <a href="#prepay-table" id="check-prepaid" data-smooth-scroll>
         <div class="row menu">
           <div class="columns small-2">
             <picture>
@@ -369,6 +369,11 @@
               </div>
             </div>
           </div>
+            
+            <div class="medium button-group align-center expanded truered">
+              <a class="button expanded" id="mnp-pickup-order-s20" href="checkout/order.html">สั่งจองและรับเครื่องที่ทรูช้อป</a>
+            </div>
+            
         </div>
         <div class="s20_plus">
           <div class="grid-container full pricing-table">
@@ -477,6 +482,11 @@
               </div>
             </div>
           </div>
+            
+            <div class="medium button-group align-center expanded truered">
+              <a class="button expanded" id="mnp-pickup-order-s20plus" href="checkout/order.html">สั่งจองและรับเครื่องที่ทรูช้อป</a>
+            </div>
+            
         </div>
         <div class="s20 text">
           <div class="grid-container full pricing-table">
@@ -603,6 +613,10 @@
               </div>
             </div>
           </div>
+            <div class="medium button-group align-center expanded truered">
+              <a class="button expanded" id="mnp-pickup-order-s20ultra" href="checkout/order.html">สั่งจองและรับเครื่องที่ทรูช้อป</a>
+            </div>
+            
         </div>
       </div>
     </div>
@@ -652,10 +666,6 @@
       <!-- ... -->
     </ul>
 
-    <div class="small button-group align-center expanded truered">
-      <a class="button expanded" href="checkout/order.html">สั่งซื้อล่วงหน้าและจัดส่งถึงบ้าน</a>
-      <a class="button expanded" href="checkout/order.html">สั่งจองและรับเครื่องที่ทรูช้อป</a>
-    </div>
   </div>
 </section>
 
@@ -1369,8 +1379,8 @@
     <br>
 
     <div class="small button-group align-center expanded truered">
-      <a class="button expanded" href="checkout/order.html">สั่งซื้อล่วงหน้าและจัดส่งถึงบ้าน</a>
-      <a class="button expanded" href="checkout/order.html">สั่งจองและรับเครื่องที่ทรูช้อป</a>
+      <a class="button expanded" id="bdbc-home-order" href="checkout/order.html">สั่งซื้อล่วงหน้าและจัดส่งถึงบ้าน</a>
+      <a class="button expanded" id="bdbc-pickup-order" href="checkout/order.html">สั่งจองและรับเครื่องที่ทรูช้อป</a>
     </div>
   </div>
 </section>
@@ -1732,8 +1742,8 @@
     </ul>
 
     <div class="small button-group align-center expanded truered">
-      <a class="button expanded" href="checkout/order.html">สั่งซื้อล่วงหน้าและจัดส่งถึงบ้าน</a>
-      <a class="button expanded" href="checkout/order.html">สั่งจองและรับเครื่องที่ทรูช้อป</a>
+      <a class="button expanded" id="prepaid-home-order" href="checkout/order.html">สั่งซื้อล่วงหน้าและจัดส่งถึงบ้าน</a>
+      <a class="button expanded" id="prepaid-pickup-order" href="checkout/order.html">สั่งจองและรับเครื่องที่ทรูช้อป</a>
     </div>
   </div>
 </section>
