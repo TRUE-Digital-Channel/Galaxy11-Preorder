@@ -793,6 +793,16 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/icons/chevron-down-arrow.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/build/icons/chevron-down-arrow.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/icons/chevron-down-solid.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -860,6 +870,25 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/build/img/bank-logos.webp",
+		"oF": 0
+		},
+	"/img/bestdeal.png": {
+		"ft": 32768,
+		"iS": 80591,
+		"oA": 0,
+		"oAP": "/build/img/bestdeal.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/bestdeal.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/img/bestdeal.webp",
 		"oF": 0
 		},
 	"/img/black-card.png": {
@@ -941,63 +970,6 @@
 		"opt": 1,
 		"q": 100
 		},
-	"/img/Icon-01.png": {
-		"ft": 32768,
-		"iS": 706681,
-		"oA": 0,
-		"oAP": "/build/img/Icon-01.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"/img/Icon-01.webp": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/build/img/Icon-01.webp",
-		"oF": 0
-		},
-	"/img/Icon-02.png": {
-		"ft": 32768,
-		"iS": 144259,
-		"oA": 0,
-		"oAP": "/build/img/Icon-02.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"/img/Icon-02.webp": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/build/img/Icon-02.webp",
-		"oF": 0
-		},
-	"/img/Icon-03.png": {
-		"ft": 32768,
-		"iS": 652417,
-		"oA": 0,
-		"oAP": "/build/img/Icon-03.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"/img/Icon-03.webp": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/build/img/Icon-03.webp",
-		"oF": 0
-		},
 	"/img/Icon-04.png": {
 		"ft": 32768,
 		"iS": 251584,
@@ -1026,6 +998,44 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/build/img/Icon-05.webp",
+		"oF": 0
+		},
+	"/img/mass-deal.png": {
+		"ft": 32768,
+		"iS": 66349,
+		"oA": 0,
+		"oAP": "/build/img/mass-deal.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/mass-deal.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/img/mass-deal.webp",
+		"oF": 0
+		},
+	"/img/prepaid.png": {
+		"ft": 32768,
+		"iS": 638614,
+		"oA": 0,
+		"oAP": "/build/img/prepaid.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/prepaid.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/img/prepaid.webp",
 		"oF": 0
 		},
 	"/img/privilage-prebook.png": {
@@ -1333,7 +1343,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-pale",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 602411401.26272094
+	"lastBuiltDate": 603269198.80505705
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

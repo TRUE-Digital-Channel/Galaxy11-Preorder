@@ -2046,13 +2046,15 @@ em { color: #fff; font-size: 0.9rem; }
 
 .jumpmenu .callout-title h2, .jumpmenu .callout-title p { color: white; }
 
-.jumpmenu .menu { padding: 0rem 0.5rem; background: white; border-radius: 10px; font-size: 0.68rem; height: 70px; margin-bottom: 10px; }
+.jumpmenu .menu { padding: 0.5rem; background: white; border-radius: 10px; font-size: 0.68rem; margin: 0px 15px 15px 15px; }
 
-.jumpmenu .menu img.icon-deal { height: 70px; width: auto; position: absolute; top: 0; bottom: 0; margin: auto; }
+.jumpmenu .menu .btn-graphic { text-align: center; margin-bottom: 8px; }
 
-.jumpmenu .menu img.arrow { height: 40px; width: auto; position: absolute; top: 0; bottom: 0; margin: auto; right: 20px; }
+.jumpmenu .menu .arrow { text-align: center; margin-top: 5px; }
 
-.jumpmenu p.title-jumpmenu { position: relative; line-height: 18px; top: 50%; -webkit-transform: translate(140%, -50%); transform: translate(140%, -50%); margin-bottom: 0px; color: #000; }
+.jumpmenu .menu .arrow img { width: 30px; }
+
+.jumpmenu .title-jumpmenu { position: relative; line-height: 18px; font-size: 0.8rem; top: 50%; text-align: center; margin-bottom: 0px; color: #000; }
 
 .jumpmenu h2 { color: #fff; font-size: 0.77rem; }
 

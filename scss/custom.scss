@@ -142,37 +142,30 @@ em {
         }
     }
     .menu  {
-        padding: 0rem 0.5rem;
+        padding: 0.5rem;
         background: white;
         border-radius: 10px;
         font-size: 0.68rem;
-        height: 70px;
-        margin-bottom: 10px;
-
-        img.icon-deal {
-            height: 70px;
-            width: auto;
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            margin: auto;
+        margin: 0px 15px 15px 15px;
+        .btn-graphic {
+            text-align: center; 
+            margin-bottom: 8px;
         }
-        img.arrow {
-            height: 40px;
-            width: auto;
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            margin: auto;
-            right: 20px;
+        .arrow {
+            text-align: center; 
+            margin-top: 5px;
+            img {
+                width: 30px;
+            }
         }
     }
 
-    p.title-jumpmenu {
+    .title-jumpmenu {
         position: relative;
         line-height: 18px;
+        font-size: 0.8rem;
         top: 50%;
-        transform: translate(140%,-50%);
+        text-align: center;
         margin-bottom: 0px;
         color: #000;
         
