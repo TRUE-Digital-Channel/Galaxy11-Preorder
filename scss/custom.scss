@@ -524,6 +524,7 @@ em {
 .card img {
     height: 90px;
     width: auto;
+    object-fit: scale-down;
 }
 
 .card {

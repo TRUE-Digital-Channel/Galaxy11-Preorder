@@ -2199,7 +2199,7 @@ em { color: #fff; font-size: 0.9rem; }
 
 .bundle-red { color: #EA2727; display: block; line-height: 30px; font-size: 0.95rem; font-family: 'True Bold Special'; }
 
-.card img { height: 90px; width: auto; }
+.card img { height: 90px; width: auto; -o-object-fit: scale-down; object-fit: scale-down; }
 
 .card { min-height: 320px; }
 
