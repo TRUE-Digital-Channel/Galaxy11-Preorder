@@ -2156,7 +2156,7 @@ em { color: #fff; font-size: 0.9rem; }
 
 .best-deal .title-wrapper, .prepay-promo .title-wrapper { margin-bottom: 1.5rem; }
 
-.best-deal .title-wrapper img, .prepay-promo .title-wrapper img { height: 100px; width: auto; margin-bottom: 0.5rem; }
+.best-deal .title-wrapper img, .prepay-promo .title-wrapper img { height: 100px; width: auto; margin-bottom: 0.5rem; margin-top: 40px; }
 
 .best-deal .title-wrapper h2, .prepay-promo .title-wrapper h2 { color: #ff0000; line-height: 42px; }
 
